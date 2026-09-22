@@ -14,14 +14,18 @@ import java.util.List;
 
 public class JsonQuestionLoader {
 
-    public static List<Question> loadEconomia(Context context) {
+    public static List<Question> loadMateria(
+            Context context,
+            String fileName,
+            String subjectName) {
 
         List<Question> questions = new ArrayList<>();
 
         try {
+
             InputStream inputStream =
                     context.getAssets()
-                            .open("domande/economia.json");
+                            .open("domande/" + fileName);
 
             BufferedReader reader =
                     new BufferedReader(
@@ -31,7 +35,9 @@ public class JsonQuestionLoader {
                             )
                     );
 
-            StringBuilder jsonText = new StringBuilder();
+            StringBuilder jsonText =
+                    new StringBuilder();
+
             String line;
 
             while ((line = reader.readLine()) != null) {
@@ -51,7 +57,10 @@ public class JsonQuestionLoader {
 
                 String numero =
                         String.valueOf(
-                                item.optInt("numero", i + 1)
+                                item.optInt(
+                                        "numero",
+                                        i + 1
+                                )
                         );
 
                 String domanda =
@@ -86,8 +95,8 @@ public class JsonQuestionLoader {
 
                 Question question =
                         new Question(
-                                "economia-" + numero,
-                                "Economia e gestione imprese",
+                                subjectName + "-" + numero,
+                                subjectName,
                                 reference,
                                 domanda,
                                 optionA,
@@ -106,5 +115,14 @@ public class JsonQuestionLoader {
         }
 
         return questions;
+    }
+
+    public static List<Question> loadEconomia(Context context) {
+
+        return loadMateria(
+                context,
+                "economia.json",
+                "Economia e gestione imprese"
+        );
     }
 }
