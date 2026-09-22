@@ -1,313 +1,253 @@
 package com.example.quizstudio;
 
 import android.app.Activity;
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Bundle;
 import android.graphics.Color;
+import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends Activity {
 
-    private static final int PICK_DOCX = 1001;
+    private List<Question> questions;
+    private int indiceDomanda = 0;
 
-    private Storage storage;
-    private TextView stato;
+    private TextView numeroDomanda;
+    private TextView testoDomanda;
+    private TextView risultato;
+    private TextView rispostaCorretta;
+
+    private Button pulsanteA;
+    private Button pulsanteB;
+    private Button pulsanteC;
+    private Button pulsanteD;
+    private Button prossima;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        storage = new Storage(this);
+        questions = JsonQuestionLoader.loadEconomia(this);
 
-        creaSchermata();
+        if (questions.isEmpty()) {
+            mostraErrore();
+            return;
+        }
+
+        // Mischia le domande ogni volta che parte un nuovo quiz.
+        Collections.shuffle(questions);
+
+        creaSchermataQuiz();
+        mostraDomanda();
     }
 
-    private void creaSchermata() {
+    private void creaSchermataQuiz() {
 
         LinearLayout layout = new LinearLayout(this);
         layout.setOrientation(LinearLayout.VERTICAL);
-        layout.setPadding(40, 60, 40, 40);
+        layout.setPadding(35, 50, 35, 35);
 
-        TextView titolo = new TextView(this);
-        titolo.setText("Quiz Studio");
-        titolo.setTextSize(30);
-        titolo.setTextColor(Color.BLACK);
-        titolo.setGravity(Gravity.CENTER);
-        titolo.setPadding(0, 0, 0, 30);
+        numeroDomanda = new TextView(this);
+        numeroDomanda.setTextSize(18);
+        numeroDomanda.setTextColor(Color.DKGRAY);
+        numeroDomanda.setPadding(0, 0, 0, 20);
 
-        TextView descrizione = new TextView(this);
-        descrizione.setText(
-                "Importa le tue domande Word e costruisci " +
-                "il tuo archivio quiz."
-        );
-        descrizione.setTextSize(18);
-        descrizione.setTextColor(Color.DKGRAY);
-        descrizione.setPadding(0, 0, 0, 30);
+        testoDomanda = new TextView(this);
+        testoDomanda.setTextSize(22);
+        testoDomanda.setTextColor(Color.BLACK);
+        testoDomanda.setPadding(0, 0, 0, 35);
 
-        Button importa = new Button(this);
-        importa.setText("IMPORTA DOMANDE DA WORD");
+        pulsanteA = creaPulsante();
+        pulsanteB = creaPulsante();
+        pulsanteC = creaPulsante();
+        pulsanteD = creaPulsante();
 
-        importa.setOnClickListener(v ->
-                chiediMateriaEApriFile()
-        );
+        pulsanteA.setOnClickListener(v -> controllaRisposta("A"));
+        pulsanteB.setOnClickListener(v -> controllaRisposta("B"));
+        pulsanteC.setOnClickListener(v -> controllaRisposta("C"));
+        pulsanteD.setOnClickListener(v -> controllaRisposta("D"));
 
-        Button quiz = new Button(this);
-        quiz.setText("INIZIA QUIZ");
+        risultato = new TextView(this);
+        risultato.setTextSize(20);
+        risultato.setGravity(Gravity.CENTER);
+        risultato.setPadding(0, 30, 0, 10);
 
-        quiz.setOnClickListener(v ->
-                mostraStatoQuiz()
-        );
+        rispostaCorretta = new TextView(this);
+        rispostaCorretta.setTextSize(18);
+        rispostaCorretta.setTextColor(Color.DKGRAY);
+        rispostaCorretta.setGravity(Gravity.CENTER);
+        rispostaCorretta.setPadding(0, 0, 0, 20);
 
-        stato = new TextView(this);
-        stato.setTextSize(17);
-        stato.setTextColor(Color.DKGRAY);
-        stato.setPadding(0, 30, 0, 0);
+        prossima = new Button(this);
+        prossima.setText("PROSSIMA DOMANDA");
+        prossima.setVisibility(View.GONE);
 
-        aggiornaStato();
+        prossima.setOnClickListener(v -> {
+            indiceDomanda++;
 
-        layout.addView(titolo);
-        layout.addView(descrizione);
-        layout.addView(importa);
-        layout.addView(quiz);
-        layout.addView(stato);
+            if (indiceDomanda >= questions.size()) {
+                indiceDomanda = 0;
+                Collections.shuffle(questions);
+            }
+
+            mostraDomanda();
+        });
+
+        layout.addView(numeroDomanda);
+        layout.addView(testoDomanda);
+        layout.addView(pulsanteA);
+        layout.addView(pulsanteB);
+        layout.addView(pulsanteC);
+        layout.addView(pulsanteD);
+        layout.addView(risultato);
+        layout.addView(rispostaCorretta);
+        layout.addView(prossima);
 
         setContentView(layout);
     }
 
-    private void chiediMateriaEApriFile() {
+    private Button creaPulsante() {
 
-        final EditText input = new EditText(this);
+        Button button = new Button(this);
 
-        input.setHint("Es. Economia Aziendale");
+        button.setTextSize(17);
+        button.setTextColor(Color.BLACK);
 
-        LinearLayout contenitore =
-                new LinearLayout(this);
-
-        contenitore.setOrientation(
-                LinearLayout.VERTICAL
-        );
-
-        contenitore.setPadding(
-                50, 10, 50, 10
-        );
-
-        contenitore.addView(input);
-
-        new android.app.AlertDialog.Builder(this)
-                .setTitle("Materia")
-                .setMessage(
-                        "Inserisci la materia a cui appartengono " +
-                        "le domande che stai importando."
-                )
-                .setView(contenitore)
-                .setNegativeButton(
-                        "ANNULLA",
-                        null
-                )
-                .setPositiveButton(
-                        "SCEGLI WORD",
-                        (dialog, which) -> {
-
-                            String materia =
-                                    input.getText()
-                                            .toString()
-                                            .trim();
-
-                            if (materia.isEmpty()) {
-                                Toast.makeText(
-                                        this,
-                                        "Inserisci una materia.",
-                                        Toast.LENGTH_SHORT
-                                ).show();
-                                return;
-                            }
-
-                            apriSelettoreDocx(materia);
-                        }
-                )
-                .show();
-    }
-
-    private void apriSelettoreDocx(
-            String materia) {
-
-        Intent intent =
-                new Intent(Intent.ACTION_OPEN_DOCUMENT);
-
-        intent.addCategory(
-                Intent.CATEGORY_OPENABLE
-        );
-
-        intent.setType(
-                "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-        );
-
-        intent.putExtra(
-                "materia",
-                materia
-        );
-
-        startActivityForResult(
-                intent,
-                PICK_DOCX
-        );
-    }
-
-    @Override
-    protected void onActivityResult(
-            int requestCode,
-            int resultCode,
-            Intent data) {
-
-        super.onActivityResult(
-                requestCode,
-                resultCode,
-                data
-        );
-
-        if (requestCode != PICK_DOCX
-                || resultCode != RESULT_OK
-                || data == null) {
-
-            return;
-        }
-
-        Uri uri = data.getData();
-
-        if (uri == null) {
-            return;
-        }
-
-        String materia =
-                data.getStringExtra("materia");
-
-        if (materia == null
-                || materia.trim().isEmpty()) {
-
-            materia = "Senza materia";
-        }
-
-        importaFile(uri, materia);
-    }
-
-    private void importaFile(
-            Uri uri,
-            String materia) {
-
-        DocxParser.ParseResult result =
-                DocxParser.parse(
-                        this,
-                        uri,
-                        materia
+        LinearLayout.LayoutParams params =
+                new LinearLayout.LayoutParams(
+                        LinearLayout.LayoutParams.MATCH_PARENT,
+                        LinearLayout.LayoutParams.WRAP_CONTENT
                 );
 
-        List<Question> vecchie =
-                storage.loadQuestions();
+        params.setMargins(0, 0, 0, 12);
 
-        List<Question> nuove =
-                new ArrayList<>();
+        button.setLayoutParams(params);
 
-        int duplicati = 0;
-
-        for (Question nuova : result.questions) {
-
-            boolean giaPresente = false;
-
-            for (Question vecchia : vecchie) {
-
-                if (vecchia.getSubject()
-                        .equalsIgnoreCase(
-                                nuova.getSubject()
-                        )
-                        && vecchia.getText()
-                        .trim()
-                        .equalsIgnoreCase(
-                                nuova.getText()
-                                        .trim()
-                        )) {
-
-                    giaPresente = true;
-                    break;
-                }
-            }
-
-            if (giaPresente) {
-                duplicati++;
-            } else {
-                nuove.add(nuova);
-            }
-        }
-
-        vecchie.addAll(nuove);
-
-        storage.saveQuestions(vecchie);
-
-        String messaggio =
-                "Importate: " + nuove.size()
-                        + "\nDuplicati ignorati: "
-                        + duplicati;
-
-        if (!result.warnings.isEmpty()) {
-
-            messaggio +=
-                    "\n\nDa controllare: "
-                    + result.warnings.size();
-        }
-
-        Toast.makeText(
-                this,
-                messaggio,
-                Toast.LENGTH_LONG
-        ).show();
-
-        aggiornaStato();
+        return button;
     }
 
-    private void aggiornaStato() {
+    private void mostraDomanda() {
 
-        if (stato == null) {
+        if (questions == null || questions.isEmpty()) {
             return;
         }
 
-        List<Question> questions =
-                storage.loadQuestions();
+        Question question =
+                questions.get(indiceDomanda);
 
-        stato.setText(
-                "Domande archiviate: "
-                        + questions.size()
+        numeroDomanda.setText(
+                "Domanda " + (indiceDomanda + 1)
+                        + " di " + questions.size()
         );
+
+        testoDomanda.setText(
+                question.getText()
+        );
+
+        pulsanteA.setText(
+                "A. " + question.getOptionA()
+        );
+
+        pulsanteB.setText(
+                "B. " + question.getOptionB()
+        );
+
+        pulsanteC.setText(
+                "C. " + question.getOptionC()
+        );
+
+        pulsanteD.setText(
+                "D. " + question.getOptionD()
+        );
+
+        pulsanteA.setEnabled(true);
+        pulsanteB.setEnabled(true);
+        pulsanteC.setEnabled(true);
+        pulsanteD.setEnabled(true);
+
+        risultato.setText("");
+        rispostaCorretta.setText("");
+
+        prossima.setVisibility(View.GONE);
     }
 
-    private void mostraStatoQuiz() {
+    private void controllaRisposta(String rispostaScelta) {
 
-        List<Question> questions =
-                JsonQuestionLoader.loadEconomia(this);
+        Question question =
+                questions.get(indiceDomanda);
 
-        if (questions.isEmpty()) {
+        String corretta =
+                question.getCorrectAnswer();
 
-            Toast.makeText(
-                    this,
-                    "Nessuna domanda caricata dal JSON.",
-                    Toast.LENGTH_LONG
-            ).show();
+        String testoCorretta;
 
-            return;
+        switch (corretta) {
+            case "A":
+                testoCorretta = question.getOptionA();
+                break;
+
+            case "B":
+                testoCorretta = question.getOptionB();
+                break;
+
+            case "C":
+                testoCorretta = question.getOptionC();
+                break;
+
+            case "D":
+                testoCorretta = question.getOptionD();
+                break;
+
+            default:
+                testoCorretta = "Risposta non disponibile";
+                break;
         }
 
-        Toast.makeText(
-                this,
-                "Caricate " + questions.size() + " domande.",
-                Toast.LENGTH_SHORT
-        ).show();
+        if (rispostaScelta.equalsIgnoreCase(corretta)) {
+
+            risultato.setText("✓ CORRETTA");
+            risultato.setTextColor(Color.rgb(0, 130, 0));
+
+        } else {
+
+            risultato.setText("✗ SBAGLIATA");
+            risultato.setTextColor(Color.RED);
+        }
+
+        rispostaCorretta.setText(
+                "Risposta corretta: "
+                        + corretta
+                        + ". "
+                        + testoCorretta
+        );
+
+        pulsanteA.setEnabled(false);
+        pulsanteB.setEnabled(false);
+        pulsanteC.setEnabled(false);
+        pulsanteD.setEnabled(false);
+
+        prossima.setVisibility(View.VISIBLE);
+    }
+
+    private void mostraErrore() {
+
+        TextView errore = new TextView(this);
+
+        errore.setText(
+                "Nessuna domanda caricata dal JSON."
+        );
+
+        errore.setTextSize(20);
+        errore.setGravity(Gravity.CENTER);
+        errore.setPadding(40, 80, 40, 40);
+
+        setContentView(errore);
     }
 }
+
