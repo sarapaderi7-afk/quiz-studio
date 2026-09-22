@@ -291,13 +291,13 @@ public class MainActivity extends Activity {
     private void mostraStatoQuiz() {
 
         List<Question> questions =
-                storage.loadQuestions();
+                JsonQuestionLoader.loadEconomia(this);
 
         if (questions.isEmpty()) {
 
             Toast.makeText(
                     this,
-                    "Prima importa almeno un file Word.",
+                    "Nessuna domanda caricata dal JSON.",
                     Toast.LENGTH_LONG
             ).show();
 
@@ -306,7 +306,7 @@ public class MainActivity extends Activity {
 
         Toast.makeText(
                 this,
-                "Il motore quiz verrà collegato nel prossimo passo.",
+                "Caricate " + questions.size() + " domande.",
                 Toast.LENGTH_SHORT
         ).show();
     }
