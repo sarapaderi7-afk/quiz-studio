@@ -71,12 +71,17 @@ public class MainActivity extends Activity {
         );
         psicologia.setTextSize(17);
 
+        Button dirittoLavoro = new Button(this);
+
+        dirittoLavoro.setText("Diritto del lavoro");
+        dirittoLavoro.setTextSize(17);
+
         economia.setOnClickListener(v -> {
 
-            avviaQuiz(
-                    "economia.json",
-                    "Economia e gestione imprese"
-            );
+                avviaQuiz(
+                "economia.json",
+                "Economia e gestione imprese"
+        );
 
         });
 
@@ -86,6 +91,14 @@ public class MainActivity extends Activity {
                     "psicologia.json",
                     "Psicologia del Lavoro e delle Organizzazioni"
             );
+
+        });
+        dirittoLavoro.setOnClickListener(v -> {
+
+                avviaQuiz(
+                "diritto_lavoro.json",
+                "Diritto del lavoro"
+                );
 
         });
 
@@ -105,6 +118,7 @@ public class MainActivity extends Activity {
         layout.addView(sottotitolo);
         layout.addView(economia);
         layout.addView(psicologia);
+        layout.addView(dirittoLavoro);
 
         setContentView(layout);
     }
