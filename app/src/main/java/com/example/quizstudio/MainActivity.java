@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.ScrollView;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -541,6 +542,8 @@ public class MainActivity extends Activity {
 
     private void creaSchermataQuiz() {
 
+        ScrollView scrollView = new ScrollView(this);
+
         LinearLayout layout = new LinearLayout(this);
 
         layout.setOrientation(LinearLayout.VERTICAL);
@@ -636,7 +639,9 @@ public class MainActivity extends Activity {
         layout.addView(rispostaCorretta);
         layout.addView(prossima);
 
-        setContentView(layout);
+        scrollView.addView(layout);
+
+        setContentView(scrollView);
     }
 
     private Button creaPulsante() {
