@@ -731,6 +731,27 @@ public class MainActivity extends Activity {
         prossima.setText("PROSSIMA DOMANDA");
         prossima.setVisibility(View.GONE);
 
+        Button tornaTipiQuiz = new Button(this);
+
+        tornaTipiQuiz.setText("← TORNA AI TIPI DI QUIZ");
+        tornaTipiQuiz.setTextSize(16);
+
+        tornaTipiQuiz.setOnClickListener(v ->
+                scegliModalita(
+                        getFileNameMateria(materiaCorrente),
+                        materiaCorrente
+                )
+        );
+
+        Button tornaHome = new Button(this);
+
+        tornaHome.setText("⌂ TORNA ALLA HOME");
+        tornaHome.setTextSize(16);
+
+        tornaHome.setOnClickListener(v ->
+                mostraMenuMaterie()
+        );
+
         prossima.setOnClickListener(v -> {
 
             indiceDomanda++;
@@ -821,6 +842,8 @@ public class MainActivity extends Activity {
         layout.addView(risultato);
         layout.addView(rispostaCorretta);
         layout.addView(prossima);
+        layout.addView(tornaTipiQuiz);
+        layout.addView(tornaHome);
 
         scrollView.addView(layout);
 
