@@ -3,19 +3,33 @@ package com.example.quizstudio;
 import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.content.SharedPreferences;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.HashSet;
+import java.util.Set;
 
 public class MainActivity extends Activity {
 
     private List<Question> questions;
     private int indiceDomanda = 0;
+
+    private String materiaCorrente;
+
+    private boolean modalitaTest30 = false;
+    private int punteggioTest30 = 0;
+
+    private final Map<String, List<Question>> domandeDisponibili =
+            new HashMap<>();
 
     private TextView numeroDomanda;
     private TextView testoDomanda;
@@ -59,48 +73,102 @@ public class MainActivity extends Activity {
         sottotitolo.setGravity(Gravity.CENTER);
         sottotitolo.setPadding(0, 0, 0, 30);
 
-        Button economia = new Button(this);
-
-        economia.setText("Economia e gestione imprese");
-        economia.setTextSize(17);
-
-        Button psicologia = new Button(this);
-
-        psicologia.setText(
-                "Psicologia del Lavoro e delle Organizzazioni"
-        );
-        psicologia.setTextSize(17);
-
-        Button dirittoLavoro = new Button(this);
-
-        dirittoLavoro.setText("Diritto del lavoro");
-        dirittoLavoro.setTextSize(17);
-
-        economia.setOnClickListener(v -> {
-
-                avviaQuiz(
-                "economia.json",
+        Button economia = creaBottoneMenu(
                 "Economia e gestione imprese"
         );
 
-        });
+        Button psicologia = creaBottoneMenu(
+                "Psicologia del Lavoro e delle Organizzazioni"
+        );
 
-        psicologia.setOnClickListener(v -> {
-
-            avviaQuiz(
-                    "psicologia.json",
-                    "Psicologia del Lavoro e delle Organizzazioni"
-            );
-
-        });
-        dirittoLavoro.setOnClickListener(v -> {
-
-                avviaQuiz(
-                "diritto_lavoro.json",
+        Button dirittoLavoro = creaBottoneMenu(
                 "Diritto del lavoro"
-                );
+        );
 
-        });
+        Button dirittoPenalePa = creaBottoneMenu(
+                "Diritto penale PA"
+        );
+
+        Button fondamentiSpagnolo = creaBottoneMenu(
+                "Fondamenti di Spagnolo"
+        );
+
+        Button psicologiaSociale = creaBottoneMenu(
+                "Psicologia sociale"
+        );
+
+        Button sociologia = creaBottoneMenu(
+                "Sociologia dei processi culturali e comunicativi"
+        );
+
+        economia.setOnClickListener(v ->
+                scegliModalita(
+                        "economia.json",
+                        "Economia e gestione imprese"
+                )
+        );
+
+        psicologia.setOnClickListener(v ->
+                scegliModalita(
+                        "psicologia.json",
+                        "Psicologia del Lavoro e delle Organizzazioni"
+                )
+        );
+
+        dirittoLavoro.setOnClickListener(v ->
+                scegliModalita(
+                        "diritto_lavoro.json",
+                        "Diritto del lavoro"
+                )
+        );
+
+        dirittoPenalePa.setOnClickListener(v ->
+                scegliModalita(
+                        "diritto_penale_pa.json",
+                        "Diritto penale PA"
+                )
+        );
+
+        fondamentiSpagnolo.setOnClickListener(v ->
+                scegliModalita(
+                        "fondamenti_spagnolo.json",
+                        "Fondamenti di Spagnolo"
+                )
+        );
+
+        psicologiaSociale.setOnClickListener(v ->
+                scegliModalita(
+                        "psicologia_sociale.json",
+                        "Psicologia sociale"
+                )
+        );
+
+        sociologia.setOnClickListener(v ->
+                scegliModalita(
+                        "sociologia_processi_culturali_comunicativi.json",
+                        "Sociologia dei processi culturali e comunicativi"
+                )
+        );
+
+        layout.addView(titolo);
+        layout.addView(sottotitolo);
+        layout.addView(economia);
+        layout.addView(psicologia);
+        layout.addView(dirittoLavoro);
+        layout.addView(dirittoPenalePa);
+        layout.addView(fondamentiSpagnolo);
+        layout.addView(psicologiaSociale);
+        layout.addView(sociologia);
+
+        setContentView(layout);
+    }
+
+    private Button creaBottoneMenu(String testo) {
+
+        Button button = new Button(this);
+
+        button.setText(testo);
+        button.setTextSize(17);
 
         LinearLayout.LayoutParams params =
                 new LinearLayout.LayoutParams(
@@ -110,31 +178,193 @@ public class MainActivity extends Activity {
 
         params.setMargins(0, 0, 0, 20);
 
-        economia.setLayoutParams(params);
+        button.setLayoutParams(params);
 
-        psicologia.setLayoutParams(params);
+        return button;
+    }
+
+    private void scegliModalita(
+            String fileName,
+            String subjectName) {
+
+        LinearLayout layout = new LinearLayout(this);
+
+        layout.setOrientation(LinearLayout.VERTICAL);
+        layout.setGravity(Gravity.CENTER);
+        layout.setPadding(40, 50, 40, 40);
+
+        TextView titolo = new TextView(this);
+
+        titolo.setText(subjectName);
+        titolo.setTextSize(24);
+        titolo.setGravity(Gravity.CENTER);
+        titolo.setPadding(0, 0, 0, 40);
+
+        Button quizInfinito = new Button(this);
+
+        quizInfinito.setText("QUIZ INFINITO");
+        quizInfinito.setTextSize(18);
+
+        Button test30 = new Button(this);
+
+        test30.setText("TEST DA 30");
+        test30.setTextSize(18);
+
+        quizInfinito.setOnClickListener(v ->
+                avviaQuiz(fileName, subjectName)
+        );
+
+        test30.setOnClickListener(v ->
+                avviaTest30(fileName, subjectName)
+        );
 
         layout.addView(titolo);
-        layout.addView(sottotitolo);
-        layout.addView(economia);
-        layout.addView(psicologia);
-        layout.addView(dirittoLavoro);
+        layout.addView(quizInfinito);
+        layout.addView(test30);
 
         setContentView(layout);
     }
 
-    private void avviaQuiz(
+    private void preparaDomandeMateria(
             String fileName,
             String subjectName) {
 
-        questions =
+        if (domandeDisponibili.containsKey(subjectName)
+                && !domandeDisponibili.get(subjectName).isEmpty()) {
+
+            materiaCorrente = subjectName;
+            return;
+        }
+
+        List<Question> tutte =
                 JsonQuestionLoader.loadMateria(
                         this,
                         fileName,
                         subjectName
                 );
 
-        if (questions.isEmpty()) {
+        if (tutte.isEmpty()) {
+            return;
+        }
+
+        SharedPreferences prefs =
+                getSharedPreferences(
+                        "quiz_studio_progressi",
+                        MODE_PRIVATE
+                );
+
+        Set<String> usate =
+                new HashSet<>(
+                        prefs.getStringSet(
+                                "usate_" + subjectName,
+                                new HashSet<>()
+                        )
+                );
+
+        List<Question> nuovoMazzo =
+                new ArrayList<>();
+
+        for (Question question : tutte) {
+
+            String id = question.getText();
+
+            if (!usate.contains(id)) {
+                nuovoMazzo.add(question);
+            }
+        }
+
+        /*
+         * Se tutte le domande della materia sono state
+         * utilizzate, iniziamo un nuovo giro.
+         */
+        if (nuovoMazzo.isEmpty()) {
+
+            usate.clear();
+
+            prefs.edit()
+                    .putStringSet(
+                            "usate_" + subjectName,
+                            usate
+                    )
+                    .apply();
+
+            nuovoMazzo =
+                    new ArrayList<>(tutte);
+        }
+
+        Collections.shuffle(nuovoMazzo);
+
+        domandeDisponibili.put(
+                subjectName,
+                nuovoMazzo
+        );
+
+        materiaCorrente = subjectName;
+    }
+
+    private Question prossimaDomandaCasuale(
+            String fileName,
+            String subjectName) {
+
+        preparaDomandeMateria(
+                fileName,
+                subjectName
+        );
+
+        List<Question> mazzo =
+                domandeDisponibili.get(subjectName);
+
+        if (mazzo == null || mazzo.isEmpty()) {
+            return null;
+        }
+
+        Question question =
+                mazzo.remove(0);
+
+        SharedPreferences prefs =
+                getSharedPreferences(
+                        "quiz_studio_progressi",
+                        MODE_PRIVATE
+                );
+
+        Set<String> usate =
+                new HashSet<>(
+                        prefs.getStringSet(
+                                "usate_" + subjectName,
+                                new HashSet<>()
+                        )
+                );
+
+        usate.add(question.getText());
+
+        prefs.edit()
+                .putStringSet(
+                        "usate_" + subjectName,
+                        usate
+                )
+                .apply();
+
+        return question;
+    }
+
+    private void avviaQuiz(
+            String fileName,
+            String subjectName) {
+
+        preparaDomandeMateria(
+                fileName,
+                subjectName
+        );
+
+        questions = new ArrayList<>();
+
+        Question primaDomanda =
+                prossimaDomandaCasuale(
+                        fileName,
+                        subjectName
+                );
+
+        if (primaDomanda == null) {
 
             mostraErrore(
                     "Nessuna domanda trovata per "
@@ -144,13 +374,169 @@ public class MainActivity extends Activity {
             return;
         }
 
-        indiceDomanda = 0;
+        questions.add(primaDomanda);
 
-        Collections.shuffle(questions);
+        modalitaTest30 = false;
+        punteggioTest30 = 0;
+        indiceDomanda = 0;
 
         creaSchermataQuiz();
 
         mostraDomanda();
+    }
+
+    private void avviaTest30(
+            String fileName,
+            String subjectName) {
+
+        List<Question> tutte =
+                JsonQuestionLoader.loadMateria(
+                        this,
+                        fileName,
+                        subjectName
+                );
+
+        if (tutte.size() < 30) {
+
+            mostraErrore(
+                    "Questa materia contiene meno di 30 domande."
+            );
+
+            return;
+        }
+
+        questions = new ArrayList<>();
+
+        modalitaTest30 = true;
+        punteggioTest30 = 0;
+
+        for (int i = 0; i < 30; i++) {
+
+            Question question =
+                    prossimaDomandaCasuale(
+                            fileName,
+                            subjectName
+                    );
+
+            if (question != null) {
+                questions.add(question);
+            }
+        }
+
+        if (questions.size() < 30) {
+
+            mostraErrore(
+                    "Non è stato possibile preparare il test."
+            );
+
+            return;
+        }
+
+        indiceDomanda = 0;
+
+        creaSchermataQuiz();
+
+        mostraDomanda();
+    }
+
+    private void mostraRisultatoTest30() {
+
+        LinearLayout layout = new LinearLayout(this);
+
+        layout.setOrientation(LinearLayout.VERTICAL);
+        layout.setGravity(Gravity.CENTER);
+        layout.setPadding(40, 60, 40, 40);
+
+        TextView titolo = new TextView(this);
+
+        titolo.setText("TEST COMPLETATO");
+        titolo.setTextSize(28);
+        titolo.setGravity(Gravity.CENTER);
+        titolo.setPadding(0, 0, 0, 35);
+
+        TextView punteggio = new TextView(this);
+
+        punteggio.setText(
+                "Punteggio: "
+                        + punteggioTest30
+                        + "/30"
+        );
+
+        punteggio.setTextSize(30);
+        punteggio.setGravity(Gravity.CENTER);
+        punteggio.setPadding(0, 0, 0, 40);
+
+        TextView dettaglio = new TextView(this);
+
+        dettaglio.setText(
+                "Risposte corrette: "
+                        + punteggioTest30
+                        + "\nRisposte sbagliate: "
+                        + (30 - punteggioTest30)
+        );
+
+        dettaglio.setTextSize(20);
+        dettaglio.setGravity(Gravity.CENTER);
+        dettaglio.setPadding(0, 0, 0, 40);
+
+        Button nuovoTest = new Button(this);
+
+        nuovoTest.setText("NUOVO TEST DA 30");
+        nuovoTest.setTextSize(18);
+
+        Button menu = new Button(this);
+
+        menu.setText("TORNA ALLE MATERIE");
+        menu.setTextSize(18);
+
+        nuovoTest.setOnClickListener(v ->
+                avviaTest30(
+                        getFileNameMateria(materiaCorrente),
+                        materiaCorrente
+                )
+        );
+
+        menu.setOnClickListener(v ->
+                mostraMenuMaterie()
+        );
+
+        layout.addView(titolo);
+        layout.addView(punteggio);
+        layout.addView(dettaglio);
+        layout.addView(nuovoTest);
+        layout.addView(menu);
+
+        setContentView(layout);
+    }
+
+    private String getFileNameMateria(String subjectName) {
+
+        switch (subjectName) {
+
+            case "Economia e gestione imprese":
+                return "economia.json";
+
+            case "Psicologia del Lavoro e delle Organizzazioni":
+                return "psicologia.json";
+
+            case "Diritto del lavoro":
+                return "diritto_lavoro.json";
+
+            case "Diritto penale PA":
+                return "diritto_penale_pa.json";
+
+            case "Fondamenti di Spagnolo":
+                return "fondamenti_spagnolo.json";
+
+            case "Psicologia sociale":
+                return "psicologia_sociale.json";
+
+            case "Sociologia dei processi culturali e comunicativi":
+                return "sociologia_processi_culturali_comunicativi.json";
+
+            default:
+                return "";
+        }
     }
 
     private void creaSchermataQuiz() {
@@ -215,11 +601,26 @@ public class MainActivity extends Activity {
 
             indiceDomanda++;
 
-            if (indiceDomanda >= questions.size()) {
+            if (modalitaTest30
+                    && indiceDomanda >= questions.size()) {
 
-                indiceDomanda = 0;
+                mostraRisultatoTest30();
+                return;
+            }
 
-                Collections.shuffle(questions);
+            if (!modalitaTest30
+                    && indiceDomanda >= questions.size()) {
+
+                Question nuovaDomanda =
+                        prossimaDomandaCasuale(
+                                getFileNameMateria(materiaCorrente),
+                                materiaCorrente
+                        );
+
+                if (nuovaDomanda != null) {
+
+                    questions.add(nuovaDomanda);
+                }
             }
 
             mostraDomanda();
@@ -346,6 +747,10 @@ public class MainActivity extends Activity {
 
         if (rispostaScelta.equalsIgnoreCase(corretta)) {
 
+            if (modalitaTest30) {
+                punteggioTest30++;
+            }
+
             risultato.setText("✓ CORRETTA");
             risultato.setTextColor(
                     Color.rgb(0, 130, 0)
@@ -368,6 +773,15 @@ public class MainActivity extends Activity {
         pulsanteB.setEnabled(false);
         pulsanteC.setEnabled(false);
         pulsanteD.setEnabled(false);
+
+        if (modalitaTest30
+                && indiceDomanda == questions.size() - 1) {
+
+            prossima.setText("VEDI RISULTATO");
+        } else {
+
+            prossima.setText("PROSSIMA DOMANDA");
+        }
 
         prossima.setVisibility(View.VISIBLE);
     }
