@@ -27,10 +27,65 @@ public class MainActivity extends Activity {
     private String materiaCorrente;
 
     private boolean modalitaTest30 = false;
+    private boolean modalitaDomandeErrate = false;
     private int punteggioTest30 = 0;
 
     private final Map<String, List<Question>> domandeDisponibili =
             new HashMap<>();
+
+    // Domande errate e relativo conteggio delle risposte corrette
+    private final Map<String, Set<String>> domandeErrate = new HashMap<>();
+    private final Map<String, Map<String, Integer>> conteggioErrate = new HashMap<>();
+
+    private void caricaProgressiErrate(String subjectName) {
+        if (subjectName == null) {
+            return;
+        }
+
+        SharedPreferences prefs =
+                getSharedPreferences("quiz_studio_progressi", MODE_PRIVATE);
+
+        Set<String> errate = new HashSet<>(
+                prefs.getStringSet(
+                        "errate_" + subjectName,
+                        new HashSet<>()
+                )
+        );
+
+        Map<String, Integer> conteggi = new HashMap<>();
+
+        for (String domanda : errate) {
+            conteggi.put(
+                    domanda,
+                    prefs.getInt(
+                            "conteggio_errata_" + subjectName + "_" + domanda,
+                            0
+                    )
+            );
+        }
+
+        domandeErrate.put(subjectName, errate);
+        conteggioErrate.put(subjectName, conteggi);
+    }
+
+    private void salvaProgressiErrate(String subjectName) {
+        SharedPreferences prefs = getSharedPreferences("quiz_studio_progressi", MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+
+        Set<String> errate = domandeErrate.getOrDefault(subjectName, new HashSet<>());
+        Map<String, Integer> conteggi = conteggioErrate.getOrDefault(subjectName, new HashMap<>());
+
+        editor.putStringSet("errate_" + subjectName, new HashSet<>(errate));
+
+        for (String domanda : errate) {
+            editor.putInt(
+                    "conteggio_errata_" + subjectName + "_" + domanda,
+                    conteggi.getOrDefault(domanda, 0)
+            );
+        }
+
+        editor.apply();
+    }
 
     private TextView numeroDomanda;
     private TextView testoDomanda;
@@ -211,8 +266,17 @@ public class MainActivity extends Activity {
         test30.setText("TEST DA 30");
         test30.setTextSize(18);
 
+        Button domandeErrate = new Button(this);
+
+        domandeErrate.setText("DOMANDE ERRATE");
+        domandeErrate.setTextSize(18);
+
         quizInfinito.setOnClickListener(v ->
                 avviaQuiz(fileName, subjectName)
+        );
+
+        domandeErrate.setOnClickListener(v ->
+                avviaQuizErrate(fileName, subjectName)
         );
 
         test30.setOnClickListener(v ->
@@ -222,6 +286,7 @@ public class MainActivity extends Activity {
         layout.addView(titolo);
         layout.addView(quizInfinito);
         layout.addView(test30);
+        layout.addView(domandeErrate);
 
         setContentView(layout);
     }
@@ -234,6 +299,7 @@ public class MainActivity extends Activity {
                 && !domandeDisponibili.get(subjectName).isEmpty()) {
 
             materiaCorrente = subjectName;
+            caricaProgressiErrate(subjectName);
             return;
         }
 
@@ -301,6 +367,7 @@ public class MainActivity extends Activity {
         );
 
         materiaCorrente = subjectName;
+        caricaProgressiErrate(subjectName);
     }
 
     private Question prossimaDomandaCasuale(
@@ -348,6 +415,68 @@ public class MainActivity extends Activity {
         return question;
     }
 
+    private void avviaQuizErrate(
+            String fileName,
+            String subjectName) {
+
+        preparaDomandeMateria(
+                fileName,
+                subjectName
+        );
+
+        Set<String> errate =
+                domandeErrate.getOrDefault(
+                        subjectName,
+                        new HashSet<>()
+                );
+
+        if (errate.isEmpty()) {
+
+            mostraErrore(
+                    "Non ci sono domande errate per "
+                            + subjectName
+            );
+
+            return;
+        }
+
+        List<Question> tutte =
+                JsonQuestionLoader.loadMateria(
+                        this,
+                        fileName,
+                        subjectName
+                );
+
+        questions = new ArrayList<>();
+
+        for (Question question : tutte) {
+
+            if (errate.contains(question.getText())) {
+                questions.add(question);
+            }
+        }
+
+        if (questions.isEmpty()) {
+
+            mostraErrore(
+                    "Le domande errate salvate non sono state trovate."
+            );
+
+            return;
+        }
+
+        Collections.shuffle(questions);
+
+        modalitaTest30 = false;
+        modalitaDomandeErrate = true;
+        punteggioTest30 = 0;
+        indiceDomanda = 0;
+
+        creaSchermataQuiz();
+
+        mostraDomanda();
+    }
+
     private void avviaQuiz(
             String fileName,
             String subjectName) {
@@ -378,6 +507,7 @@ public class MainActivity extends Activity {
         questions.add(primaDomanda);
 
         modalitaTest30 = false;
+        modalitaDomandeErrate = false;
         punteggioTest30 = 0;
         indiceDomanda = 0;
 
@@ -409,6 +539,7 @@ public class MainActivity extends Activity {
         questions = new ArrayList<>();
 
         modalitaTest30 = true;
+        modalitaDomandeErrate = false;
         punteggioTest30 = 0;
 
         for (int i = 0; i < 30; i++) {
@@ -611,7 +742,59 @@ public class MainActivity extends Activity {
                 return;
             }
 
+            if (modalitaDomandeErrate
+                    && indiceDomanda >= questions.size()) {
+
+                caricaProgressiErrate(materiaCorrente);
+
+                Set<String> errate =
+                        domandeErrate.getOrDefault(
+                                materiaCorrente,
+                                new HashSet<>()
+                        );
+
+                if (errate.isEmpty()) {
+
+                    mostraErrore(
+                            "Non ci sono più domande errate per "
+                                    + materiaCorrente
+                    );
+
+                    return;
+                }
+
+                List<Question> tutte =
+                        JsonQuestionLoader.loadMateria(
+                                this,
+                                getFileNameMateria(materiaCorrente),
+                                materiaCorrente
+                        );
+
+                questions = new ArrayList<>();
+
+                for (Question question : tutte) {
+
+                    if (errate.contains(question.getText())) {
+                        questions.add(question);
+                    }
+                }
+
+                Collections.shuffle(questions);
+
+                indiceDomanda = 0;
+
+                if (questions.isEmpty()) {
+
+                    mostraErrore(
+                            "Non è stato possibile caricare le domande errate."
+                    );
+
+                    return;
+                }
+            }
+
             if (!modalitaTest30
+                    && !modalitaDomandeErrate
                     && indiceDomanda >= questions.size()) {
 
                 Question nuovaDomanda =
@@ -711,6 +894,60 @@ public class MainActivity extends Activity {
         prossima.setVisibility(View.GONE);
     }
 
+    private void aggiornaDomandeErrate(
+            String subjectName,
+            Question question,
+            boolean rispostaCorrettaUtente) {
+
+        if (subjectName == null || question == null) {
+            return;
+        }
+
+        domandeErrate.putIfAbsent(
+                subjectName,
+                new HashSet<>()
+        );
+
+        conteggioErrate.putIfAbsent(
+                subjectName,
+                new HashMap<>()
+        );
+
+        Set<String> errate =
+                domandeErrate.get(subjectName);
+
+        Map<String, Integer> conteggi =
+                conteggioErrate.get(subjectName);
+
+        String domanda =
+                question.getText();
+
+        if (!rispostaCorrettaUtente) {
+
+            // Ogni errore riporta il conteggio a 0/3
+            errate.add(domanda);
+            conteggi.put(domanda, 0);
+
+        } else if (errate.contains(domanda)) {
+
+            int conteggio =
+                    conteggi.getOrDefault(domanda, 0) + 1;
+
+            if (conteggio >= 3) {
+
+                // Tre risposte corrette: la domanda esce dalle Errate
+                errate.remove(domanda);
+                conteggi.remove(domanda);
+
+            } else {
+
+                conteggi.put(domanda, conteggio);
+            }
+        }
+
+        salvaProgressiErrate(subjectName);
+    }
+
     private void controllaRisposta(
             String rispostaScelta) {
 
@@ -750,20 +987,66 @@ public class MainActivity extends Activity {
                 break;
         }
 
-        if (rispostaScelta.equalsIgnoreCase(corretta)) {
+        boolean rispostaCorrettaUtente =
+                rispostaScelta.equalsIgnoreCase(corretta);
+
+        aggiornaDomandeErrate(
+                materiaCorrente,
+                question,
+                rispostaCorrettaUtente
+        );
+
+        if (rispostaCorrettaUtente) {
 
             if (modalitaTest30) {
                 punteggioTest30++;
             }
 
-            risultato.setText("✓ CORRETTA");
+            if (domandeErrate.containsKey(materiaCorrente)
+                    && domandeErrate.get(materiaCorrente)
+                    .contains(question.getText())) {
+
+                int conteggio =
+                        conteggioErrate
+                                .getOrDefault(
+                                        materiaCorrente,
+                                        new HashMap<>()
+                                )
+                                .getOrDefault(
+                                        question.getText(),
+                                        0
+                                );
+
+                risultato.setText(
+                        "✓ CORRETTA — "
+                                + conteggio
+                                + "/3"
+                );
+
+            } else {
+
+                risultato.setText("✓ CORRETTA");
+            }
+
             risultato.setTextColor(
                     Color.rgb(0, 130, 0)
             );
 
         } else {
 
-            risultato.setText("✗ SBAGLIATA");
+            if (domandeErrate.containsKey(materiaCorrente)
+                    && domandeErrate.get(materiaCorrente)
+                    .contains(question.getText())) {
+
+                risultato.setText(
+                        "✗ SBAGLIATA — 0/3"
+                );
+
+            } else {
+
+                risultato.setText("✗ SBAGLIATA");
+            }
+
             risultato.setTextColor(Color.RED);
         }
 
