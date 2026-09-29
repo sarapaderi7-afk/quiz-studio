@@ -2978,5 +2978,266 @@
     "D": "Mai",
     "corretta": "B",
     "numero": 331
+  },
+  {
+    "domanda": "Che cosa si intende per Task Analysis?",
+    "A": "L'analisi sistematica dei compiti e delle attività che caratterizzano un lavoro",
+    "B": "La valutazione della soddisfazione lavorativa",
+    "C": "La valutazione della personalità del lavoratore",
+    "D": "L'analisi del clima aziendale",
+    "corretta": "A",
+    "numero": 332
+  },
+  {
+    "domanda": "Quale approccio considera la cultura della sicurezza nell'organizzazione?",
+    "A": "L'approccio esclusivamente individuale",
+    "B": "L'approccio della cultura della sicurezza",
+    "C": "L'approccio esclusivamente economico",
+    "D": "L'approccio basato sulla selezione",
+    "corretta": "B",
+    "numero": 333
+  },
+  {
+    "domanda": "Cosa sono i processi operativi?",
+    "A": "I processi relativi esclusivamente alla gestione amministrativa",
+    "B": "I processi attraverso i quali le intenzioni vengono tradotte in azioni concrete",
+    "C": "I processi di selezione del personale",
+    "D": "I processi di valutazione dello stipendio",
+    "corretta": "B",
+    "numero": 334
+  },
+  {
+    "domanda": "Quali processi sono coinvolti nel comportamento lavorativo?",
+    "A": "Soltanto processi motori",
+    "B": "Processi cognitivi e affettivi",
+    "C": "Soltanto processi economici",
+    "D": "Soltanto processi organizzativi",
+    "corretta": "B",
+    "numero": 335
+  },
+  {
+    "domanda": "Cosa può derivare da modelli di giustizia organizzativa non rispettati, clima autoritario e percezione di frustrazioni organizzative?",
+    "A": "Aumento automatico della motivazione",
+    "B": "Maggiore identificazione organizzativa",
+    "C": "Frustrazione e conseguenze negative sul comportamento lavorativo",
+    "D": "Aumento della soddisfazione lavorativa",
+    "corretta": "C",
+    "numero": 336
+  },
+  {
+    "domanda": "Quale forma di giustizia riguarda il trattamento rispettoso e dignitoso delle persone?",
+    "A": "Giustizia distributiva",
+    "B": "Giustizia procedurale",
+    "C": "Giustizia interpersonale",
+    "D": "Giustizia economica",
+    "corretta": "C",
+    "numero": 337
+  },
+  {
+    "domanda": "Quali livelli di analisi vengono considerati nello studio del lavoro?",
+    "A": "Soltanto individuale e organizzativo",
+    "B": "Individuale, gruppo di lavoro e organizzativo",
+    "C": "Soltanto individuale",
+    "D": "Soltanto sociale",
+    "corretta": "B",
+    "numero": 338
+  },
+  {
+    "domanda": "Quale tra queste rappresenta un'esigenza fisica del lavoratore?",
+    "A": "Esigenze fisiche",
+    "B": "Bisogno di appartenenza",
+    "C": "Bisogno di autorealizzazione",
+    "D": "Bisogno di riconoscimento sociale",
+    "corretta": "A",
+    "numero": 339
+  },
+  {
+    "domanda": "Quale elemento ha contribuito allo sviluppo del movimento delle relazioni umane?",
+    "A": "L'esclusiva attenzione alla produttività",
+    "B": "L'impatto degli aspetti sociali sul lavoro",
+    "C": "L'automazione industriale",
+    "D": "L'aumento degli stipendi",
+    "corretta": "B",
+    "numero": 340
+  },
+  {
+    "domanda": "Come avviene la socializzazione lavorativa?",
+    "A": "Soltanto attraverso il contratto di lavoro",
+    "B": "Soltanto attraverso la formazione iniziale",
+    "C": "Attraverso interazioni nella comunità professionale, partecipazione alla cultura del contesto e uso degli strumenti di lavoro",
+    "D": "Soltanto attraverso il rapporto con il superiore",
+    "corretta": "C",
+    "numero": 341
+  },
+  {
+    "domanda": "Qual è l'effetto di obiettivi specifici e sfidanti?",
+    "A": "Riducono necessariamente la motivazione",
+    "B": "Eliminano la necessità di feedback",
+    "C": "Favoriscono focalizzazione, intensità, persistenza e strategie",
+    "D": "Producono automaticamente soddisfazione",
+    "corretta": "C",
+    "numero": 342
+  },
+  {
+    "domanda": "Cosa significa assumere una molteplicità di ruoli?",
+    "A": "Svolgere un unico compito in modo ripetitivo",
+    "B": "Assumere una molteplicità di ruoli prestabiliti, configurando un “mosaico di ruoli”",
+    "C": "Non avere un ruolo definito",
+    "D": "Cambiare continuamente organizzazione",
+    "corretta": "B",
+    "numero": 343
+  },
+  {
+    "domanda": "Quale può essere l'effetto degli aspetti studiati sulla produttività?",
+    "A": "Nessun effetto",
+    "B": "Soltanto un effetto economico",
+    "C": "Effetti diretti e indiretti sulla produttività",
+    "D": "Soltanto effetti negativi",
+    "corretta": "C",
+    "numero": 344
+  },
+  {
+    "domanda": "Quale tipo di motivazione deriva dall'interesse per l'attività in sé?",
+    "A": "Intrinseca",
+    "B": "Estrinseca",
+    "C": "Controllata",
+    "D": "Amotivazione",
+    "corretta": "A",
+    "numero": 345
+  },
+  {
+    "domanda": "Quale caratteristica descrive una relazione di scambio economico con modesto tasso di appartenenza?",
+    "A": "Relazione di scambio economico con modesto tasso di appartenenza",
+    "B": "Forte identificazione organizzativa",
+    "C": "Totale assenza di scambio economico",
+    "D": "Relazione esclusivamente affettiva",
+    "corretta": "A",
+    "numero": 346
+  },
+  {
+    "domanda": "Che cosa rappresenta il decorso osservabile dell'attività?",
+    "A": "La personalità del lavoratore",
+    "B": "Il decorso osservabile dell'attività",
+    "C": "Il livello di motivazione",
+    "D": "La cultura organizzativa",
+    "corretta": "B",
+    "numero": 347
+  },
+  {
+    "domanda": "Perché le risorse umane sono importanti per un'organizzazione?",
+    "A": "Perché sono facilmente sostituibili",
+    "B": "Perché rappresentano esclusivamente un costo",
+    "C": "Perché rappresentano una risorsa chiave alla quale dedicare attenzione",
+    "D": "Perché eliminano la necessità di tecnologia",
+    "corretta": "C",
+    "numero": 348
+  },
+  {
+    "domanda": "Cosa sono le condotte controproducenti?",
+    "A": "Comportamenti che aumentano sempre la produttività",
+    "B": "Condotte controproducenti rivolte contro la produttività",
+    "C": "Comportamenti esclusivamente motivazionali",
+    "D": "Attività di formazione",
+    "corretta": "B",
+    "numero": 349
+  },
+  {
+    "domanda": "Quale strumento è associato a un approccio worker-oriented?",
+    "A": "Job description",
+    "B": "Person specification",
+    "C": "Organigramma",
+    "D": "Contratto collettivo",
+    "corretta": "B",
+    "numero": 350
+  },
+  {
+    "domanda": "Quale caratteristica può essere associata a un processo conoscitivo efficace?",
+    "A": "Rigida applicazione delle procedure",
+    "B": "Intuizione, flessibilità e apertura all'esperienza",
+    "C": "Esclusivo ricorso ai dati economici",
+    "D": "Eliminazione dell'esperienza personale",
+    "corretta": "B",
+    "numero": 351
+  },
+  {
+    "domanda": "Quali sono alcuni antecedenti personali della socializzazione lavorativa?",
+    "A": "Soltanto lo stipendio",
+    "B": "Caratteristiche personali e precedenti esperienze del lavoratore",
+    "C": "Soltanto il contratto",
+    "D": "Soltanto la struttura gerarchica",
+    "corretta": "B",
+    "numero": 352
+  },
+  {
+    "domanda": "Che cos'è la motivazione?",
+    "A": "Soltanto il desiderio di guadagnare",
+    "B": "Una caratteristica stabile della personalità",
+    "C": "Un insieme di forze che determina direzione, intensità e persistenza dell'azione",
+    "D": "Una forma di soddisfazione lavorativa",
+    "corretta": "C",
+    "numero": 353
+  },
+  {
+    "domanda": "Quale può essere una condotta controproducente di carattere intrapersonale?",
+    "A": "Un comportamento che aumenta la produttività",
+    "B": "Una condotta controproducente rivolta alla persona stessa",
+    "C": "Un comportamento di cittadinanza organizzativa",
+    "D": "Un comportamento di leadership",
+    "corretta": "B",
+    "numero": 354
+  },
+  {
+    "domanda": "Che cosa si intende per clima di sicurezza?",
+    "A": "Il numero di incidenti avvenuti",
+    "B": "Le percezioni condivise riguardo alle politiche, procedure e pratiche relative alla sicurezza",
+    "C": "Il livello di temperatura dell'ambiente",
+    "D": "Il numero di dispositivi di protezione disponibili",
+    "corretta": "B",
+    "numero": 355
+  },
+  {
+    "domanda": "Quali sono le cinque caratteristiche fondamentali del lavoro nel Job Characteristics Model?",
+    "A": "Stipendio, carriera, anzianità, status e potere",
+    "B": "Varietà, identità, significatività, autonomia e feedback",
+    "C": "Sicurezza, salario, ferie, orario e contratto",
+    "D": "Leadership, controllo, disciplina, gerarchia e autorità",
+    "corretta": "B",
+    "numero": 356
+  },
+  {
+    "domanda": "Che cos'è il burnout?",
+    "A": "Una forma di motivazione intrinseca",
+    "B": "Un semplice episodio di stanchezza",
+    "C": "Una forma grave di stress cronico caratterizzata da esaurimento emotivo, depersonalizzazione/cinismo e ridotta efficacia professionale",
+    "D": "Una forma di assenteismo",
+    "corretta": "C",
+    "numero": 357
+  },
+  {
+    "domanda": "Che cosa riguarda la giustizia distributiva?",
+    "A": "L'equità nella distribuzione di risorse, ricompense e risultati",
+    "B": "Il modo in cui il superiore tratta il dipendente",
+    "C": "La correttezza delle procedure",
+    "D": "La qualità della comunicazione",
+    "corretta": "A",
+    "numero": 358
+  },
+  {
+    "domanda": "Come può essere considerata l'organizzazione nell'approccio tecnico?",
+    "A": "Come un semplice insieme di persone",
+    "B": "Come un sistema tecnico che richiede al lavoratore determinati compiti per il proprio funzionamento produttivo",
+    "C": "Come una struttura esclusivamente sociale",
+    "D": "Come un sistema privo di obiettivi",
+    "corretta": "B",
+    "numero": 359
+  },
+  {
+    "domanda": "Qual è la differenza tra performance appraisal e performance management?",
+    "A": "Sono esattamente la stessa cosa",
+    "B": "Il performance appraisal ha una natura più statica, mentre il performance management ha una natura dinamica",
+    "C": "Il performance appraisal riguarda soltanto lo stipendio",
+    "D": "Il performance management riguarda soltanto la selezione",
+    "corretta": "B",
+    "numero": 360
   }
 ]
