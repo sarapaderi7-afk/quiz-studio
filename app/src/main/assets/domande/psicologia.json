@@ -2753,5 +2753,230 @@
     "D": "Una variabile priva di effetto",
     "corretta": "B",
     "numero": 306
+  },
+  {
+    "domanda": "Cosa si intende per efficacia organizzativa?",
+    "A": "La quantità di risorse finanziarie disponibili",
+    "B": "Il numero di dipendenti dell'organizzazione",
+    "C": "La capacità dell'organizzazione di raggiungere i propri obiettivi e operare con successo",
+    "D": "Il livello degli stipendi",
+    "corretta": "C",
+    "numero": 307
+  },
+  {
+    "domanda": "Che cosa si intende per analisi del lavoro (job analysis)?",
+    "A": "La valutazione della soddisfazione dei dipendenti",
+    "B": "Il processo sistematico di raccolta e analisi delle informazioni relative a un lavoro",
+    "C": "La misurazione del profitto aziendale",
+    "D": "La selezione dei dirigenti",
+    "corretta": "B",
+    "numero": 308
+  },
+  {
+    "domanda": "Cosa indica la validità interna di una ricerca?",
+    "A": "La possibilità di generalizzare i risultati a popolazioni diverse",
+    "B": "Il grado in cui i risultati possono essere attribuiti alle variabili studiate e non ad altre cause",
+    "C": "Il grado di soddisfazione dei partecipanti",
+    "D": "La durata dell'esperimento",
+    "corretta": "B",
+    "numero": 309
+  },
+  {
+    "domanda": "Cosa si intende per validità ecologica?",
+    "A": "La precisione degli strumenti statistici",
+    "B": "Il grado in cui i risultati possono essere applicati a situazioni realistiche e quotidiane",
+    "C": "La capacità di replicare un esperimento",
+    "D": "La significatività statistica",
+    "corretta": "B",
+    "numero": 310
+  },
+  {
+    "domanda": "Qual è il principio fondamentale dello Scientific Management di Taylor?",
+    "A": "Lasciare completa autonomia al lavoratore",
+    "B": "Privilegiare le relazioni informali",
+    "C": "Analizzare scientificamente il lavoro per individuare modalità più efficienti di svolgimento",
+    "D": "Eliminare la divisione del lavoro",
+    "corretta": "C",
+    "numero": 311
+  },
+  {
+    "domanda": "Qual è l'idea centrale dell'approccio sociotecnico?",
+    "A": "L'organizzazione deve occuparsi esclusivamente della tecnologia",
+    "B": "Il lavoratore deve essere completamente subordinato alla macchina",
+    "C": "Il sistema sociale e quello tecnologico devono essere considerati congiuntamente",
+    "D": "La produttività dipende esclusivamente dal salario",
+    "corretta": "C",
+    "numero": 312
+  },
+  {
+    "domanda": "Chi è considerato uno dei pionieri nell'introduzione del termine \"psicologia industriale\"?",
+    "A": "Kurt Lewin",
+    "B": "Hugo Münsterberg",
+    "C": "Abraham Maslow",
+    "D": "Frederick Herzberg",
+    "corretta": "B",
+    "numero": 313
+  },
+  {
+    "domanda": "Cosa indica la dissonanza emotiva nelle occupazioni emozionali?",
+    "A": "L'assenza di emozioni durante il lavoro",
+    "B": "La discrepanza tra emozioni realmente provate ed emozioni che il ruolo richiede di esprimere",
+    "C": "L'eccessiva motivazione intrinseca",
+    "D": "Il conflitto tra due colleghi",
+    "corretta": "B",
+    "numero": 314
+  },
+  {
+    "domanda": "Nel Job Characteristics Model, cosa indica la significatività del compito?",
+    "A": "Il valore economico del lavoro",
+    "B": "Il grado in cui il lavoro è percepito come importante e significativo per altre persone",
+    "C": "La quantità di tempo necessaria per completarlo",
+    "D": "Il numero di superiori coinvolti",
+    "corretta": "B",
+    "numero": 315
+  },
+  {
+    "domanda": "Nel Job Characteristics Model, cosa rappresenta il bisogno di crescita personale e professionale?",
+    "A": "Una caratteristica oggettiva del contratto",
+    "B": "Una differenza individuale che influenza il modo in cui le caratteristiche del lavoro producono effetti motivazionali",
+    "C": "Un fattore esclusivamente economico",
+    "D": "Un indicatore di anzianità",
+    "corretta": "B",
+    "numero": 316
+  },
+  {
+    "domanda": "Quale definizione descrive meglio la proattività?",
+    "A": "Aspettare che siano gli altri a risolvere i problemi",
+    "B": "Rispettare passivamente le procedure",
+    "C": "Anticipare gli eventi e agire intenzionalmente per modificare o migliorare la situazione",
+    "D": "Evitare qualsiasi cambiamento",
+    "corretta": "C",
+    "numero": 317
+  },
+  {
+    "domanda": "Che cos'è l'autoefficacia percepita?",
+    "A": "La valutazione delle proprie capacità fatta dal superiore",
+    "B": "La convinzione personale di essere capaci di organizzare e realizzare le azioni necessarie per raggiungere determinati risultati",
+    "C": "La soddisfazione per il proprio stipendio",
+    "D": "Il livello di istruzione posseduto",
+    "corretta": "B",
+    "numero": 318
+  },
+  {
+    "domanda": "Cosa sono i processi operativi nel contesto della motivazione e dell'azione?",
+    "A": "I processi amministrativi dell'azienda",
+    "B": "I processi attraverso cui intenzioni e obiettivi vengono tradotti in azioni concrete",
+    "C": "I processi di selezione del personale",
+    "D": "I processi di valutazione economica",
+    "corretta": "B",
+    "numero": 319
+  },
+  {
+    "domanda": "Quale sequenza rappresenta il circolo motivazionale?",
+    "A": "Ricompensa → contratto → assunzione",
+    "B": "Bisogno/obiettivo → azione → risultato/valutazione",
+    "C": "Selezione → formazione → licenziamento",
+    "D": "Stress → assenza → pensionamento",
+    "corretta": "B",
+    "numero": 320
+  },
+  {
+    "domanda": "Cosa possono comportare i costi di transizione nel passaggio da un ruolo lavorativo a un altro?",
+    "A": "Soltanto costi economici per l'organizzazione",
+    "B": "La necessità di adattarsi a nuove richieste, relazioni, competenze e modalità operative",
+    "C": "Esclusivamente una riduzione dello stipendio",
+    "D": "Nessun costo psicologico",
+    "corretta": "B",
+    "numero": 321
+  },
+  {
+    "domanda": "Come avviene principalmente la socializzazione lavorativa?",
+    "A": "Soltanto attraverso il contratto di lavoro",
+    "B": "Attraverso interazioni nella comunità professionale, partecipazione alla cultura del contesto e utilizzo degli strumenti di lavoro",
+    "C": "Soltanto attraverso corsi universitari",
+    "D": "Attraverso il solo rapporto con il dirigente",
+    "corretta": "B",
+    "numero": 322
+  },
+  {
+    "domanda": "Secondo la Goal Setting Theory, quali obiettivi tendono ad attivare maggiormente i processi motivazionali?",
+    "A": "Obiettivi generici e molto semplici",
+    "B": "Obiettivi non comunicati",
+    "C": "Obiettivi specifici e sfidanti",
+    "D": "Obiettivi scelti esclusivamente dal superiore senza comunicazione",
+    "corretta": "C",
+    "numero": 323
+  },
+  {
+    "domanda": "Cosa riguarda principalmente la giustizia interpersonale?",
+    "A": "La distribuzione delle ricompense",
+    "B": "Il modo rispettoso e dignitoso con cui le persone vengono trattate",
+    "C": "La correttezza delle procedure",
+    "D": "La quantità dello stipendio",
+    "corretta": "B",
+    "numero": 324
+  },
+  {
+    "domanda": "La giustizia distributiva riguarda principalmente:",
+    "A": "L'equità nella distribuzione di ricompense, risorse e risultati",
+    "B": "Il rispetto delle procedure",
+    "C": "Il comportamento del superiore",
+    "D": "La comunicazione interna",
+    "corretta": "A",
+    "numero": 325
+  },
+  {
+    "domanda": "Come viene generalmente descritto il burnout?",
+    "A": "Come una forma di motivazione intrinseca",
+    "B": "Come una condizione di stress cronico caratterizzata da esaurimento, cinismo/depersonalizzazione e ridotta efficacia professionale",
+    "C": "Come un semplice episodio di stanchezza",
+    "D": "Come una forma di assenteismo volontario",
+    "corretta": "B",
+    "numero": 326
+  },
+  {
+    "domanda": "Che cos'è il clima di sicurezza?",
+    "A": "Il livello di temperatura dell'ambiente di lavoro",
+    "B": "La percezione condivisa delle politiche, procedure e pratiche relative alla sicurezza",
+    "C": "Il numero di incidenti registrati",
+    "D": "Il livello di stress dei lavoratori",
+    "corretta": "B",
+    "numero": 327
+  },
+  {
+    "domanda": "Cosa comprendono i comportamenti di sicurezza?",
+    "A": "Soltanto il rispetto delle ferie",
+    "B": "Azioni e comportamenti finalizzati a promuovere sicurezza e benessere di lavoratori, clienti, pubblico e ambiente",
+    "C": "Soltanto la segnalazione degli incidenti",
+    "D": "Soltanto l'uso dei dispositivi di protezione",
+    "corretta": "B",
+    "numero": 328
+  },
+  {
+    "domanda": "Cosa sono le condotte lavorative controproducenti?",
+    "A": "Comportamenti sempre utili all'organizzazione",
+    "B": "Comportamenti intenzionali che danneggiano l'organizzazione o i suoi membri",
+    "C": "Errori involontari senza conseguenze",
+    "D": "Comportamenti esclusivamente motivazionali",
+    "corretta": "B",
+    "numero": 329
+  },
+  {
+    "domanda": "Qual è una differenza fondamentale tra performance appraisal e performance management?",
+    "A": "Sono esattamente la stessa cosa",
+    "B": "Il performance appraisal ha una natura più statica/valutativa, mentre il performance management ha una natura dinamica e orientata alla gestione e sviluppo",
+    "C": "Il performance appraisal riguarda soltanto la formazione",
+    "D": "Il performance management riguarda soltanto lo stipendio",
+    "corretta": "B",
+    "numero": 330
+  },
+  {
+    "domanda": "Quando la fatica può determinare un decremento della prestazione?",
+    "A": "Sempre, indipendentemente dalla situazione",
+    "B": "Quando non è possibile compensare la momentanea carenza energetica dovuta alla fatica",
+    "C": "Soltanto nei lavori manuali",
+    "D": "Mai",
+    "corretta": "B",
+    "numero": 331
   }
 ]
