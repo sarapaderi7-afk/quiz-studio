@@ -2303,5 +2303,455 @@
     "D": "l'eccessivo rumore prodotto all'interno del contesto lavorativo",
     "corretta": "C",
     "numero": 256
+  },
+  {
+    "domanda": "Qual è la ragione principale per cui le risorse umane sono considerate una risorsa chiave nelle organizzazioni?",
+    "A": "Perché sono meno costose delle altre risorse",
+    "B": "Perché sono facilmente sostituibili dalla tecnologia",
+    "C": "Perché la loro gestione è standardizzata",
+    "D": "Perché sono agenti di cambiamento, innovazione e adattamento ai mutamenti",
+    "corretta": "D",
+    "numero": 257
+  },
+  {
+    "domanda": "Oltre alla gestione delle criticità, quale altro obiettivo fondamentale persegue la psicologia del lavoro?",
+    "A": "Ridurre il numero dei dipendenti",
+    "B": "Massimizzare esclusivamente il profitto",
+    "C": "Riconoscere e valorizzare le risorse individuali e le condotte positive",
+    "D": "Automatizzare i processi lavorativi",
+    "corretta": "C",
+    "numero": 258
+  },
+  {
+    "domanda": "Quali dimensioni vengono maggiormente enfatizzate dalla prospettiva psicologica nello studio del lavoro?",
+    "A": "Aspetti economici e finanziari",
+    "B": "Motivazione, relazioni, soddisfazione, benessere e impegno",
+    "C": "Aspetti esclusivamente giuridici",
+    "D": "Bilancio e rendicontazione",
+    "corretta": "B",
+    "numero": 259
+  },
+  {
+    "domanda": "Che cosa caratterizza principalmente la motivazione intrinseca?",
+    "A": "Il piacere o interesse derivante dall'attività stessa",
+    "B": "Il desiderio di ottenere una ricompensa economica",
+    "C": "La paura di una sanzione",
+    "D": "La pressione del superiore",
+    "corretta": "A",
+    "numero": 260
+  },
+  {
+    "domanda": "Che cosa caratterizza la motivazione estrinseca?",
+    "A": "L'interesse spontaneo per il compito",
+    "B": "Il comportamento orientato verso conseguenze o ricompense esterne",
+    "C": "L'assenza di motivazione",
+    "D": "La curiosità personale",
+    "corretta": "B",
+    "numero": 261
+  },
+  {
+    "domanda": "Che cos'è il contratto psicologico?",
+    "A": "Il contratto di lavoro firmato dal dipendente",
+    "B": "L'insieme di aspettative e obblighi impliciti tra persona e organizzazione",
+    "C": "Il regolamento aziendale",
+    "D": "Il contratto collettivo nazionale",
+    "corretta": "B",
+    "numero": 262
+  },
+  {
+    "domanda": "Qual è la differenza tra compiti prescritti e compiti reali?",
+    "A": "Non esiste alcuna differenza",
+    "B": "I prescritti sono formalmente previsti, i reali sono quelli concretamente svolti",
+    "C": "I prescritti sono sempre più complessi",
+    "D": "I reali sono esclusivamente quelli indicati nel contratto",
+    "corretta": "B",
+    "numero": 263
+  },
+  {
+    "domanda": "Quali sono i due principali approcci alla sicurezza sul lavoro?",
+    "A": "Economico e finanziario",
+    "B": "Individualistico e organizzativo",
+    "C": "Psicologico e medico",
+    "D": "Individuale e giuridico",
+    "corretta": "B",
+    "numero": 264
+  },
+  {
+    "domanda": "Secondo l'approccio individualistico alla sicurezza, l'infortunio viene principalmente ricondotto a:",
+    "A": "Un errore o comportamento inadeguato dell'individuo",
+    "B": "Una cultura organizzativa",
+    "C": "Un problema economico",
+    "D": "Un cambiamento tecnologico",
+    "corretta": "A",
+    "numero": 265
+  },
+  {
+    "domanda": "Secondo l'approccio organizzativo alla sicurezza, un errore può derivare da:",
+    "A": "Esclusivamente dalla distrazione del lavoratore",
+    "B": "Esclusivamente dalla sua personalità",
+    "C": "Una serie di fattori organizzativi predisponenti",
+    "D": "Soltanto dalla mancanza di esperienza",
+    "corretta": "C",
+    "numero": 266
+  },
+  {
+    "domanda": "Che cos'è il work engagement?",
+    "A": "Una forma di stress lavorativo",
+    "B": "Un atteggiamento negativo verso il lavoro",
+    "C": "Uno stato positivo caratterizzato da energia, coinvolgimento e investimento nel lavoro",
+    "D": "Una forma di assenteismo",
+    "corretta": "C",
+    "numero": 267
+  },
+  {
+    "domanda": "Che cos'è il performance management?",
+    "A": "Un sistema esclusivamente disciplinare",
+    "B": "Un processo dinamico di gestione e sviluppo della prestazione dei collaboratori",
+    "C": "Un sistema per licenziare i dipendenti",
+    "D": "Una tecnica di selezione",
+    "corretta": "B",
+    "numero": 268
+  },
+  {
+    "domanda": "Qual è l'oggetto principale della psicologia del lavoro?",
+    "A": "Esclusivamente il profitto aziendale",
+    "B": "L'interazione tra persona e lavoro",
+    "C": "Soltanto i contratti",
+    "D": "Soltanto le organizzazioni",
+    "corretta": "B",
+    "numero": 269
+  },
+  {
+    "domanda": "In che senso la psicologia del lavoro ha una duplice natura?",
+    "A": "È contemporaneamente economica e giuridica",
+    "B": "È scientifica e applicata",
+    "C": "È teorica e politica",
+    "D": "È individuale e finanziaria",
+    "corretta": "B",
+    "numero": 270
+  },
+  {
+    "domanda": "Che cosa studia il livello di analisi intrasoggettivo?",
+    "A": "I processi psicologici interni alla persona",
+    "B": "Le relazioni tra organizzazioni",
+    "C": "I mercati del lavoro",
+    "D": "Le dinamiche economiche",
+    "corretta": "A",
+    "numero": 271
+  },
+  {
+    "domanda": "Che cosa analizza il livello soggetto-compito?",
+    "A": "Il rapporto tra due organizzazioni",
+    "B": "L'interazione tra persona e compito lavorativo",
+    "C": "Il mercato del lavoro",
+    "D": "La cultura nazionale",
+    "corretta": "B",
+    "numero": 272
+  },
+  {
+    "domanda": "Perché il gruppo viene considerato un'unità di analisi organica?",
+    "A": "Perché è sempre formato da almeno dieci persone",
+    "B": "Perché non è semplicemente la somma dei singoli individui",
+    "C": "Perché non presenta conflitti",
+    "D": "Perché elimina le differenze individuali",
+    "corretta": "B",
+    "numero": 273
+  },
+  {
+    "domanda": "Quale fenomeno può essere studiato a livello organizzativo?",
+    "A": "La memoria del singolo lavoratore",
+    "B": "La cultura organizzativa",
+    "C": "La personalità individuale",
+    "D": "La percezione di un singolo compito",
+    "corretta": "B",
+    "numero": 274
+  },
+  {
+    "domanda": "Il livello di analisi sociale considera principalmente:",
+    "A": "Soltanto le emozioni individuali",
+    "B": "Soltanto il rapporto con il proprio superiore",
+    "C": "Macroprocessi socioeconomici e culturali",
+    "D": "Soltanto le caratteristiche del compito",
+    "corretta": "C",
+    "numero": 275
+  },
+  {
+    "domanda": "Quali sono i due principali modi di fare psicologia del lavoro?",
+    "A": "Formazione e selezione",
+    "B": "Fare ricerca e praticare una professione",
+    "C": "Consulenza e marketing",
+    "D": "Psicoterapia e medicina",
+    "corretta": "B",
+    "numero": 276
+  },
+  {
+    "domanda": "Che cos'è il Job Design?",
+    "A": "La selezione dei candidati",
+    "B": "L'insieme delle attività e decisioni che definiscono come devono essere svolti i compiti lavorativi",
+    "C": "La valutazione psicologica",
+    "D": "La definizione dello stipendio",
+    "corretta": "B",
+    "numero": 277
+  },
+  {
+    "domanda": "Qual è il presupposto fondamentale del Job Characteristics Model di Hackman e Oldham?",
+    "A": "La motivazione dipende esclusivamente dallo stipendio",
+    "B": "Una progettazione ottimale del lavoro può favorire la motivazione intrinseca",
+    "C": "La motivazione non può essere modificata",
+    "D": "La motivazione dipende soltanto dal gruppo",
+    "corretta": "B",
+    "numero": 278
+  },
+  {
+    "domanda": "Quali sono le cinque caratteristiche fondamentali del compito nel JCM?",
+    "A": "Varietà, identità, significatività, autonomia e feedback",
+    "B": "Stipendio, carriera, anzianità, bonus e ferie",
+    "C": "Controllo, disciplina, gerarchia, autorità e potere",
+    "D": "Sicurezza, stabilità, prevedibilità, controllo e salario",
+    "corretta": "A",
+    "numero": 279
+  },
+  {
+    "domanda": "La varietà del compito indica:",
+    "A": "La quantità di denaro percepita",
+    "B": "Il grado di diversità delle situazioni con cui il lavoratore si confronta",
+    "C": "Il numero di colleghi",
+    "D": "La durata del contratto",
+    "corretta": "B",
+    "numero": 280
+  },
+  {
+    "domanda": "La varietà delle capacità richieste riguarda:",
+    "A": "Il numero di ore lavorate",
+    "B": "La quantità di ferie",
+    "C": "La ricchezza dei requisiti conoscitivi e formativi necessari",
+    "D": "Il livello dello stipendio",
+    "corretta": "C",
+    "numero": 281
+  },
+  {
+    "domanda": "Che cosa significa avere un'elevata identità del compito?",
+    "A": "Svolgere sempre una piccola parte del processo",
+    "B": "Poter seguire un'attività dall'inizio alla fine",
+    "C": "Non avere responsabilità",
+    "D": "Lavorare sempre in gruppo",
+    "corretta": "B",
+    "numero": 282
+  },
+  {
+    "domanda": "Nel JCM, l'autonomia riguarda:",
+    "A": "Il livello dello stipendio",
+    "B": "Il grado di libertà e discrezionalità nello svolgimento del lavoro",
+    "C": "Il numero di colleghi",
+    "D": "La durata del contratto",
+    "corretta": "B",
+    "numero": 283
+  },
+  {
+    "domanda": "Nel JCM, il feedback permette principalmente di:",
+    "A": "Aumentare automaticamente lo stipendio",
+    "B": "Ricevere informazioni sull'efficacia della propria prestazione",
+    "C": "Ridurre le responsabilità",
+    "D": "Eliminare l'autonomia",
+    "corretta": "B",
+    "numero": 284
+  },
+  {
+    "domanda": "Quali processi psicologici vengono attivati dalle caratteristiche del compito?",
+    "A": "Competizione, conflitto e controllo",
+    "B": "Senso del lavoro, responsabilità della prestazione ed esperienze di apprendimento",
+    "C": "Stress, ansia e assenteismo",
+    "D": "Selezione, formazione e licenziamento",
+    "corretta": "B",
+    "numero": 285
+  },
+  {
+    "domanda": "Quale può essere un effetto positivo del telelavoro sulla motivazione?",
+    "A": "Riduzione automatica dello stipendio",
+    "B": "Maggiore autonomia operativa",
+    "C": "Eliminazione delle relazioni sociali",
+    "D": "Aumento obbligatorio delle ore lavorate",
+    "corretta": "B",
+    "numero": 286
+  },
+  {
+    "domanda": "Quali sono i tre principali fattori di contesto che interagiscono con i fattori individuali nella motivazione?",
+    "A": "Stipendio, ferie e contratto",
+    "B": "Compito, organizzazione e relazioni sociali",
+    "C": "Età, genere e anzianità",
+    "D": "Tecnologia, salario e orario",
+    "corretta": "B",
+    "numero": 287
+  },
+  {
+    "domanda": "Cosa studiano le teorie di processo della motivazione?",
+    "A": "Una motivazione immutabile",
+    "B": "Come la motivazione si genera, sviluppa e modifica",
+    "C": "Soltanto la motivazione economica",
+    "D": "Soltanto la personalità",
+    "corretta": "B",
+    "numero": 288
+  },
+  {
+    "domanda": "A quale fase dell'azione motivata sono particolarmente associate aspettative e valenze?",
+    "A": "Fase della scelta",
+    "B": "Fase dell'esecuzione",
+    "C": "Fase del controllo finale",
+    "D": "Fase della valutazione medica",
+    "corretta": "A",
+    "numero": 289
+  },
+  {
+    "domanda": "Quale teoria è particolarmente collegata alla fase di pianificazione degli obiettivi?",
+    "A": "Teoria X",
+    "B": "Teoria Y",
+    "C": "Goal Setting Theory",
+    "D": "Teoria dei tratti",
+    "corretta": "C",
+    "numero": 290
+  },
+  {
+    "domanda": "Che cosa implica il processo di autoregolazione?",
+    "A": "Soltanto l'esecuzione automatica",
+    "B": "Pianificare, agire, valutare e correggere il comportamento",
+    "C": "Eliminare gli obiettivi",
+    "D": "Evitare ogni forma di controllo",
+    "corretta": "B",
+    "numero": 291
+  },
+  {
+    "domanda": "Qual è la funzione del confronto nel processo di autoregolazione?",
+    "A": "Fornire supporto emotivo",
+    "B": "Stabilire lo stipendio",
+    "C": "Pianificare le ferie",
+    "D": "Valutare l'adeguatezza dell'azione rispetto a standard prefissati",
+    "corretta": "D",
+    "numero": 292
+  },
+  {
+    "domanda": "Come possono le reazioni interne influenzare comportamento e performance?",
+    "A": "Attraverso aggiustamenti comportamentali e risposte emotive",
+    "B": "Eliminando ogni emozione",
+    "C": "Stabilendo automaticamente gli obiettivi",
+    "D": "Modificando il contratto di lavoro",
+    "corretta": "A",
+    "numero": 293
+  },
+  {
+    "domanda": "Qual è una caratteristica fondamentale della proattività?",
+    "A": "Attendere sempre istruzioni",
+    "B": "Anticipare e agire per influenzare situazioni e risultati",
+    "C": "Evitare il cambiamento",
+    "D": "Rifiutare ogni responsabilità",
+    "corretta": "B",
+    "numero": 294
+  },
+  {
+    "domanda": "Che cosa può accadere in un circolo vizioso motivazionale?",
+    "A": "Ogni insuccesso aumenta necessariamente la motivazione",
+    "B": "Una bassa motivazione può contribuire a una bassa prestazione, che a sua volta può ridurre ulteriormente la motivazione",
+    "C": "La motivazione diventa automaticamente intrinseca",
+    "D": "Il problema riguarda esclusivamente lo stipendio",
+    "corretta": "B",
+    "numero": 295
+  },
+  {
+    "domanda": "Che cosa significa agire con motivazione autonoma?",
+    "A": "Agire esclusivamente per paura",
+    "B": "Agire sulla base di una scelta e di una volontà personale",
+    "C": "Agire esclusivamente per una ricompensa",
+    "D": "Agire senza alcun obiettivo",
+    "corretta": "B",
+    "numero": 296
+  },
+  {
+    "domanda": "Secondo la Teoria X di McGregor, i lavoratori sono considerati prevalentemente:",
+    "A": "Poco inclini al lavoro e bisognosi di controllo",
+    "B": "Sempre autonomi e autodisciplinati",
+    "C": "Sempre orientati all'innovazione",
+    "D": "Naturalmente motivati da ogni compito",
+    "corretta": "A",
+    "numero": 297
+  },
+  {
+    "domanda": "Come considera i lavoratori la Teoria Y di McGregor?",
+    "A": "Come persone necessariamente passive",
+    "B": "Come potenzialmente attive, responsabili e capaci di condividere gli obiettivi",
+    "C": "Come persone motivate soltanto dal denaro",
+    "D": "Come persone incapaci di assumersi responsabilità",
+    "corretta": "B",
+    "numero": 298
+  },
+  {
+    "domanda": "Secondo la teoria di Maslow, quale bisogno si colloca al livello più elevato?",
+    "A": "Fisiologico",
+    "B": "Sicurezza",
+    "C": "Appartenenza",
+    "D": "Autorealizzazione",
+    "corretta": "D",
+    "numero": 299
+  },
+  {
+    "domanda": "Secondo Herzberg, quali fattori possono prevenire l'insoddisfazione senza necessariamente produrre motivazione?",
+    "A": "Fattori motivanti",
+    "B": "Fattori igienici",
+    "C": "Fattori cognitivi",
+    "D": "Fattori sociali",
+    "corretta": "B",
+    "numero": 300
+  },
+  {
+    "domanda": "Quali sono i tre bisogni psicologici fondamentali della Teoria dell'Autodeterminazione?",
+    "A": "Potere, status e denaro",
+    "B": "Autonomia, competenza e relazione",
+    "C": "Sicurezza, salario e carriera",
+    "D": "Controllo, disciplina e obbedienza",
+    "corretta": "B",
+    "numero": 301
+  },
+  {
+    "domanda": "Che cosa indica l'amotivazione?",
+    "A": "Motivazione esclusivamente intrinseca",
+    "B": "Motivazione esclusivamente estrinseca",
+    "C": "Assenza di intenzionalità o motivazione verso l'azione",
+    "D": "Eccesso di motivazione",
+    "corretta": "C",
+    "numero": 302
+  },
+  {
+    "domanda": "Perché Hugo Münsterberg è importante nella psicologia del lavoro?",
+    "A": "Per aver elaborato la teoria X",
+    "B": "Per il suo contributo pionieristico all'applicazione della psicologia al lavoro e alla selezione",
+    "C": "Per aver creato il JCM",
+    "D": "Per aver elaborato la teoria dell'autodeterminazione",
+    "corretta": "B",
+    "numero": 303
+  },
+  {
+    "domanda": "Come concepisce Kurt Lewin il gruppo?",
+    "A": "Come semplice somma degli individui",
+    "B": "Come una totalità dinamica e un sistema di interazioni",
+    "C": "Come un insieme senza struttura",
+    "D": "Come un'organizzazione esclusivamente economica",
+    "corretta": "B",
+    "numero": 304
+  },
+  {
+    "domanda": "Che cos'è una variabile mediatrice?",
+    "A": "Una variabile che elimina la relazione tra due variabili",
+    "B": "Una variabile che aiuta a spiegare attraverso quale meccanismo una variabile influenza un'altra",
+    "C": "Una variabile indipendente casuale",
+    "D": "Una variabile sempre qualitativa",
+    "corretta": "B",
+    "numero": 305
+  },
+  {
+    "domanda": "Che cos'è una variabile moderatrice?",
+    "A": "Una variabile che spiega necessariamente la causa",
+    "B": "Una variabile che modifica la forza o la direzione della relazione tra due variabili",
+    "C": "Una variabile sempre dipendente",
+    "D": "Una variabile priva di effetto",
+    "corretta": "B",
+    "numero": 306
   }
 ]
