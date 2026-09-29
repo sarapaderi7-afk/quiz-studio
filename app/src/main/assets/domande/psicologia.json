@@ -1116,23 +1116,13 @@
     "numero": 124
   },
   {
-    "domanda": "Come la noia può influire sulle prestazioni lavorative:",
-    "A": "la noia aumenta la motivazione intrinseca",
-    "B": "la noia può portare al ritiro dall'impegno",
-    "C": "la noia ha un impatto positivo sulla vigilanza e sull'attenzione sostenuta",
-    "D": "la noia non ha alcuna influenza sulle prestazioni lavorative",
-    "corretta": "",
-    "numero": 125,
-    "_errore": "Risposta corretta non identificata in modo univoco"
-  },
-  {
     "domanda": "Quale testo normativo prevede l'esplicita considerazione del rischio stress lavoro-correlato:",
     "A": "D.lgs. 81/08",
     "B": "Codice civile",
     "C": "D.l. 38/00",
     "D": "D.M. 27/04/04",
     "corretta": "A",
-    "numero": 126
+    "numero": 125
   },
   {
     "domanda": "Cosa rappresenta il termine \"eustress\":",
@@ -1141,7 +1131,7 @@
     "C": "stress percepito come sfide stimolanti",
     "D": "un adattamento fisico-biologico",
     "corretta": "C",
-    "numero": 127
+    "numero": 126
   },
   {
     "domanda": "Secondo il \"Job Demands-Control Model\" quali sono le due caratteristiche fondamentali del lavoro che contribuiscono allo stress lavorativo:",
@@ -1150,7 +1140,7 @@
     "C": "supporto sociale e ambiente fisico",
     "D": "ambiguità di ruolo e soddisfazione lavorativa",
     "corretta": "B",
-    "numero": 128
+    "numero": 127
   },
   {
     "domanda": "Secondo il modello Effort/Reward Imbalance (ERI), cosa è cruciale per lo strain lavorativo:",
@@ -1159,7 +1149,7 @@
     "C": "le ricompense ottenute",
     "D": "il tempo dedicato al lavoro",
     "corretta": "B",
-    "numero": 129
+    "numero": 128
   },
   {
     "domanda": "Quali stressors fanno parte della categoria di \"stressors individuali\":",
@@ -1168,7 +1158,7 @@
     "C": "solo job stressors in senso stretto",
     "D": "solo stressors soggettivamente percepiti; solo stressors connessi a caratteristiche oggettive dell'occupazione; solo job stressors in senso stretto",
     "corretta": "D",
-    "numero": 130
+    "numero": 129
   },
   {
     "domanda": "Quali sono alcune risorse individuali che possono modulare la percezione della minaccia o della gravità delle situazioni stressanti:",
@@ -1177,7 +1167,7 @@
     "C": "il locus of control esterno",
     "D": "la personalità di tipo A",
     "corretta": "B",
-    "numero": 131
+    "numero": 130
   },
   {
     "domanda": "Cosa afferma l'EU-OSHA (2014) riguardo allo stress sul luogo di lavoro:",
@@ -1186,7 +1176,7 @@
     "C": "è una preoccupazione per l'80% dei manager",
     "D": "non ha impatti significativi sulla produttività",
     "corretta": "C",
-    "numero": 132
+    "numero": 131
   },
   {
     "domanda": "Quali sono le tre componenti principali del burnout:",
@@ -1195,7 +1185,7 @@
     "C": "elevato coinvolgimento emotivo, riduzione del cinismo, senso di efficacia professionale ridotta",
     "D": "stress temporaneo, depersonalizzazione, esaurimento emotivo",
     "corretta": "B",
-    "numero": 133
+    "numero": 132
   },
   {
     "domanda": "Cosa implica il coping centrato sul problema:",
@@ -1204,7 +1194,7 @@
     "C": "azioni direttamente orientate a rimuovere le cause del problema",
     "D": "azioni basate sulla fuga dai problemi",
     "corretta": "C",
-    "numero": 134
+    "numero": 133
   },
   {
     "domanda": "Cosa coinvolge la prevenzione terziaria nei contesti aziendali per affrontare lo stress lavorativo:",
@@ -1213,7 +1203,7 @@
     "C": "eliminare o ridurre gli stressors",
     "D": "trattamento e riabilitazione attraverso interventi di sostegno",
     "corretta": "D",
-    "numero": 135
+    "numero": 134
   },
   {
     "domanda": "Qual è l'importanza della cultura aziendale, nei comportamenti controproducenti secondo l'approccio sistemico:",
@@ -1222,7 +1212,7 @@
     "C": "non è correlata ai comportamenti scorretti",
     "D": "può essere completamente ignorata nell'analisi organizzativa",
     "corretta": "B",
-    "numero": 136
+    "numero": 135
   },
   {
     "domanda": "Cosa rappresenta il termine \"Counterproductive Workplace Behavior (CWB)\":",
@@ -1231,7 +1221,7 @@
     "C": "condotte etiche e conformi ai codici aziendali",
     "D": "comportamenti intenzionali contro individui e gli interessi legittimi dell'organizzazione",
     "corretta": "D",
-    "numero": 137
+    "numero": 136
   },
   {
     "domanda": "Perché alcune azioni collettive di protesta potrebbero non essere considerate CWB:",
@@ -1240,7 +1230,7 @@
     "C": "perché mirano a contrastare ingiustizie organizzative",
     "D": "perché non hanno un impatto sulla produzione",
     "corretta": "C",
-    "numero": 138
+    "numero": 137
   },
   {
     "domanda": "Quanti tipi di violenza sul luogo di lavoro vengono individuati da Merchant e Lundell (2001):",
@@ -1249,7 +1239,7 @@
     "C": "quattro",
     "D": "cinque",
     "corretta": "C",
-    "numero": 139
+    "numero": 138
   },
   {
     "domanda": "Secondo Vardi e Weitz, quali sono i tre tipi di intenzioni di base di comportamenti controproducenti:",
@@ -1258,7 +1248,7 @@
     "C": "comportamenti personali, comportamenti organizzativi, comportamenti distruttivi",
     "D": "comportamenti interni, comportamenti esterni, comportamenti personali",
     "corretta": "A",
-    "numero": 140
+    "numero": 139
   },
   {
     "domanda": "Come viene definito il \"workaholism\" da Schaufeli, Taris e Bakker:",
@@ -1267,7 +1257,7 @@
     "C": "come un'approvazione sociale del lavoro incessante",
     "D": "come una predisposizione genetica al lavoro",
     "corretta": "B",
-    "numero": 141
+    "numero": 140
   },
   {
     "domanda": "Cosa sono i casi di \"Karoshi\" accaduti in Giappone, Corea e Cina:",
@@ -1276,7 +1266,7 @@
     "C": "casi di burnout professionale",
     "D": "casi di lavoro eccessivo sino alla morte",
     "corretta": "D",
-    "numero": 142
+    "numero": 141
   },
   {
     "domanda": "Quala sono le conseguenze associate ai comportamenti di \"daily hassles\" nel lungo periodo:",
@@ -1285,7 +1275,7 @@
     "C": "diminuzione della soddisfazione dei dipendenti",
     "D": "diminuzione del rischio di esaurimento emotivo",
     "corretta": "A",
-    "numero": 143
+    "numero": 142
   },
   {
     "domanda": "Quali sono alcuni tra i settori più colpiti da condotte avverse nei luoghi di lavoro:",
@@ -1294,7 +1284,7 @@
     "C": "finanza, pubblicità, servizi legali",
     "D": "arte, cultura, intrattenimento",
     "corretta": "B",
-    "numero": 144
+    "numero": 143
   },
   {
     "domanda": "Secondo il \"modello comportamentista\", cosa può scatenare reazioni aggressive nei luoghi di lavoro:",
@@ -1303,7 +1293,7 @@
     "C": "costrizioni o ostacoli alle azioni",
     "D": "violazione del contratto psicologico",
     "corretta": "C",
-    "numero": 145
+    "numero": 144
   },
   {
     "domanda": "Chi è stato il primo a utilizzare il termine \"mobbing\" per indicare la persecuzione psicologica nell'ambiente di lavoro:",
@@ -1312,7 +1302,7 @@
     "C": "Anders Gustavsson",
     "D": "Harald Ege",
     "corretta": "B",
-    "numero": 146
+    "numero": 145
   },
   {
     "domanda": "Per quanto tempo devono ripetersi gli atti negativi per essere considerati mobbing, secondo i criteri convenzionali menzionati nel testo:",
@@ -1321,7 +1311,7 @@
     "C": "almeno sei mesi",
     "D": "almeno un anno",
     "corretta": "C",
-    "numero": 147
+    "numero": 146
   },
   {
     "domanda": "Cosa implica il mobbing verticale nel contesto lavorativo:",
@@ -1330,7 +1320,7 @@
     "C": "violenze psicologiche da parte di un superiore verso la vittima",
     "D": "azioni vessatorie tra dipendenti e clienti",
     "corretta": "C",
-    "numero": 148
+    "numero": 147
   },
   {
     "domanda": "Quante fasi compongono il modello di Leymann per il mobbing:",
@@ -1339,7 +1329,7 @@
     "C": "sei fasi",
     "D": "tre fasi",
     "corretta": "A",
-    "numero": 149
+    "numero": 148
   },
   {
     "domanda": "Cosa caratterizza lo \"straining\" nel contesto lavorativo:",
@@ -1348,7 +1338,7 @@
     "C": "è indipendente dallo stress e dal mobbing",
     "D": "implica mettere sotto pressione attraverso azioni volte a creare discriminazioni e situazioni di stress forzato nel luogo di lavoro",
     "corretta": "D",
-    "numero": 150
+    "numero": 149
   },
   {
     "domanda": "Quale può essere, rispetto le caratteristiche di personalità, un elemento influente nel manifestarsi del ritardo:",
@@ -1357,7 +1347,7 @@
     "C": "distanza dal posto di lavoro",
     "D": "diagnosi di disturbo paranoide di personalità",
     "corretta": "A",
-    "numero": 151
+    "numero": 150
   },
   {
     "domanda": "In che modo le assenze ingiustificate vengono interpretate in base allo studio di Vardi e Weitz del 2004:",
@@ -1366,7 +1356,7 @@
     "C": "come un atto mirato a infliggere danni diretti all'organizzazione",
     "D": "come una strategia per ottenere vantaggi personali, come una forma di protesta individuale, come un atto mirato a infliggere danni diretti all'organizzazione",
     "corretta": "D",
-    "numero": 152
+    "numero": 151
   },
   {
     "domanda": "Cosa rappresenta il termine \"presenteismo\" nel contesto lavorativo:",
@@ -1375,7 +1365,7 @@
     "C": "la preferenza per lavorare da remoto anziché in ufficio",
     "D": "l'adesione rigorosa agli orari di lavoro",
     "corretta": "B",
-    "numero": 153
+    "numero": 152
   },
   {
     "domanda": "Secondo uno studio condotto in vari paesi europei, qual è la percentuale media di persone che dichiarano di aver lavorato nonostante la malattia negli ultimi 12 mesi:",
@@ -1384,7 +1374,7 @@
     "C": "25%",
     "D": "75%",
     "corretta": "B",
-    "numero": 154
+    "numero": 153
   },
   {
     "domanda": "Secondo uno studio condotto tra i lavoratori di vari settori, qual è la percentuale approssimativa di lavoratori che incorrono almeno una o due volte in furti:",
@@ -1393,7 +1383,7 @@
     "C": "20%",
     "D": "30%",
     "corretta": "C",
-    "numero": 155
+    "numero": 154
   },
   {
     "domanda": "Qual è il principio fondamentale su cui si fonda l'OD:",
@@ -1402,7 +1392,7 @@
     "C": "gli obiettivi dell'organizzazione e quelli degli individui possono coesistere armoniosamente",
     "D": "l'efficienza organizzativa richiede il deterioramento delle condizioni individuali",
     "corretta": "C",
-    "numero": 156
+    "numero": 155
   },
   {
     "domanda": "Su cosa è focalizzata l'attenzione nel paradigma dei sistemi:",
@@ -1411,7 +1401,7 @@
     "C": "le singole componenti in modo isolato",
     "D": "sullo schema logico tradizionale di analisi-sintesi",
     "corretta": "A",
-    "numero": 157
+    "numero": 156
   },
   {
     "domanda": "Chi ha contribuito allo sviluppo del paradigma sistemico concependo l'organizzazione come un sistema sociotecnico:",
@@ -1420,7 +1410,7 @@
     "C": "Ludwig von Bertalanffy",
     "D": "Frederick Taylor",
     "corretta": "B",
-    "numero": 158
+    "numero": 157
   },
   {
     "domanda": "Quale teoria di Lewin è la trasposizione in psicologia del 2° principio della termodinamica di Maxwell:",
@@ -1429,7 +1419,7 @@
     "C": "teoria del Campo",
     "D": "teoria Psicoanalitica",
     "corretta": "C",
-    "numero": 159
+    "numero": 158
   },
   {
     "domanda": "Dove continuò principalmente lo studio della psicologia italiana negli anni '30:",
@@ -1438,7 +1428,7 @@
     "C": "Università di Napoli",
     "D": "Università di Milano",
     "corretta": "D",
-    "numero": 160
+    "numero": 159
   },
   {
     "domanda": "Qual è l'approccio proposto da Bruscaglioni e Spaltro (1991) per categorizzare le teorie organizzative:",
@@ -1447,7 +1437,7 @@
     "C": "Individuale, Collettivo, Organizzativo, Ambientale",
     "D": "Classico, Moderno, Contemporaneo, Postmoderno",
     "corretta": "A",
-    "numero": 161
+    "numero": 160
   },
   {
     "domanda": "In che modo l'approccio sociologico-strutturalista considera l'organizzazione:",
@@ -1456,7 +1446,7 @@
     "C": "come un luogo di equilibrio tra funzioni organizzative",
     "D": "come una piccola società, analizzando la distribuzione del potere, della ricchezza e del lavoro",
     "corretta": "D",
-    "numero": 162
+    "numero": 161
   },
   {
     "domanda": "Cosa rappresenta il potere nell'approccio sociologico-strutturalista:",
@@ -1465,7 +1455,7 @@
     "C": "la funzione principale dell'organizzazione",
     "D": "un elemento estraneo alla struttura organizzativa",
     "corretta": "B",
-    "numero": 163
+    "numero": 162
   },
   {
     "domanda": "Quali tra le seguenti non fa parte delle diverse forme di potere secondo Max Weber:",
@@ -1474,7 +1464,7 @@
     "C": "potere burocratico",
     "D": "potere legale",
     "corretta": "C",
-    "numero": 164
+    "numero": 163
   },
   {
     "domanda": "Secondo Dahrendorf, cosa costituisce le classi nelle organizzazioni:",
@@ -1483,7 +1473,7 @@
     "C": "la distribuzione dell'autorità",
     "D": "la distribuzione del lavoro",
     "corretta": "C",
-    "numero": 165
+    "numero": 164
   },
   {
     "domanda": "In quanti modi può essere interpretata l'analisi del fattore umano e della sua influenza sull'efficienza organizzativa nell'approccio psicosociale del fattore umano:",
@@ -1492,7 +1482,7 @@
     "C": "tre modi",
     "D": "cinque modi",
     "corretta": "C",
-    "numero": 166
+    "numero": 165
   },
   {
     "domanda": "Cosa rappresenta il gruppo nell'approccio psicosociale del fattore umano:",
@@ -1501,7 +1491,7 @@
     "C": "una componente trascurabile nelle analisi organizzative",
     "D": "una fonte di inefficienza",
     "corretta": "B",
-    "numero": 167
+    "numero": 166
   },
   {
     "domanda": "Come è definito l'operato di un'organizzazione nell'approccio sistemico-funzionalista:",
@@ -1510,7 +1500,7 @@
     "C": "come il processo di trasformazione di input in output",
     "D": "come la gestione della cultura organizzativa",
     "corretta": "C",
-    "numero": 168
+    "numero": 167
   },
   {
     "domanda": "Qual è la posizione schizoparanoide secondo Klein, e quando emerge:",
@@ -1519,7 +1509,7 @@
     "C": "il riconoscimento dell'unità della madre, che emerge nell'adolescenza",
     "D": "il conflitto edipico, che emerge nell'infanzia",
     "corretta": "A",
-    "numero": 169
+    "numero": 168
   },
   {
     "domanda": "Cosa suggerisce la teoria della \"sensemaking\" di Karl Weick riguardo alle organizzazioni:",
@@ -1528,7 +1518,7 @@
     "C": "le organizzazioni possiedono una struttura stabile",
     "D": "le organizzazioni sono costantemente coinvolte nel processo di dare significato al loro ambiente e alle situazioni che affrontano",
     "corretta": "D",
-    "numero": 170
+    "numero": 169
   },
   {
     "domanda": "Come viene definito il concetto di competenza da Quaglino:",
@@ -1537,7 +1527,7 @@
     "C": "come investimento personale",
     "D": "come totalità delle abilità definite attraverso l'analisi dei processi produttivi",
     "corretta": "A",
-    "numero": 171
+    "numero": 170
   },
   {
     "domanda": "Cosa rappresenta l'Approccio Olistico alle Competenze (AOC):",
@@ -1546,7 +1536,7 @@
     "C": "un modello che considera solo le competenze individuali",
     "D": "un'analisi delle competenze indipendente dal contesto organizzativo",
     "corretta": "B",
-    "numero": 172
+    "numero": 171
   },
   {
     "domanda": "Cosa caratterizza le attitudini rispetto alle abilità:",
@@ -1555,7 +1545,7 @@
     "C": "le attitudini e le abilità sono equiparabili",
     "D": "le attitudini riguardano solo il comportamento effettivo",
     "corretta": "A",
-    "numero": 173
+    "numero": 172
   },
   {
     "domanda": "Cosa rappresenta la personalità nell'ambiente lavorativo:",
@@ -1564,7 +1554,7 @@
     "C": "una componente della competenza cognitiva",
     "D": "un'abilità procedurale",
     "corretta": "B",
-    "numero": 174
+    "numero": 173
   },
   {
     "domanda": "Quante fasi identifica il ciclo di vita organizzativo, e quali sono:",
@@ -1573,7 +1563,7 @@
     "C": "cinque fasi: nascita, sviluppo, mezza età, maturità, declino/rinnovamento",
     "D": "sei fasi: inizio, crescita, consolidamento, declino, rinnovamento, fine",
     "corretta": "C",
-    "numero": 175
+    "numero": 174
   },
   {
     "domanda": "Qual è il ruolo del \"mission statement\" nella progettazione strategica di un'organizzazione:",
@@ -1582,7 +1572,7 @@
     "C": "indirizzare l'organizzazione verso un successo futuro",
     "D": "definire chiaramente cosa l'organizzazione è e cosa non è",
     "corretta": "A",
-    "numero": 176
+    "numero": 175
   },
   {
     "domanda": "Secondo Senge (1992), qual è la definizione di vision:",
@@ -1591,7 +1581,7 @@
     "C": "un'astrazione nella ricerca di strumenti motivazionali",
     "D": "un concetto legato alla persuasione nei modelli aziendali",
     "corretta": "B",
-    "numero": 177
+    "numero": 176
   },
   {
     "domanda": "Qual è l'obiettivo principale dei sistemi coercitivi nelle organizzazioni, come descritti da Etzioni (1967):",
@@ -1600,7 +1590,7 @@
     "C": "basarsi sui valori condivisi per controllare il comportamento",
     "D": "creare contratti basati su un orientamento strumentale",
     "corretta": "B",
-    "numero": 178
+    "numero": 177
   },
   {
     "domanda": "In cosa consiste il potere coercitivo all'interno delle organizzazioni, secondo French e Raven (1959):",
@@ -1609,7 +1599,7 @@
     "C": "riflette l'autorità razionale-legale di Max Weber",
     "D": "si basa sulla capacità di infliggere punizioni a coloro che non aderiscono alle richieste",
     "corretta": "D",
-    "numero": 179
+    "numero": 178
   },
   {
     "domanda": "Quale vantaggio offre la struttura a matrice:",
@@ -1618,7 +1608,7 @@
     "C": "presenza di molteplici responsabili per lo stesso progetto",
     "D": "tendenza a generare \"autonomie\" e \"indipendenze\" non coordinate tra le singole divisioni",
     "corretta": "A",
-    "numero": 180
+    "numero": 179
   },
   {
     "domanda": "Su cosa si basa la prospettiva fenomenologica:",
@@ -1627,7 +1617,7 @@
     "C": "intersoggetività di Edmund Husserl",
     "D": "positivismo logico di Ludwig Wittgenstein",
     "corretta": "C",
-    "numero": 181
+    "numero": 180
   },
   {
     "domanda": "Secondo Schein (2000), qual è la definizione formale di cultura organizzativa:",
@@ -1636,7 +1626,7 @@
     "C": "una base per interpretare la situazione organizzativa",
     "D": "un insieme di assunti basilari che un certo gruppo ha inventato, scoperto o sviluppato",
     "corretta": "D",
-    "numero": 182
+    "numero": 181
   },
   {
     "domanda": "Cosa predice, secondo Fukuyama (1995), la socievolezza spontanea nelle organizzazioni:",
@@ -1645,7 +1635,7 @@
     "C": "la variabilità nella capacità di fornire un contesto per economie globali",
     "D": "la riduzione dei costi derivanti dalle controversie",
     "corretta": "B",
-    "numero": 183
+    "numero": 182
   },
   {
     "domanda": "Quali sono le tre categorie di dimensioni considerate per comprendere la fiducia organizzativa:",
@@ -1654,7 +1644,7 @@
     "C": "dimensioni Culturale, Organizzativa e Comunicativa",
     "D": "dimensioni Tecnologico, Sociale ed Etico",
     "corretta": "A",
-    "numero": 184
+    "numero": 183
   },
   {
     "domanda": "Quale tra le seguenti è una dimensione della fiducia organizzativa:",
@@ -1663,7 +1653,7 @@
     "C": "promiscuità",
     "D": "interoperabilità",
     "corretta": "A",
-    "numero": 185
+    "numero": 184
   },
   {
     "domanda": "Cosa caratterizza l'approccio situazionista alla leadership:",
@@ -1672,7 +1662,7 @@
     "C": "l'analisi delle situazioni specifiche in cui emergono le caratteristiche di personalità del leader",
     "D": "il focus sul dibattito tra natura e cultura",
     "corretta": "C",
-    "numero": 186
+    "numero": 185
   },
   {
     "domanda": "qual è stata una delle limitazioni evidenziate dall'approccio innatista della leadership:",
@@ -1681,7 +1671,7 @@
     "C": "la prevalenza della fiducia in sé stessi tra i leader",
     "D": "l'assenza di tratti comuni tra i leader",
     "corretta": "B",
-    "numero": 187
+    "numero": 186
   },
   {
     "domanda": "In cosa consiste la teoria della \"legge della situazione\" di Tannenbaum e Schmidt:",
@@ -1690,7 +1680,7 @@
     "C": "nell'applicazione esclusiva del modello democratico-partecipativo",
     "D": "nella predeterminazione del comportamento del leader in base al contesto",
     "corretta": "A",
-    "numero": 188
+    "numero": 187
   },
   {
     "domanda": "Qual è il risultato della combinazione massima di orientamento al compito e alle relazioni nella Managerial Grid:",
@@ -1699,7 +1689,7 @@
     "C": "stile autoritario",
     "D": "stile partecipativo",
     "corretta": "A",
-    "numero": 189
+    "numero": 188
   },
   {
     "domanda": "Cosa sottolinea la teoria situazionale sulla leadership:",
@@ -1708,7 +1698,7 @@
     "C": "la predominanza di uno stile autocratico",
     "D": "l'approccio taylorista alla leadership",
     "corretta": "B",
-    "numero": 190
+    "numero": 189
   },
   {
     "domanda": "Secondo Fiedler, cosa determina il successo di un leader in una situazione:",
@@ -1717,7 +1707,7 @@
     "C": "la leadership democratica",
     "D": "l'orientamento al compito del leader",
     "corretta": "B",
-    "numero": 191
+    "numero": 190
   },
   {
     "domanda": "Quanti sono gli stili decisionali considerati nella teoria di Vroom e Yetton:",
@@ -1726,7 +1716,7 @@
     "C": "cinque",
     "D": "sei",
     "corretta": "C",
-    "numero": 192
+    "numero": 191
   },
   {
     "domanda": "Cosa caratterizza la Path-Goal Theory di House:",
@@ -1735,7 +1725,7 @@
     "C": "la focalizzazione sulle abilità lavorative dei collaboratori",
     "D": "l'importanza del raggiungimento degli obiettivi tecnici",
     "corretta": "A",
-    "numero": 193
+    "numero": 192
   },
   {
     "domanda": "Quale tra i seguenti non è uno degli stili di leadership identificati da Hersey e Blanchard:",
@@ -1744,7 +1734,7 @@
     "C": "stile di vendita",
     "D": "stile di delega",
     "corretta": "A",
-    "numero": 194
+    "numero": 193
   },
   {
     "domanda": "Secondo Kenneth Rice, quale conseguenza può derivare dal collasso della leadership in un'organizzazione:",
@@ -1753,7 +1743,7 @@
     "C": "maggiore autonomia dei dipendenti",
     "D": "regressione a livello individuale, di gruppo e istituzionale",
     "corretta": "D",
-    "numero": 195
+    "numero": 194
   },
   {
     "domanda": "Secondo Kotter, qual è la principale differenza tra management e leadership:",
@@ -1762,7 +1752,7 @@
     "C": "management si basa sulla razionalità, leadership sull'utilitarismo",
     "D": "management è adattativo, leadership è generativa",
     "corretta": "B",
-    "numero": 196
+    "numero": 195
   },
   {
     "domanda": "Su quale assunto si basa il modello del gruppo come fatto collettivo:",
@@ -1771,7 +1761,7 @@
     "C": "il gruppo come metodologia per il raggiungimento di obiettivi individuali",
     "D": "il gruppo come dinamica collettiva",
     "corretta": "A",
-    "numero": 197
+    "numero": 196
   },
   {
     "domanda": "Cosa suggerisce la teoria del confronto sociale di Festinger riguardo alla formazione di gruppi:",
@@ -1780,7 +1770,7 @@
     "C": "le persone cercano di confrontare se stesse con gli altri",
     "D": "il confronto sociale è inutile per valutare se stessi",
     "corretta": "C",
-    "numero": 198
+    "numero": 197
   },
   {
     "domanda": "Secondo la teoria dell'apprendimento attraverso rinforzi positivi, cosa contribuisce a formare un comportamento gregario nell'individuo:",
@@ -1789,7 +1779,7 @@
     "C": "associazione tra presenza degli altri e esperienze positive",
     "D": "assenza completa di interazioni sociali",
     "corretta": "C",
-    "numero": 199
+    "numero": 198
   },
   {
     "domanda": "In che modo Kurt Lewin descrive la struttura di un gruppo:",
@@ -1798,7 +1788,7 @@
     "C": "isolata dai membri",
     "D": "indipendente dal contesto ambientale",
     "corretta": "B",
-    "numero": 200
+    "numero": 199
   },
   {
     "domanda": "Qual è il concetto introdotto da Bion che si riferisce alle fantasie inconsce che influenzano il comportamento del gruppo:",
@@ -1807,7 +1797,7 @@
     "C": "cultura di gruppo",
     "D": "cooperazione di gruppo",
     "corretta": "B",
-    "numero": 201
+    "numero": 200
   },
   {
     "domanda": "Cosa rappresentano gli assunti di base all'interno del gruppo di lavoro:",
@@ -1816,7 +1806,7 @@
     "C": "soddisfazione dei bisogni",
     "D": "dinamiche di interazione",
     "corretta": "A",
-    "numero": 202
+    "numero": 201
   },
   {
     "domanda": "Secondo Quaglino, in che modo il gruppo può soddisfare il bisogno di identità:",
@@ -1825,7 +1815,7 @@
     "C": "utilizzando il feedback degli altri sulla propria immagine",
     "D": "evitando la perdita parziale dell'immagine di sé",
     "corretta": "C",
-    "numero": 203
+    "numero": 202
   },
   {
     "domanda": "Cosa definiva Lewin come \"groupship\" nella dimensione mentale del gruppo:",
@@ -1834,7 +1824,7 @@
     "C": "la tendenza alla leadership",
     "D": "qualcosa di diverso dalla somma dei singoli",
     "corretta": "D",
-    "numero": 204
+    "numero": 203
   },
   {
     "domanda": "Secondo Gibson e Tesone (2001), in che modo sono state accolte le pratiche organizzative team-based negli Stati Uniti:",
@@ -1843,7 +1833,7 @@
     "C": "accettazione indiscriminata",
     "D": "accettazione limitata",
     "corretta": "C",
-    "numero": 205
+    "numero": 204
   },
   {
     "domanda": "Cosa rappresenta il sistema dei ruoli in un gruppo di lavoro:",
@@ -1852,7 +1842,7 @@
     "C": "le aspettative unilaterali degli individui",
     "D": "l'equilibrio tra obiettivi individuali e collettivi",
     "corretta": "B",
-    "numero": 206
+    "numero": 205
   },
   {
     "domanda": "Qual stadio è stato aggiunto successivamente al modello di sviluppo dei gruppi proposto da Tuckman:",
@@ -1861,7 +1851,7 @@
     "C": "amicizia",
     "D": "aggiornamento",
     "corretta": "B",
-    "numero": 207
+    "numero": 206
   },
   {
     "domanda": "Durante quale fase del modello di Tuckman si manifestano conflitti e ostilità tra i membri del gruppo:",
@@ -1870,7 +1860,7 @@
     "C": "norming",
     "D": "performing",
     "corretta": "D",
-    "numero": 208
+    "numero": 207
   },
   {
     "domanda": "Qual è il principale risultato della fase conclusiva nel modello di Forsyth:",
@@ -1879,7 +1869,7 @@
     "C": "scioglimento del gruppo una volta raggiunto il suo scopo",
     "D": "avvio del processo di formazione di un nuovo gruppo",
     "corretta": "C",
-    "numero": 209
+    "numero": 208
   },
   {
     "domanda": "Come si descrivono le fasi nel modello di Schutz:",
@@ -1888,7 +1878,7 @@
     "C": "cinque fasi distinte che caratterizzano il processo evolutivo del gruppo",
     "D": "fasi dinamiche che si focalizzano esclusivamente sul potere e la leadership nel gruppo",
     "corretta": "B",
-    "numero": 210
+    "numero": 209
   },
   {
     "domanda": "Cosa può generare coesione all'interno di un gruppo, secondo Indik:",
@@ -1897,7 +1887,7 @@
     "C": "riduzione della comunicazione significativa",
     "D": "riduzione della numerosità del gruppo",
     "corretta": "D",
-    "numero": 211
+    "numero": 210
   },
   {
     "domanda": "Come definisce Miles la salute organizzativa:",
@@ -1906,7 +1896,7 @@
     "C": "l'abilità del sistema di autogenerarsi",
     "D": "l'abilità del sistema di produrre nuove possibilità di lavoro",
     "corretta": "B",
-    "numero": 212
+    "numero": 211
   },
   {
     "domanda": "Qual era la prospettiva prevalente riguardo alla salute e alla sicurezza sul luogo di lavoro durante gli anni Trenta-Quaranta in Nord America:",
@@ -1915,7 +1905,7 @@
     "C": "una prospettiva basata sull'equilibrio tra lavoro e vita privata",
     "D": "una prospettiva incentrata sull'innovazione tecnologica",
     "corretta": "B",
-    "numero": 213
+    "numero": 212
   },
   {
     "domanda": "Cosa distingue la Health Protection dalla Health Promotion secondo Glasgow e Terborg:",
@@ -1924,7 +1914,7 @@
     "C": "la Health Protection mira a proteggere il maggior numero possibile di persone dalle minacce alla salute, mentre la Health Promotion incoraggia scelte ponderate per migliorare la salute",
     "D": "la Health Protection si occupa esclusivamente delle condizioni ambientali, mentre la Health Promotion considera i comportamenti individuali",
     "corretta": "C",
-    "numero": 214
+    "numero": 213
   },
   {
     "domanda": "Quali sono i principali sviluppi concettuali che hanno contribuito alla nascita dell'Occupational Health Psychology (OHP):",
@@ -1933,7 +1923,7 @@
     "C": "studi sull'efficienza lavorativa e sulla produttività",
     "D": "studi sulla salute fisica e sugli infortuni sul lavoro",
     "corretta": "B",
-    "numero": 215
+    "numero": 214
   },
   {
     "domanda": "Chi ha fondato la rivista Work and Stress nel 1987:",
@@ -1942,7 +1932,7 @@
     "C": "Jhon Cooper",
     "D": "Julian Barling",
     "corretta": "A",
-    "numero": 216
+    "numero": 215
   },
   {
     "domanda": "Quali sono alcuni dei temi centrali condivisi che caratterizzano la ricerca e l'intervento nel campo della salute organizzativa:",
@@ -1951,7 +1941,7 @@
     "C": "la fisiologia della salute e le patologie da lavoro",
     "D": "la gestione delle risorse umane e la tecnologia della sicurezza",
     "corretta": "D",
-    "numero": 217
+    "numero": 216
   },
   {
     "domanda": "Secondo Oldham e Gordonla la mancanza di congruenza tra abilità cognitive e complessità del lavoro cosa può causare:",
@@ -1960,7 +1950,7 @@
     "C": "necessità di aggiornamento professionale",
     "D": "regressione e declino organizzativo",
     "corretta": "A",
-    "numero": 218
+    "numero": 217
   },
   {
     "domanda": "Quali sono i due principali tipi di assunti fondanti nella riflessione sulla psicologia e sociologia delle organizzazioni:",
@@ -1969,7 +1959,7 @@
     "C": "assunti sull'ontologia e sul determinismo",
     "D": "assunti sulla gnoseologia e sull'orientamento nomotetico",
     "corretta": "B",
-    "numero": 219
+    "numero": 218
   },
   {
     "domanda": "Cosa rappresenta il concetto di \"paradigma\" nei contesti della psicologia e della sociologia delle organizzazioni:",
@@ -1978,7 +1968,7 @@
     "C": "una combinazione di elementi che delineano una visione del mondo e una prospettiva di ricerca specifica",
     "D": "una metodologia di ricerca",
     "corretta": "C",
-    "numero": 220
+    "numero": 219
   },
   {
     "domanda": "Secondo il testo, quale paradigma considera la società contemporanea caratterizzata da conflitti che generano cambiamenti radicali attraverso crisi politiche ed economiche:",
@@ -1987,7 +1977,7 @@
     "C": "paradigma umanista radicale",
     "D": "paradigma strutturalista radicale",
     "corretta": "D",
-    "numero": 221
+    "numero": 220
   },
   {
     "domanda": "Quali sono i quattro livelli che compongono il modello della \"griglia della salute organizzativa\" proposto da Williams:",
@@ -1996,7 +1986,7 @@
     "C": "fattori biologici, fisici, psicologici e sociali",
     "D": "fattori individuali, organizzativi, comportamentali e culturali",
     "corretta": "B",
-    "numero": 222
+    "numero": 221
   },
   {
     "domanda": "Secondo Jaffe, quale prospettiva di studio e ricerca sulla salute organizzativa si concentra sull'interconnessione tra comportamento individuale e efficacia organizzativa:",
@@ -2005,7 +1995,7 @@
     "C": "prospettiva psicodinamico-sociale",
     "D": "prospettiva dello sviluppo organizzativo o della riprogettazione organizzativa",
     "corretta": "D",
-    "numero": 223
+    "numero": 222
   },
   {
     "domanda": "Secondo Karasek e Theorell, quali sono le tre variabili chiave considerate nel loro modello di stress e riprogettazione del lavoro:",
@@ -2014,7 +2004,7 @@
     "C": "richieste sul lavoro, controllo percepito, supporto sociale",
     "D": "stress psicologico, fattori fisici, relazioni interpersonali",
     "corretta": "C",
-    "numero": 224
+    "numero": 223
   },
   {
     "domanda": "Cosa si intende per job burnout secondo Maslach e Leiter:",
@@ -2023,7 +2013,7 @@
     "C": "stanchezza psicofisica, cinismo, ridotta efficacia personale",
     "D": "soddisfazione lavorativa e benessere organizzativo",
     "corretta": "C",
-    "numero": 225
+    "numero": 224
   },
   {
     "domanda": "Chi ha studiato i modelli di gestione efficace in diverse grandi organizzazioni, identificando fattori funzionali per creare elevati livelli di motivazione al lavoro:",
@@ -2032,7 +2022,7 @@
     "C": "Kaplan et al.",
     "D": "Kets de Vries e Miller",
     "corretta": "A",
-    "numero": 226
+    "numero": 225
   },
   {
     "domanda": "Quali sono alcune delle conseguenze dei cambiamenti nel mercato del lavoro menzionati nel testo:",
@@ -2041,7 +2031,7 @@
     "C": "ampio utilizzo della tecnologia",
     "D": "possibilità di lavorare da casa",
     "corretta": "D",
-    "numero": 227
+    "numero": 226
   },
   {
     "domanda": "Cosa indica il termine \"Total Quality Management\" (TQM):",
@@ -2050,7 +2040,7 @@
     "C": "un sistema di gestione incentrato sulla centralizzazione delle decisioni",
     "D": "una tecnica per massimizzare gli sprechi di risorse",
     "corretta": "B",
-    "numero": 228
+    "numero": 227
   },
   {
     "domanda": "Qual è uno dei vantaggi della Gig Economy:",
@@ -2059,7 +2049,7 @@
     "C": "maggiore autonomia e flessibilità",
     "D": "stabilità economica garantita",
     "corretta": "C",
-    "numero": 229
+    "numero": 228
   },
   {
     "domanda": "Qual è uno dei cambiamenti osservati nei settori lavorativi a seguito dei progressi tecnologici:",
@@ -2068,7 +2058,7 @@
     "C": "movimento verso settori terziari caratterizzati da natura operativa",
     "D": "ridefinizione della composizione della forza lavoro",
     "corretta": "D",
-    "numero": 230
+    "numero": 229
   },
   {
     "domanda": "Qual è uno dei principali cambiamenti demografici nella forza lavoro:",
@@ -2077,7 +2067,7 @@
     "C": "innalzamento dell'età della forza lavoro",
     "D": "crescente numero di lavoratori immigrati",
     "corretta": "C",
-    "numero": 231
+    "numero": 230
   },
   {
     "domanda": "Qual è l'approccio degli interventi sullo stress definiti dalla Commissione europea del 1999:",
@@ -2086,7 +2076,7 @@
     "C": "approccio integrato",
     "D": "approccio medico",
     "corretta": "C",
-    "numero": 232
+    "numero": 231
   },
   {
     "domanda": "Qual è l'obiettivo degli interventi sullo stress a livello organizzativo:",
@@ -2095,7 +2085,7 @@
     "C": "miglioramento delle condizioni lavorative",
     "D": "ristrutturazione dell'organizzazione del lavoro",
     "corretta": "A",
-    "numero": 233
+    "numero": 232
   },
   {
     "domanda": "Qual è stata la principale tendenza evidenziata nelle prime rassegne sugli interventi per la gestione dello stress nelle organizzazioni:",
@@ -2104,7 +2094,7 @@
     "C": "maggiore enfasi sugli interventi a livello comunitario",
     "D": "maggiore enfasi sugli interventi a livello di interfaccia individuo-organizzazione",
     "corretta": "B",
-    "numero": 234
+    "numero": 233
   },
   {
     "domanda": "Qual è la principale differenza tra gli interventi sociotecnici e gli interventi psicosociali:",
@@ -2113,7 +2103,7 @@
     "C": "gli interventi sociotecnici sono esclusivamente orientati verso gli aspetti tecnologici del lavoro, mentre gli interventi psicosociali sono orientati verso gli aspetti sociali del lavoro",
     "D": "gli interventi sociotecnici sono orientati verso gli aspetti tecnici e strutturali dell'organizzazione del lavoro, mentre gli interventi psicosociali mirano a migliorare il benessere emotivo e sociale dei lavoratori",
     "corretta": "D",
-    "numero": 235
+    "numero": 234
   },
   {
     "domanda": "Qual è uno degli obiettivi principali degli interventi sociotecnici menzionati nella lezione:",
@@ -2122,7 +2112,7 @@
     "C": "modificare le condizioni lavorative attraverso aspetti pratici e strutturali come l'orario di lavoro e il carico lavorativo",
     "D": "promuovere la partecipazione dei dipendenti nelle fasi di valutazione e pianificazione degli interventi",
     "corretta": "C",
-    "numero": 236
+    "numero": 235
   },
   {
     "domanda": "Qual è uno degli obiettivi principali degli interventi psicosociali menzionati nel testo:",
@@ -2131,7 +2121,7 @@
     "C": "migliorare il benessere psicologico e sociale dei lavoratori",
     "D": "aumentare la produttività tramite l'introduzione di nuove tecnologie",
     "corretta": "C",
-    "numero": 237
+    "numero": 236
   },
   {
     "domanda": "Quali sono le tradizioni di ricerca su cui si basa la PAR:",
@@ -2140,7 +2130,7 @@
     "C": "ricerca longitudinale, ricerca trasversale, ricerca qualitativa",
     "D": "ricerca classica, ricerca-intervento, ricerca partecipativa",
     "corretta": "D",
-    "numero": 238
+    "numero": 237
   },
   {
     "domanda": "Cosa rappresenta la PAR negli interventi psicosociali:",
@@ -2149,7 +2139,7 @@
     "C": "un approccio basato sul cambiamento individuale dei dipendenti",
     "D": "un approccio di consulenza esterna separato dall'organizzazione",
     "corretta": "B",
-    "numero": 239
+    "numero": 238
   },
   {
     "domanda": "Qual è uno degli obiettivi dei circoli sulla salute:",
@@ -2158,7 +2148,7 @@
     "C": "pianificare interventi solo in risposta a problemi di assenteismo",
     "D": "limitare il coinvolgimento del personale medico aziendale nel processo di valutazione del rischio",
     "corretta": "B",
-    "numero": 240
+    "numero": 239
   },
   {
     "domanda": "Qual è uno dei fattori chiave per il successo degli interventi sulla salute organizzativa:",
@@ -2167,7 +2157,7 @@
     "C": "coinvolgimento limitato dei lavoratori nella fase di valutazione",
     "D": "mancanza di supporto attivo dagli attori chiave dell'organizzazione",
     "corretta": "A",
-    "numero": 241
+    "numero": 240
   },
   {
     "domanda": "Qual è uno dei principali obiettivi degli Employee Assistance Programs (EAP):",
@@ -2176,7 +2166,7 @@
     "C": "fornire supporto per problemi personali che non influenzano le prestazioni lavorative",
     "D": "offrire sostegno all'organizzazione e ai lavoratori per affrontare questioni personali che potrebbero influenzare le prestazioni sul lavoro",
     "corretta": "D",
-    "numero": 242
+    "numero": 241
   },
   {
     "domanda": "Qual è stata l'evoluzione principale degli Employee Assistance Programs (EAP) nel corso del tempo:",
@@ -2185,7 +2175,7 @@
     "C": "ampliamento del focus per includere anche questioni legate al contesto lavorativo",
     "D": "riduzione del supporto offerto ai dipendenti nel corso degli anni",
     "corretta": "C",
-    "numero": 243
+    "numero": 242
   },
   {
     "domanda": "Quali sono i tre modelli principali di assistenza nei Programmi di assistenza ai lavoratori (EAP) secondo Jones (1985):",
@@ -2194,7 +2184,7 @@
     "C": "programmi di consulenza, programmi di formazione, programmi di sostegno finanziario",
     "D": "programmi psicologici, programmi medici, programmi legali",
     "corretta": "B",
-    "numero": 244
+    "numero": 243
   },
   {
     "domanda": "Qual è la durata del programma di \"Controllo e prevenzione dello stress\" dell'IPSSO:",
@@ -2203,7 +2193,7 @@
     "C": "un mese",
     "D": "sei mesi",
     "corretta": "B",
-    "numero": 245
+    "numero": 244
   },
   {
     "domanda": "Qual è l'obiettivo principale del \"stress team\" della polizia federale belga:",
@@ -2212,7 +2202,7 @@
     "C": "condurre indagini su eventi traumatici",
     "D": "organizzare eventi di team building",
     "corretta": "B",
-    "numero": 246
+    "numero": 245
   },
   {
     "domanda": "Perché è importante condurre una valutazione finale di un progetto organizzativo:",
@@ -2221,7 +2211,7 @@
     "C": "per monitorare il progresso nel tempo",
     "D": "per assicurare la trasparenza finanziaria",
     "corretta": "A",
-    "numero": 247
+    "numero": 246
   },
   {
     "domanda": "Quali sono i parametri considerati nella valutazione dei programmi organizzativi:",
@@ -2230,7 +2220,7 @@
     "C": "prestigio, innovazione, competizione",
     "D": "sostenibilità, diversità, responsabilità sociale",
     "corretta": "B",
-    "numero": 248
+    "numero": 247
   },
   {
     "domanda": "Cosa rappresenta l'efficacia di un intervento:",
@@ -2239,7 +2229,7 @@
     "C": "l'impatto finanziario dell'intervento sull'organizzazione",
     "D": "la complessità delle strategie impiegate durante l'intervento",
     "corretta": "A",
-    "numero": 249
+    "numero": 248
   },
   {
     "domanda": "Cosa rappresenta il concetto di \"efficacia pratica\" (effectiveness) di un programma di promozione della salute:",
@@ -2248,7 +2238,7 @@
     "C": "la capacità di produrre risultati positivi nel contesto reale in cui viene implementato",
     "D": "la sua validità interna riscontrata tramite trial clinici randomizzati",
     "corretta": "C",
-    "numero": 250
+    "numero": 249
   },
   {
     "domanda": "Qual è una delle limitazioni comuni individuate nella valutazione dell'efficacia degli interventi organizzativi, secondo Parkes e Sparkes (1998):",
@@ -2257,7 +2247,7 @@
     "C": "l'uso prevalente di misure oggettive",
     "D": "la mancanza di un gruppo di controllo",
     "corretta": "D",
-    "numero": 251
+    "numero": 250
   },
   {
     "domanda": "Quante dimensioni principali caratterizzano il costrutto di salute organizzativa:",
@@ -2266,7 +2256,7 @@
     "C": "dodici",
     "D": "quattordici",
     "corretta": "D",
-    "numero": 252
+    "numero": 251
   },
   {
     "domanda": "Quale impatto ha l'ascolto attivo nell'ambito della salute organizzativa:",
@@ -2275,7 +2265,7 @@
     "C": "valorizza le competenze dei dipendenti",
     "D": "facilita il turnover",
     "corretta": "A",
-    "numero": 253
+    "numero": 252
   },
   {
     "domanda": "Quali sono le caratteristiche di un ambiente relazionale stimolato dall'organizzazione:",
@@ -2284,7 +2274,7 @@
     "C": "aperto, trasparente, collaborativo",
     "D": "comunicativo, competitivo, conflittuale",
     "corretta": "C",
-    "numero": 254
+    "numero": 253
   },
   {
     "domanda": "Cosa indica la \"sensazione di autorealizzazione\" nell'ambito della salute organizzativa:",
@@ -2293,7 +2283,7 @@
     "C": "il piacere quotidiano di recarsi al lavoro",
     "D": "la fiducia nella capacità dell'organizzazione di superare gli aspetti negativi esistenti",
     "corretta": "B",
-    "numero": 255
+    "numero": 254
   },
   {
     "domanda": "Cosa rappresenta la \"confusione organizzativa\" come indicatore negativo di salute organizzativa:",
@@ -2302,7 +2292,7 @@
     "C": "la mancanza di chiarezza sui ruoli e le responsabilità all'interno dell'organizzazione",
     "D": "l'eccessivo rumore prodotto all'interno del contesto lavorativo",
     "corretta": "C",
-    "numero": 256
+    "numero": 255
   },
   {
     "domanda": "Qual è la ragione principale per cui le risorse umane sono considerate una risorsa chiave nelle organizzazioni?",
@@ -2311,7 +2301,7 @@
     "C": "Perché la loro gestione è standardizzata",
     "D": "Perché sono agenti di cambiamento, innovazione e adattamento ai mutamenti",
     "corretta": "D",
-    "numero": 257
+    "numero": 256
   },
   {
     "domanda": "Oltre alla gestione delle criticità, quale altro obiettivo fondamentale persegue la psicologia del lavoro?",
@@ -2320,7 +2310,7 @@
     "C": "Riconoscere e valorizzare le risorse individuali e le condotte positive",
     "D": "Automatizzare i processi lavorativi",
     "corretta": "C",
-    "numero": 258
+    "numero": 257
   },
   {
     "domanda": "Quali dimensioni vengono maggiormente enfatizzate dalla prospettiva psicologica nello studio del lavoro?",
@@ -2329,7 +2319,7 @@
     "C": "Aspetti esclusivamente giuridici",
     "D": "Bilancio e rendicontazione",
     "corretta": "B",
-    "numero": 259
+    "numero": 258
   },
   {
     "domanda": "Che cosa caratterizza principalmente la motivazione intrinseca?",
@@ -2338,7 +2328,7 @@
     "C": "La paura di una sanzione",
     "D": "La pressione del superiore",
     "corretta": "A",
-    "numero": 260
+    "numero": 259
   },
   {
     "domanda": "Che cosa caratterizza la motivazione estrinseca?",
@@ -2347,7 +2337,7 @@
     "C": "L'assenza di motivazione",
     "D": "La curiosità personale",
     "corretta": "B",
-    "numero": 261
+    "numero": 260
   },
   {
     "domanda": "Che cos'è il contratto psicologico?",
@@ -2356,7 +2346,7 @@
     "C": "Il regolamento aziendale",
     "D": "Il contratto collettivo nazionale",
     "corretta": "B",
-    "numero": 262
+    "numero": 261
   },
   {
     "domanda": "Qual è la differenza tra compiti prescritti e compiti reali?",
@@ -2365,7 +2355,7 @@
     "C": "I prescritti sono sempre più complessi",
     "D": "I reali sono esclusivamente quelli indicati nel contratto",
     "corretta": "B",
-    "numero": 263
+    "numero": 262
   },
   {
     "domanda": "Quali sono i due principali approcci alla sicurezza sul lavoro?",
@@ -2374,7 +2364,7 @@
     "C": "Psicologico e medico",
     "D": "Individuale e giuridico",
     "corretta": "B",
-    "numero": 264
+    "numero": 263
   },
   {
     "domanda": "Secondo l'approccio individualistico alla sicurezza, l'infortunio viene principalmente ricondotto a:",
@@ -2383,7 +2373,7 @@
     "C": "Un problema economico",
     "D": "Un cambiamento tecnologico",
     "corretta": "A",
-    "numero": 265
+    "numero": 264
   },
   {
     "domanda": "Secondo l'approccio organizzativo alla sicurezza, un errore può derivare da:",
@@ -2392,7 +2382,7 @@
     "C": "Una serie di fattori organizzativi predisponenti",
     "D": "Soltanto dalla mancanza di esperienza",
     "corretta": "C",
-    "numero": 266
+    "numero": 265
   },
   {
     "domanda": "Che cos'è il work engagement?",
@@ -2401,7 +2391,7 @@
     "C": "Uno stato positivo caratterizzato da energia, coinvolgimento e investimento nel lavoro",
     "D": "Una forma di assenteismo",
     "corretta": "C",
-    "numero": 267
+    "numero": 266
   },
   {
     "domanda": "Che cos'è il performance management?",
@@ -2410,7 +2400,7 @@
     "C": "Un sistema per licenziare i dipendenti",
     "D": "Una tecnica di selezione",
     "corretta": "B",
-    "numero": 268
+    "numero": 267
   },
   {
     "domanda": "Qual è l'oggetto principale della psicologia del lavoro?",
@@ -2419,7 +2409,7 @@
     "C": "Soltanto i contratti",
     "D": "Soltanto le organizzazioni",
     "corretta": "B",
-    "numero": 269
+    "numero": 268
   },
   {
     "domanda": "In che senso la psicologia del lavoro ha una duplice natura?",
@@ -2428,7 +2418,7 @@
     "C": "È teorica e politica",
     "D": "È individuale e finanziaria",
     "corretta": "B",
-    "numero": 270
+    "numero": 269
   },
   {
     "domanda": "Che cosa studia il livello di analisi intrasoggettivo?",
@@ -2437,7 +2427,7 @@
     "C": "I mercati del lavoro",
     "D": "Le dinamiche economiche",
     "corretta": "A",
-    "numero": 271
+    "numero": 270
   },
   {
     "domanda": "Che cosa analizza il livello soggetto-compito?",
@@ -2446,7 +2436,7 @@
     "C": "Il mercato del lavoro",
     "D": "La cultura nazionale",
     "corretta": "B",
-    "numero": 272
+    "numero": 271
   },
   {
     "domanda": "Perché il gruppo viene considerato un'unità di analisi organica?",
@@ -2455,7 +2445,7 @@
     "C": "Perché non presenta conflitti",
     "D": "Perché elimina le differenze individuali",
     "corretta": "B",
-    "numero": 273
+    "numero": 272
   },
   {
     "domanda": "Quale fenomeno può essere studiato a livello organizzativo?",
@@ -2464,7 +2454,7 @@
     "C": "La personalità individuale",
     "D": "La percezione di un singolo compito",
     "corretta": "B",
-    "numero": 274
+    "numero": 273
   },
   {
     "domanda": "Il livello di analisi sociale considera principalmente:",
@@ -2473,7 +2463,7 @@
     "C": "Macroprocessi socioeconomici e culturali",
     "D": "Soltanto le caratteristiche del compito",
     "corretta": "C",
-    "numero": 275
+    "numero": 274
   },
   {
     "domanda": "Quali sono i due principali modi di fare psicologia del lavoro?",
@@ -2482,7 +2472,7 @@
     "C": "Consulenza e marketing",
     "D": "Psicoterapia e medicina",
     "corretta": "B",
-    "numero": 276
+    "numero": 275
   },
   {
     "domanda": "Che cos'è il Job Design?",
@@ -2491,7 +2481,7 @@
     "C": "La valutazione psicologica",
     "D": "La definizione dello stipendio",
     "corretta": "B",
-    "numero": 277
+    "numero": 276
   },
   {
     "domanda": "Qual è il presupposto fondamentale del Job Characteristics Model di Hackman e Oldham?",
@@ -2500,7 +2490,7 @@
     "C": "La motivazione non può essere modificata",
     "D": "La motivazione dipende soltanto dal gruppo",
     "corretta": "B",
-    "numero": 278
+    "numero": 277
   },
   {
     "domanda": "Quali sono le cinque caratteristiche fondamentali del compito nel JCM?",
@@ -2509,7 +2499,7 @@
     "C": "Controllo, disciplina, gerarchia, autorità e potere",
     "D": "Sicurezza, stabilità, prevedibilità, controllo e salario",
     "corretta": "A",
-    "numero": 279
+    "numero": 278
   },
   {
     "domanda": "La varietà del compito indica:",
@@ -2518,7 +2508,7 @@
     "C": "Il numero di colleghi",
     "D": "La durata del contratto",
     "corretta": "B",
-    "numero": 280
+    "numero": 279
   },
   {
     "domanda": "La varietà delle capacità richieste riguarda:",
@@ -2527,7 +2517,7 @@
     "C": "La ricchezza dei requisiti conoscitivi e formativi necessari",
     "D": "Il livello dello stipendio",
     "corretta": "C",
-    "numero": 281
+    "numero": 280
   },
   {
     "domanda": "Che cosa significa avere un'elevata identità del compito?",
@@ -2536,7 +2526,7 @@
     "C": "Non avere responsabilità",
     "D": "Lavorare sempre in gruppo",
     "corretta": "B",
-    "numero": 282
+    "numero": 281
   },
   {
     "domanda": "Nel JCM, l'autonomia riguarda:",
@@ -2545,7 +2535,7 @@
     "C": "Il numero di colleghi",
     "D": "La durata del contratto",
     "corretta": "B",
-    "numero": 283
+    "numero": 282
   },
   {
     "domanda": "Nel JCM, il feedback permette principalmente di:",
@@ -2554,7 +2544,7 @@
     "C": "Ridurre le responsabilità",
     "D": "Eliminare l'autonomia",
     "corretta": "B",
-    "numero": 284
+    "numero": 283
   },
   {
     "domanda": "Quali processi psicologici vengono attivati dalle caratteristiche del compito?",
@@ -2563,7 +2553,7 @@
     "C": "Stress, ansia e assenteismo",
     "D": "Selezione, formazione e licenziamento",
     "corretta": "B",
-    "numero": 285
+    "numero": 284
   },
   {
     "domanda": "Quale può essere un effetto positivo del telelavoro sulla motivazione?",
@@ -2572,7 +2562,7 @@
     "C": "Eliminazione delle relazioni sociali",
     "D": "Aumento obbligatorio delle ore lavorate",
     "corretta": "B",
-    "numero": 286
+    "numero": 285
   },
   {
     "domanda": "Quali sono i tre principali fattori di contesto che interagiscono con i fattori individuali nella motivazione?",
@@ -2581,7 +2571,7 @@
     "C": "Età, genere e anzianità",
     "D": "Tecnologia, salario e orario",
     "corretta": "B",
-    "numero": 287
+    "numero": 286
   },
   {
     "domanda": "Cosa studiano le teorie di processo della motivazione?",
@@ -2590,7 +2580,7 @@
     "C": "Soltanto la motivazione economica",
     "D": "Soltanto la personalità",
     "corretta": "B",
-    "numero": 288
+    "numero": 287
   },
   {
     "domanda": "A quale fase dell'azione motivata sono particolarmente associate aspettative e valenze?",
@@ -2599,7 +2589,7 @@
     "C": "Fase del controllo finale",
     "D": "Fase della valutazione medica",
     "corretta": "A",
-    "numero": 289
+    "numero": 288
   },
   {
     "domanda": "Quale teoria è particolarmente collegata alla fase di pianificazione degli obiettivi?",
@@ -2608,7 +2598,7 @@
     "C": "Goal Setting Theory",
     "D": "Teoria dei tratti",
     "corretta": "C",
-    "numero": 290
+    "numero": 289
   },
   {
     "domanda": "Che cosa implica il processo di autoregolazione?",
@@ -2617,7 +2607,7 @@
     "C": "Eliminare gli obiettivi",
     "D": "Evitare ogni forma di controllo",
     "corretta": "B",
-    "numero": 291
+    "numero": 290
   },
   {
     "domanda": "Qual è la funzione del confronto nel processo di autoregolazione?",
@@ -2626,7 +2616,7 @@
     "C": "Pianificare le ferie",
     "D": "Valutare l'adeguatezza dell'azione rispetto a standard prefissati",
     "corretta": "D",
-    "numero": 292
+    "numero": 291
   },
   {
     "domanda": "Come possono le reazioni interne influenzare comportamento e performance?",
@@ -2635,7 +2625,7 @@
     "C": "Stabilendo automaticamente gli obiettivi",
     "D": "Modificando il contratto di lavoro",
     "corretta": "A",
-    "numero": 293
+    "numero": 292
   },
   {
     "domanda": "Qual è una caratteristica fondamentale della proattività?",
@@ -2644,7 +2634,7 @@
     "C": "Evitare il cambiamento",
     "D": "Rifiutare ogni responsabilità",
     "corretta": "B",
-    "numero": 294
+    "numero": 293
   },
   {
     "domanda": "Che cosa può accadere in un circolo vizioso motivazionale?",
@@ -2653,7 +2643,7 @@
     "C": "La motivazione diventa automaticamente intrinseca",
     "D": "Il problema riguarda esclusivamente lo stipendio",
     "corretta": "B",
-    "numero": 295
+    "numero": 294
   },
   {
     "domanda": "Che cosa significa agire con motivazione autonoma?",
@@ -2662,7 +2652,7 @@
     "C": "Agire esclusivamente per una ricompensa",
     "D": "Agire senza alcun obiettivo",
     "corretta": "B",
-    "numero": 296
+    "numero": 295
   },
   {
     "domanda": "Secondo la Teoria X di McGregor, i lavoratori sono considerati prevalentemente:",
@@ -2671,7 +2661,7 @@
     "C": "Sempre orientati all'innovazione",
     "D": "Naturalmente motivati da ogni compito",
     "corretta": "A",
-    "numero": 297
+    "numero": 296
   },
   {
     "domanda": "Come considera i lavoratori la Teoria Y di McGregor?",
@@ -2680,7 +2670,7 @@
     "C": "Come persone motivate soltanto dal denaro",
     "D": "Come persone incapaci di assumersi responsabilità",
     "corretta": "B",
-    "numero": 298
+    "numero": 297
   },
   {
     "domanda": "Secondo la teoria di Maslow, quale bisogno si colloca al livello più elevato?",
@@ -2689,7 +2679,7 @@
     "C": "Appartenenza",
     "D": "Autorealizzazione",
     "corretta": "D",
-    "numero": 299
+    "numero": 298
   },
   {
     "domanda": "Secondo Herzberg, quali fattori possono prevenire l'insoddisfazione senza necessariamente produrre motivazione?",
@@ -2698,7 +2688,7 @@
     "C": "Fattori cognitivi",
     "D": "Fattori sociali",
     "corretta": "B",
-    "numero": 300
+    "numero": 299
   },
   {
     "domanda": "Quali sono i tre bisogni psicologici fondamentali della Teoria dell'Autodeterminazione?",
@@ -2707,7 +2697,7 @@
     "C": "Sicurezza, salario e carriera",
     "D": "Controllo, disciplina e obbedienza",
     "corretta": "B",
-    "numero": 301
+    "numero": 300
   },
   {
     "domanda": "Che cosa indica l'amotivazione?",
@@ -2716,7 +2706,7 @@
     "C": "Assenza di intenzionalità o motivazione verso l'azione",
     "D": "Eccesso di motivazione",
     "corretta": "C",
-    "numero": 302
+    "numero": 301
   },
   {
     "domanda": "Perché Hugo Münsterberg è importante nella psicologia del lavoro?",
@@ -2725,7 +2715,7 @@
     "C": "Per aver creato il JCM",
     "D": "Per aver elaborato la teoria dell'autodeterminazione",
     "corretta": "B",
-    "numero": 303
+    "numero": 302
   },
   {
     "domanda": "Come concepisce Kurt Lewin il gruppo?",
@@ -2734,7 +2724,7 @@
     "C": "Come un insieme senza struttura",
     "D": "Come un'organizzazione esclusivamente economica",
     "corretta": "B",
-    "numero": 304
+    "numero": 303
   },
   {
     "domanda": "Che cos'è una variabile mediatrice?",
@@ -2743,7 +2733,7 @@
     "C": "Una variabile indipendente casuale",
     "D": "Una variabile sempre qualitativa",
     "corretta": "B",
-    "numero": 305
+    "numero": 304
   },
   {
     "domanda": "Che cos'è una variabile moderatrice?",
@@ -2752,7 +2742,7 @@
     "C": "Una variabile sempre dipendente",
     "D": "Una variabile priva di effetto",
     "corretta": "B",
-    "numero": 306
+    "numero": 305
   },
   {
     "domanda": "Cosa si intende per efficacia organizzativa?",
@@ -2761,7 +2751,7 @@
     "C": "La capacità dell'organizzazione di raggiungere i propri obiettivi e operare con successo",
     "D": "Il livello degli stipendi",
     "corretta": "C",
-    "numero": 307
+    "numero": 306
   },
   {
     "domanda": "Che cosa si intende per analisi del lavoro (job analysis)?",
@@ -2770,7 +2760,7 @@
     "C": "La misurazione del profitto aziendale",
     "D": "La selezione dei dirigenti",
     "corretta": "B",
-    "numero": 308
+    "numero": 307
   },
   {
     "domanda": "Cosa indica la validità interna di una ricerca?",
@@ -2779,7 +2769,7 @@
     "C": "Il grado di soddisfazione dei partecipanti",
     "D": "La durata dell'esperimento",
     "corretta": "B",
-    "numero": 309
+    "numero": 308
   },
   {
     "domanda": "Cosa si intende per validità ecologica?",
@@ -2788,7 +2778,7 @@
     "C": "La capacità di replicare un esperimento",
     "D": "La significatività statistica",
     "corretta": "B",
-    "numero": 310
+    "numero": 309
   },
   {
     "domanda": "Qual è il principio fondamentale dello Scientific Management di Taylor?",
@@ -2797,7 +2787,7 @@
     "C": "Analizzare scientificamente il lavoro per individuare modalità più efficienti di svolgimento",
     "D": "Eliminare la divisione del lavoro",
     "corretta": "C",
-    "numero": 311
+    "numero": 310
   },
   {
     "domanda": "Qual è l'idea centrale dell'approccio sociotecnico?",
@@ -2806,7 +2796,7 @@
     "C": "Il sistema sociale e quello tecnologico devono essere considerati congiuntamente",
     "D": "La produttività dipende esclusivamente dal salario",
     "corretta": "C",
-    "numero": 312
+    "numero": 311
   },
   {
     "domanda": "Chi è considerato uno dei pionieri nell'introduzione del termine \"psicologia industriale\"?",
@@ -2815,7 +2805,7 @@
     "C": "Abraham Maslow",
     "D": "Frederick Herzberg",
     "corretta": "B",
-    "numero": 313
+    "numero": 312
   },
   {
     "domanda": "Cosa indica la dissonanza emotiva nelle occupazioni emozionali?",
@@ -2824,7 +2814,7 @@
     "C": "L'eccessiva motivazione intrinseca",
     "D": "Il conflitto tra due colleghi",
     "corretta": "B",
-    "numero": 314
+    "numero": 313
   },
   {
     "domanda": "Nel Job Characteristics Model, cosa indica la significatività del compito?",
@@ -2833,7 +2823,7 @@
     "C": "La quantità di tempo necessaria per completarlo",
     "D": "Il numero di superiori coinvolti",
     "corretta": "B",
-    "numero": 315
+    "numero": 314
   },
   {
     "domanda": "Nel Job Characteristics Model, cosa rappresenta il bisogno di crescita personale e professionale?",
@@ -2842,7 +2832,7 @@
     "C": "Un fattore esclusivamente economico",
     "D": "Un indicatore di anzianità",
     "corretta": "B",
-    "numero": 316
+    "numero": 315
   },
   {
     "domanda": "Quale definizione descrive meglio la proattività?",
@@ -2851,7 +2841,7 @@
     "C": "Anticipare gli eventi e agire intenzionalmente per modificare o migliorare la situazione",
     "D": "Evitare qualsiasi cambiamento",
     "corretta": "C",
-    "numero": 317
+    "numero": 316
   },
   {
     "domanda": "Che cos'è l'autoefficacia percepita?",
@@ -2860,7 +2850,7 @@
     "C": "La soddisfazione per il proprio stipendio",
     "D": "Il livello di istruzione posseduto",
     "corretta": "B",
-    "numero": 318
+    "numero": 317
   },
   {
     "domanda": "Cosa sono i processi operativi nel contesto della motivazione e dell'azione?",
@@ -2869,7 +2859,7 @@
     "C": "I processi di selezione del personale",
     "D": "I processi di valutazione economica",
     "corretta": "B",
-    "numero": 319
+    "numero": 318
   },
   {
     "domanda": "Quale sequenza rappresenta il circolo motivazionale?",
@@ -2878,7 +2868,7 @@
     "C": "Selezione → formazione → licenziamento",
     "D": "Stress → assenza → pensionamento",
     "corretta": "B",
-    "numero": 320
+    "numero": 319
   },
   {
     "domanda": "Cosa possono comportare i costi di transizione nel passaggio da un ruolo lavorativo a un altro?",
@@ -2887,7 +2877,7 @@
     "C": "Esclusivamente una riduzione dello stipendio",
     "D": "Nessun costo psicologico",
     "corretta": "B",
-    "numero": 321
+    "numero": 320
   },
   {
     "domanda": "Come avviene principalmente la socializzazione lavorativa?",
@@ -2896,7 +2886,7 @@
     "C": "Soltanto attraverso corsi universitari",
     "D": "Attraverso il solo rapporto con il dirigente",
     "corretta": "B",
-    "numero": 322
+    "numero": 321
   },
   {
     "domanda": "Secondo la Goal Setting Theory, quali obiettivi tendono ad attivare maggiormente i processi motivazionali?",
@@ -2905,7 +2895,7 @@
     "C": "Obiettivi specifici e sfidanti",
     "D": "Obiettivi scelti esclusivamente dal superiore senza comunicazione",
     "corretta": "C",
-    "numero": 323
+    "numero": 322
   },
   {
     "domanda": "Cosa riguarda principalmente la giustizia interpersonale?",
@@ -2914,7 +2904,7 @@
     "C": "La correttezza delle procedure",
     "D": "La quantità dello stipendio",
     "corretta": "B",
-    "numero": 324
+    "numero": 323
   },
   {
     "domanda": "La giustizia distributiva riguarda principalmente:",
@@ -2923,7 +2913,7 @@
     "C": "Il comportamento del superiore",
     "D": "La comunicazione interna",
     "corretta": "A",
-    "numero": 325
+    "numero": 324
   },
   {
     "domanda": "Come viene generalmente descritto il burnout?",
@@ -2932,7 +2922,7 @@
     "C": "Come un semplice episodio di stanchezza",
     "D": "Come una forma di assenteismo volontario",
     "corretta": "B",
-    "numero": 326
+    "numero": 325
   },
   {
     "domanda": "Che cos'è il clima di sicurezza?",
@@ -2941,7 +2931,7 @@
     "C": "Il numero di incidenti registrati",
     "D": "Il livello di stress dei lavoratori",
     "corretta": "B",
-    "numero": 327
+    "numero": 326
   },
   {
     "domanda": "Cosa comprendono i comportamenti di sicurezza?",
@@ -2950,7 +2940,7 @@
     "C": "Soltanto la segnalazione degli incidenti",
     "D": "Soltanto l'uso dei dispositivi di protezione",
     "corretta": "B",
-    "numero": 328
+    "numero": 327
   },
   {
     "domanda": "Cosa sono le condotte lavorative controproducenti?",
@@ -2959,7 +2949,7 @@
     "C": "Errori involontari senza conseguenze",
     "D": "Comportamenti esclusivamente motivazionali",
     "corretta": "B",
-    "numero": 329
+    "numero": 328
   },
   {
     "domanda": "Qual è una differenza fondamentale tra performance appraisal e performance management?",
@@ -2968,7 +2958,7 @@
     "C": "Il performance appraisal riguarda soltanto la formazione",
     "D": "Il performance management riguarda soltanto lo stipendio",
     "corretta": "B",
-    "numero": 330
+    "numero": 329
   },
   {
     "domanda": "Quando la fatica può determinare un decremento della prestazione?",
@@ -2977,7 +2967,7 @@
     "C": "Soltanto nei lavori manuali",
     "D": "Mai",
     "corretta": "B",
-    "numero": 331
+    "numero": 330
   },
   {
     "domanda": "Che cosa si intende per Task Analysis?",
@@ -2986,7 +2976,7 @@
     "C": "La valutazione della personalità del lavoratore",
     "D": "L'analisi del clima aziendale",
     "corretta": "A",
-    "numero": 332
+    "numero": 331
   },
   {
     "domanda": "Quale approccio considera la cultura della sicurezza nell'organizzazione?",
@@ -2995,7 +2985,7 @@
     "C": "L'approccio esclusivamente economico",
     "D": "L'approccio basato sulla selezione",
     "corretta": "B",
-    "numero": 333
+    "numero": 332
   },
   {
     "domanda": "Cosa sono i processi operativi?",
@@ -3004,7 +2994,7 @@
     "C": "I processi di selezione del personale",
     "D": "I processi di valutazione dello stipendio",
     "corretta": "B",
-    "numero": 334
+    "numero": 333
   },
   {
     "domanda": "Quali processi sono coinvolti nel comportamento lavorativo?",
@@ -3013,7 +3003,7 @@
     "C": "Soltanto processi economici",
     "D": "Soltanto processi organizzativi",
     "corretta": "B",
-    "numero": 335
+    "numero": 334
   },
   {
     "domanda": "Cosa può derivare da modelli di giustizia organizzativa non rispettati, clima autoritario e percezione di frustrazioni organizzative?",
@@ -3022,7 +3012,7 @@
     "C": "Frustrazione e conseguenze negative sul comportamento lavorativo",
     "D": "Aumento della soddisfazione lavorativa",
     "corretta": "C",
-    "numero": 336
+    "numero": 335
   },
   {
     "domanda": "Quale forma di giustizia riguarda il trattamento rispettoso e dignitoso delle persone?",
@@ -3031,7 +3021,7 @@
     "C": "Giustizia interpersonale",
     "D": "Giustizia economica",
     "corretta": "C",
-    "numero": 337
+    "numero": 336
   },
   {
     "domanda": "Quali livelli di analisi vengono considerati nello studio del lavoro?",
@@ -3040,7 +3030,7 @@
     "C": "Soltanto individuale",
     "D": "Soltanto sociale",
     "corretta": "B",
-    "numero": 338
+    "numero": 337
   },
   {
     "domanda": "Quale tra queste rappresenta un'esigenza fisica del lavoratore?",
@@ -3049,7 +3039,7 @@
     "C": "Bisogno di autorealizzazione",
     "D": "Bisogno di riconoscimento sociale",
     "corretta": "A",
-    "numero": 339
+    "numero": 338
   },
   {
     "domanda": "Quale elemento ha contribuito allo sviluppo del movimento delle relazioni umane?",
@@ -3058,7 +3048,7 @@
     "C": "L'automazione industriale",
     "D": "L'aumento degli stipendi",
     "corretta": "B",
-    "numero": 340
+    "numero": 339
   },
   {
     "domanda": "Come avviene la socializzazione lavorativa?",
@@ -3067,7 +3057,7 @@
     "C": "Attraverso interazioni nella comunità professionale, partecipazione alla cultura del contesto e uso degli strumenti di lavoro",
     "D": "Soltanto attraverso il rapporto con il superiore",
     "corretta": "C",
-    "numero": 341
+    "numero": 340
   },
   {
     "domanda": "Qual è l'effetto di obiettivi specifici e sfidanti?",
@@ -3076,7 +3066,7 @@
     "C": "Favoriscono focalizzazione, intensità, persistenza e strategie",
     "D": "Producono automaticamente soddisfazione",
     "corretta": "C",
-    "numero": 342
+    "numero": 341
   },
   {
     "domanda": "Cosa significa assumere una molteplicità di ruoli?",
@@ -3085,7 +3075,7 @@
     "C": "Non avere un ruolo definito",
     "D": "Cambiare continuamente organizzazione",
     "corretta": "B",
-    "numero": 343
+    "numero": 342
   },
   {
     "domanda": "Quale può essere l'effetto degli aspetti studiati sulla produttività?",
@@ -3094,7 +3084,7 @@
     "C": "Effetti diretti e indiretti sulla produttività",
     "D": "Soltanto effetti negativi",
     "corretta": "C",
-    "numero": 344
+    "numero": 343
   },
   {
     "domanda": "Quale tipo di motivazione deriva dall'interesse per l'attività in sé?",
@@ -3103,7 +3093,7 @@
     "C": "Controllata",
     "D": "Amotivazione",
     "corretta": "A",
-    "numero": 345
+    "numero": 344
   },
   {
     "domanda": "Quale caratteristica descrive una relazione di scambio economico con modesto tasso di appartenenza?",
@@ -3112,7 +3102,7 @@
     "C": "Totale assenza di scambio economico",
     "D": "Relazione esclusivamente affettiva",
     "corretta": "A",
-    "numero": 346
+    "numero": 345
   },
   {
     "domanda": "Che cosa rappresenta il decorso osservabile dell'attività?",
@@ -3121,7 +3111,7 @@
     "C": "Il livello di motivazione",
     "D": "La cultura organizzativa",
     "corretta": "B",
-    "numero": 347
+    "numero": 346
   },
   {
     "domanda": "Perché le risorse umane sono importanti per un'organizzazione?",
@@ -3130,7 +3120,7 @@
     "C": "Perché rappresentano una risorsa chiave alla quale dedicare attenzione",
     "D": "Perché eliminano la necessità di tecnologia",
     "corretta": "C",
-    "numero": 348
+    "numero": 347
   },
   {
     "domanda": "Cosa sono le condotte controproducenti?",
@@ -3139,7 +3129,7 @@
     "C": "Comportamenti esclusivamente motivazionali",
     "D": "Attività di formazione",
     "corretta": "B",
-    "numero": 349
+    "numero": 348
   },
   {
     "domanda": "Quale strumento è associato a un approccio worker-oriented?",
@@ -3148,7 +3138,7 @@
     "C": "Organigramma",
     "D": "Contratto collettivo",
     "corretta": "B",
-    "numero": 350
+    "numero": 349
   },
   {
     "domanda": "Quale caratteristica può essere associata a un processo conoscitivo efficace?",
@@ -3157,7 +3147,7 @@
     "C": "Esclusivo ricorso ai dati economici",
     "D": "Eliminazione dell'esperienza personale",
     "corretta": "B",
-    "numero": 351
+    "numero": 350
   },
   {
     "domanda": "Quali sono alcuni antecedenti personali della socializzazione lavorativa?",
@@ -3166,7 +3156,7 @@
     "C": "Soltanto il contratto",
     "D": "Soltanto la struttura gerarchica",
     "corretta": "B",
-    "numero": 352
+    "numero": 351
   },
   {
     "domanda": "Che cos'è la motivazione?",
@@ -3175,7 +3165,7 @@
     "C": "Un insieme di forze che determina direzione, intensità e persistenza dell'azione",
     "D": "Una forma di soddisfazione lavorativa",
     "corretta": "C",
-    "numero": 353
+    "numero": 352
   },
   {
     "domanda": "Quale può essere una condotta controproducente di carattere intrapersonale?",
@@ -3184,7 +3174,7 @@
     "C": "Un comportamento di cittadinanza organizzativa",
     "D": "Un comportamento di leadership",
     "corretta": "B",
-    "numero": 354
+    "numero": 353
   },
   {
     "domanda": "Che cosa si intende per clima di sicurezza?",
@@ -3193,7 +3183,7 @@
     "C": "Il livello di temperatura dell'ambiente",
     "D": "Il numero di dispositivi di protezione disponibili",
     "corretta": "B",
-    "numero": 355
+    "numero": 354
   },
   {
     "domanda": "Quali sono le cinque caratteristiche fondamentali del lavoro nel Job Characteristics Model?",
@@ -3202,7 +3192,7 @@
     "C": "Sicurezza, salario, ferie, orario e contratto",
     "D": "Leadership, controllo, disciplina, gerarchia e autorità",
     "corretta": "B",
-    "numero": 356
+    "numero": 355
   },
   {
     "domanda": "Che cos'è il burnout?",
@@ -3211,7 +3201,7 @@
     "C": "Una forma grave di stress cronico caratterizzata da esaurimento emotivo, depersonalizzazione/cinismo e ridotta efficacia professionale",
     "D": "Una forma di assenteismo",
     "corretta": "C",
-    "numero": 357
+    "numero": 356
   },
   {
     "domanda": "Che cosa riguarda la giustizia distributiva?",
@@ -3220,7 +3210,7 @@
     "C": "La correttezza delle procedure",
     "D": "La qualità della comunicazione",
     "corretta": "A",
-    "numero": 358
+    "numero": 357
   },
   {
     "domanda": "Come può essere considerata l'organizzazione nell'approccio tecnico?",
@@ -3229,7 +3219,7 @@
     "C": "Come una struttura esclusivamente sociale",
     "D": "Come un sistema privo di obiettivi",
     "corretta": "B",
-    "numero": 359
+    "numero": 358
   },
   {
     "domanda": "Qual è la differenza tra performance appraisal e performance management?",
@@ -3238,6 +3228,6 @@
     "C": "Il performance appraisal riguarda soltanto lo stipendio",
     "D": "Il performance management riguarda soltanto la selezione",
     "corretta": "B",
-    "numero": 360
+    "numero": 359
   }
 ]
