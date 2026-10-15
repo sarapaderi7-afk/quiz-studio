@@ -1,0 +1,542 @@
+[
+  {
+    "domanda": "Che cosa indaga la filosofia politica?",
+    "A": "Legittimità, giustizia e potere politico",
+    "B": "Solo statistiche elettorali",
+    "C": "Soltanto storia delle guerre",
+    "D": "Esclusivamente economia monetaria",
+    "corretta": "A",
+    "numero": 1
+  },
+  {
+    "domanda": "Chi dovrebbe governare nella città ideale di Platone?",
+    "A": "I cittadini scelti a sorte ogni giorno",
+    "B": "I filosofi capaci di conoscere il bene",
+    "C": "I mercanti più ricchi",
+    "D": "I generali più giovani",
+    "corretta": "B",
+    "numero": 2
+  },
+  {
+    "domanda": "Come definisce l'essere umano Aristotele?",
+    "A": "Creatura senza linguaggio",
+    "B": "Individuo privo di relazioni",
+    "C": "Animale politico",
+    "D": "Essere esclusivamente economico",
+    "corretta": "C",
+    "numero": 3
+  },
+  {
+    "domanda": "Quali città distingue Agostino?",
+    "A": "Città mercantile e città industriale",
+    "B": "Repubblica e federazione",
+    "C": "Città portuale e città agricola",
+    "D": "Città di Dio e città terrena",
+    "corretta": "D",
+    "numero": 4
+  },
+  {
+    "domanda": "Secondo Tommaso d'Aquino la legge naturale:",
+    "A": "È partecipazione razionale alla legge eterna",
+    "B": "Coincide con qualsiasi decreto",
+    "C": "È un capriccio del sovrano",
+    "D": "Elimina il bene comune",
+    "corretta": "A",
+    "numero": 5
+  },
+  {
+    "domanda": "Su che cosa riflette Machiavelli nel Principe?",
+    "A": "Soltanto elezioni parlamentari",
+    "B": "Conquista e conservazione del potere",
+    "C": "Equilibrio monetario",
+    "D": "Funzionamento delle banche",
+    "corretta": "B",
+    "numero": 6
+  },
+  {
+    "domanda": "Che cosa manca nello stato di natura hobbesiano?",
+    "A": "La capacità di ragionare",
+    "B": "L'istinto di sopravvivenza",
+    "C": "Un potere comune che garantisca sicurezza",
+    "D": "Ogni desiderio umano",
+    "corretta": "C",
+    "numero": 7
+  },
+  {
+    "domanda": "Perché gli uomini istituiscono il sovrano secondo Hobbes?",
+    "A": "Per eliminare ogni regola",
+    "B": "Per impedire qualsiasi accordo",
+    "C": "Per annullare la vita sociale",
+    "D": "Per ottenere pace e sicurezza",
+    "corretta": "D",
+    "numero": 8
+  },
+  {
+    "domanda": "Quali diritti naturali sostiene Locke?",
+    "A": "Vita, libertà e proprietà",
+    "B": "Solo voto e istruzione",
+    "C": "Solo diritti concessi dal re",
+    "D": "Solo diritto al commercio",
+    "corretta": "A",
+    "numero": 9
+  },
+  {
+    "domanda": "Quale teoria è associata a Montesquieu?",
+    "A": "Primato dei mercanti",
+    "B": "Separazione dei poteri",
+    "C": "Volontà assoluta del sovrano",
+    "D": "Abolizione di tutte le leggi",
+    "corretta": "B",
+    "numero": 10
+  },
+  {
+    "domanda": "Verso cosa è orientata la volontà generale di Rousseau?",
+    "A": "Interesse privato del monarca",
+    "B": "Profitto di un solo gruppo",
+    "C": "Bene comune",
+    "D": "Privilegio dei nobili",
+    "corretta": "C",
+    "numero": 11
+  },
+  {
+    "domanda": "Quale principio guida l'utilitarismo di Bentham?",
+    "A": "Rispettare la nascita aristocratica",
+    "B": "Ubbidire sempre alla tradizione",
+    "C": "Difendere unicamente il patrimonio",
+    "D": "Massimizzare la felicità complessiva",
+    "corretta": "D",
+    "numero": 12
+  },
+  {
+    "domanda": "Quale principio è associato a John Stuart Mill?",
+    "A": "Principio del danno",
+    "B": "Diritto divino dei re",
+    "C": "Censura universale",
+    "D": "Soppressione delle libertà",
+    "corretta": "A",
+    "numero": 13
+  },
+  {
+    "domanda": "Quale rischio segnala Tocqueville?",
+    "A": "Fine automatica di ogni disuguaglianza",
+    "B": "Tirannia della maggioranza",
+    "C": "Scomparsa inevitabile degli elettori",
+    "D": "Assenza universale di associazioni",
+    "corretta": "B",
+    "numero": 14
+  },
+  {
+    "domanda": "Che cosa richiede una formulazione dell'imperativo categorico kantiano?",
+    "A": "Seguire ogni ordine ricevuto",
+    "B": "Massimizzare soltanto il consumo",
+    "C": "Agire secondo massime universalizzabili",
+    "D": "Cercare sempre il proprio vantaggio",
+    "corretta": "C",
+    "numero": 15
+  },
+  {
+    "domanda": "Per Hegel lo Stato si collega a:",
+    "A": "Semplice contratto commerciale",
+    "B": "Eliminazione di ogni diritto",
+    "C": "Esclusione di tutta la società civile",
+    "D": "Realizzazione istituzionale della vita etica",
+    "corretta": "D",
+    "numero": 16
+  },
+  {
+    "domanda": "Quale elemento è centrale nell'analisi storica di Marx?",
+    "A": "Lotta di classe",
+    "B": "Scelte pubblicitarie",
+    "C": "Astensione elettorale",
+    "D": "Differenze linguistiche soltanto",
+    "corretta": "A",
+    "numero": 17
+  },
+  {
+    "domanda": "Quale concetto è legato a Gramsci?",
+    "A": "Separazione dei poteri",
+    "B": "Egemonia culturale e politica",
+    "C": "Velo d'ignoranza",
+    "D": "Mano invisibile",
+    "corretta": "B",
+    "numero": 18
+  },
+  {
+    "domanda": "Che cosa caratterizza la Scuola di Francoforte?",
+    "A": "Diritto divino dei re",
+    "B": "Contrattualismo di Hobbes",
+    "C": "Teoria critica della società",
+    "D": "Mercantilismo classico",
+    "corretta": "C",
+    "numero": 19
+  },
+  {
+    "domanda": "A cosa serve il velo d'ignoranza di Rawls?",
+    "A": "Nascondere le leggi ai cittadini",
+    "B": "Premiare i più ricchi",
+    "C": "Escludere ogni discussione",
+    "D": "Scegliere principi senza conoscere la propria posizione sociale",
+    "corretta": "D",
+    "numero": 20
+  },
+  {
+    "domanda": "Che cosa afferma il principio di differenza di Rawls?",
+    "A": "Le disuguaglianze devono favorire i meno avvantaggiati",
+    "B": "Ogni differenza è sempre vietata",
+    "C": "Il sovrano dispone senza limiti",
+    "D": "Le persone devono avere lavori identici",
+    "corretta": "A",
+    "numero": 21
+  },
+  {
+    "domanda": "Che cosa valorizza la democrazia deliberativa di Habermas?",
+    "A": "Efficienza indipendente dai diritti",
+    "B": "Discussione pubblica e giustificazione razionale",
+    "C": "Comando senza confronto",
+    "D": "Segretezza delle decisioni",
+    "corretta": "B",
+    "numero": 22
+  },
+  {
+    "domanda": "Quale tesi è associata a Dworkin?",
+    "A": "I principi non contano nel diritto",
+    "B": "La giustizia coincide con il PIL",
+    "C": "I diritti possono limitare le scelte della maggioranza",
+    "D": "Ogni maggioranza ha potere illimitato",
+    "corretta": "C",
+    "numero": 23
+  },
+  {
+    "domanda": "Che cosa indica il paternalismo politico?",
+    "A": "Governo ereditario del padre",
+    "B": "Protezione esclusiva delle imprese",
+    "C": "Abolizione della scuola",
+    "D": "Interferire per il bene della persona interessata",
+    "corretta": "D",
+    "numero": 24
+  },
+  {
+    "domanda": "Che cosa considera il perfezionismo liberale?",
+    "A": "Il rilievo politico di ideali di vita buona",
+    "B": "Il divieto di ogni ideale morale",
+    "C": "Il controllo totale della cultura",
+    "D": "La perfezione tecnica delle istituzioni",
+    "corretta": "A",
+    "numero": 25
+  },
+  {
+    "domanda": "Che cosa richiede la ragione pubblica?",
+    "A": "Argomenti privi di ogni confronto",
+    "B": "Ragioni politiche condivisibili tra cittadini liberi ed eguali",
+    "C": "Segreti accessibili solo al governo",
+    "D": "Interessi personali come unica giustificazione",
+    "corretta": "B",
+    "numero": 26
+  },
+  {
+    "domanda": "Come intende spesso la libertà il neorepubblicanesimo?",
+    "A": "Obbedienza alla tradizione",
+    "B": "Assenza di qualunque relazione sociale",
+    "C": "Assenza di dominazione arbitraria",
+    "D": "Libertà illimitata di acquisto",
+    "corretta": "C",
+    "numero": 27
+  },
+  {
+    "domanda": "Quale aspetto sottolinea il comunitarismo?",
+    "A": "Individuo totalmente isolato",
+    "B": "Solo utilità monetaria",
+    "C": "Irrilevanza di ogni contesto",
+    "D": "Legami e appartenenze nella formazione dell'identità",
+    "corretta": "D",
+    "numero": 28
+  },
+  {
+    "domanda": "Che cosa significa rule of law?",
+    "A": "Soggezione del potere pubblico al diritto",
+    "B": "Sovrano al di sopra delle norme",
+    "C": "Giudici soggetti a ordini arbitrari",
+    "D": "Legge riservata solo ai privati",
+    "corretta": "A",
+    "numero": 29
+  },
+  {
+    "domanda": "Che cos'è una democratura?",
+    "A": "Una repubblica fondata solo sul sorteggio",
+    "B": "Un regime con forme democratiche e pratiche autoritarie",
+    "C": "La democrazia perfetta",
+    "D": "Un sistema senza governo",
+    "corretta": "B",
+    "numero": 30
+  },
+  {
+    "domanda": "In Spinoza, quale libertà assume rilievo nel Trattato teologico-politico?",
+    "A": "Divieto di filosofare",
+    "B": "Obbligo di seguire ogni superstizione",
+    "C": "Abolizione del ragionamento",
+    "D": "Libertà di pensare e di esprimere opinioni",
+    "corretta": "D",
+    "numero": 31
+  },
+  {
+    "domanda": "Come viene spesso definito il contratto sociale?",
+    "A": "Accordo teorico che giustifica l'ordine politico",
+    "B": "Contratto di locazione",
+    "C": "Solo un trattato commerciale",
+    "D": "Una decisione fiscale annuale",
+    "corretta": "A",
+    "numero": 32
+  },
+  {
+    "domanda": "Qual è una differenza tipica tra Hobbes e Locke?",
+    "A": "Entrambi vietano ogni governo",
+    "B": "Locke ammette un diritto di resistenza al governo che viola la fiducia",
+    "C": "Hobbes difende sempre la separazione dei poteri",
+    "D": "Locke nega i diritti naturali",
+    "corretta": "B",
+    "numero": 33
+  },
+  {
+    "domanda": "In Kant, la pace perpetua è collegata anche a:",
+    "A": "Soppressione di ogni accordo",
+    "B": "Solo alleanze commerciali segrete",
+    "C": "Un ordine giuridico internazionale tra Stati",
+    "D": "Guerra continua come ideale",
+    "corretta": "C",
+    "numero": 34
+  },
+  {
+    "domanda": "Quale critica Marx rivolge al capitalismo?",
+    "A": "Assenza totale di lavoro salariato",
+    "B": "Impossibilità dello scambio",
+    "C": "Eliminazione automatica delle classi",
+    "D": "Sfruttamento connesso ai rapporti di produzione",
+    "corretta": "D",
+    "numero": 35
+  },
+  {
+    "domanda": "In Gramsci, la società civile è importante perché:",
+    "A": "È luogo di costruzione di consenso ed egemonia",
+    "B": "Comprende soltanto i tribunali",
+    "C": "È priva di dimensione culturale",
+    "D": "Sostituisce qualsiasi istituzione economica",
+    "corretta": "A",
+    "numero": 36
+  },
+  {
+    "domanda": "Che cosa indica la critica dell'industria culturale?",
+    "A": "Solo la politica doganale",
+    "B": "L'analisi della standardizzazione culturale e del dominio",
+    "C": "Il rifiuto di ogni cultura scritta",
+    "D": "La difesa dei monopoli industriali",
+    "corretta": "B",
+    "numero": 37
+  },
+  {
+    "domanda": "Qual è il primo principio di giustizia di Rawls, in sintesi?",
+    "A": "Diritto di voto solo ai proprietari",
+    "B": "Prevalenza assoluta del reddito",
+    "C": "Eguali libertà fondamentali per tutti",
+    "D": "Ricchezza identica per legge",
+    "corretta": "C",
+    "numero": 38
+  },
+  {
+    "domanda": "Che cosa è una posizione originaria in Rawls?",
+    "A": "Una reale assemblea del Settecento",
+    "B": "Un mercato privo di regole",
+    "C": "Il luogo di nascita del cittadino",
+    "D": "Situazione ipotetica equa per scegliere principi di giustizia",
+    "corretta": "D",
+    "numero": 39
+  },
+  {
+    "domanda": "Che cos'è l'etica del discorso?",
+    "A": "Approccio che lega validità normativa a procedure argomentative",
+    "B": "Teoria che elimina il dialogo",
+    "C": "Obbligo di seguire sempre la tradizione",
+    "D": "Metodo di massimizzazione del profitto",
+    "corretta": "A",
+    "numero": 40
+  },
+  {
+    "domanda": "Che cosa significa pluralismo ragionevole in Rawls?",
+    "A": "Accordo obbligatorio su ogni scelta privata",
+    "B": "Coesistenza di dottrine comprensive differenti tra cittadini ragionevoli",
+    "C": "Identità necessaria di tutte le religioni",
+    "D": "Divieto del dissenso",
+    "corretta": "B",
+    "numero": 41
+  },
+  {
+    "domanda": "Quale libertà interessa soprattutto Isaiah Berlin nella nozione negativa?",
+    "A": "Identità tra libertà e ricchezza",
+    "B": "Assenza di leggi scritte",
+    "C": "Assenza di interferenze altrui entro una sfera di azione",
+    "D": "Obbligo di realizzare un modello di vita",
+    "corretta": "C",
+    "numero": 42
+  },
+  {
+    "domanda": "Che cosa distingue la libertà positiva in Berlin?",
+    "A": "La semplice assenza di ostacoli esterni",
+    "B": "Il prezzo di un bene",
+    "C": "Il potere arbitrario di un sovrano",
+    "D": "Il controllo o autogoverno della propria vita",
+    "corretta": "D",
+    "numero": 43
+  },
+  {
+    "domanda": "Qual è un tema tipico del femminismo politico?",
+    "A": "Analisi delle disuguaglianze di genere e dei rapporti di potere",
+    "B": "Difesa esclusiva della monarchia",
+    "C": "Rifiuto della cittadinanza",
+    "D": "Indifferenza alle istituzioni",
+    "corretta": "A",
+    "numero": 44
+  },
+  {
+    "domanda": "Che cosa si intende per giustizia distributiva?",
+    "A": "La definizione dei confini municipali",
+    "B": "Criteri di ripartizione di risorse, opportunità e oneri",
+    "C": "La sola procedura elettorale",
+    "D": "Il sistema delle pene criminali",
+    "corretta": "B",
+    "numero": 45
+  },
+  {
+    "domanda": "Che cos'è la legittimità politica?",
+    "A": "Possesso di una forza militare numerosa",
+    "B": "Popolarità di un marchio",
+    "C": "Giustificazione del diritto di governare ed esercitare autorità",
+    "D": "Successo in un sondaggio",
+    "corretta": "C",
+    "numero": 46
+  },
+  {
+    "domanda": "Come differiscono legalità e legittimità?",
+    "A": "Sono sempre sinonimi perfetti",
+    "B": "La legalità riguarda soltanto l'economia",
+    "C": "La legittimità coincide col numero di leggi",
+    "D": "La legalità riguarda conformità alle norme, la legittimità la giustificazione del potere",
+    "corretta": "D",
+    "numero": 47
+  },
+  {
+    "domanda": "Che cosa esprime la sovranità popolare?",
+    "A": "Il principio secondo cui il potere politico deriva dal popolo",
+    "B": "Il dominio ereditario di una famiglia",
+    "C": "L'indipendenza delle banche",
+    "D": "Il monopolio di un solo partito",
+    "corretta": "A",
+    "numero": 48
+  },
+  {
+    "domanda": "Che cos'è la secolarizzazione?",
+    "A": "Ritorno necessario alla teocrazia",
+    "B": "Processo di trasformazione del ruolo pubblico di religione e istituzioni religiose",
+    "C": "Obbligo di professare una religione",
+    "D": "Esclusione di ogni etica",
+    "corretta": "B",
+    "numero": 49
+  },
+  {
+    "domanda": "Qual è il tema della teologia politica?",
+    "A": "Esclusivamente matematica applicata",
+    "B": "Amministrazione dei beni ecclesiastici",
+    "C": "Rapporto tra concetti politici e categorie teologiche",
+    "D": "Solo storia dell'arte sacra",
+    "corretta": "C",
+    "numero": 50
+  },
+  {
+    "domanda": "Che cosa è un nudge?",
+    "A": "Una sanzione penale obbligatoria",
+    "B": "Un divieto assoluto di scegliere",
+    "C": "Una forma di censura preventiva",
+    "D": "Una modifica dell'architettura delle scelte che orienta senza vietare opzioni",
+    "corretta": "D",
+    "numero": 51
+  },
+  {
+    "domanda": "Che cos'è una teoria consequenzialista?",
+    "A": "Valuta le azioni in base ai loro esiti",
+    "B": "Valuta solo l'intenzione indipendentemente dagli esiti",
+    "C": "Rifiuta ogni calcolo delle conseguenze",
+    "D": "Si fonda soltanto sul lignaggio",
+    "corretta": "A",
+    "numero": 52
+  },
+  {
+    "domanda": "Che cosa indica il realismo politico?",
+    "A": "Rifiuto di analizzare istituzioni",
+    "B": "Attenzione ai rapporti effettivi di potere e ai vincoli della politica",
+    "C": "Negazione di ogni conflitto",
+    "D": "Idea che tutti gli Stati siano identici",
+    "corretta": "B",
+    "numero": 53
+  },
+  {
+    "domanda": "Quale tratto caratterizza il repubblicanesimo civico?",
+    "A": "Potere illimitato dei governanti",
+    "B": "Diritto politico riservato ai mercanti",
+    "C": "Valorizzazione della partecipazione e della libertà civica",
+    "D": "Rifiuto di ogni bene pubblico",
+    "corretta": "C",
+    "numero": 54
+  },
+  {
+    "domanda": "Che cosa sono i diritti umani?",
+    "A": "Privilegi dei cittadini ricchi",
+    "B": "Concessioni sempre revocabili del mercato",
+    "C": "Regole applicabili solo ai diplomatici",
+    "D": "Pretese fondamentali riconosciute a ogni essere umano",
+    "corretta": "D",
+    "numero": 55
+  },
+  {
+    "domanda": "Che cosa indica il dissenso ragionevole?",
+    "A": "Disaccordo persistente anche fra persone informate e in buona fede",
+    "B": "Errore necessariamente malizioso",
+    "C": "Impossibilità di deliberare",
+    "D": "Identità completa delle posizioni",
+    "corretta": "A",
+    "numero": 56
+  },
+  {
+    "domanda": "Che cosa si intende per autonomia personale?",
+    "A": "Assenza di doveri verso terzi",
+    "B": "Capacità di orientare la propria vita secondo ragioni e scelte proprie",
+    "C": "Obbedienza incondizionata",
+    "D": "Isolamento economico",
+    "corretta": "B",
+    "numero": 57
+  },
+  {
+    "domanda": "Qual è il problema centrale del rapporto tra giusto e bene?",
+    "A": "Se le leggi siano stampate",
+    "B": "Se i partiti abbiano colori diversi",
+    "C": "Se i principi di giustizia precedano o dipendano da ideali di vita buona",
+    "D": "Se un bene costi più di un altro",
+    "corretta": "C",
+    "numero": 58
+  },
+  {
+    "domanda": "Che cosa definisce la non-dominazione?",
+    "A": "Non ricevere mai richieste",
+    "B": "Possedere necessariamente ricchezza",
+    "C": "Non appartenere ad alcuna comunità",
+    "D": "Non essere soggetti al potere arbitrario di altri",
+    "corretta": "D",
+    "numero": 59
+  },
+  {
+    "domanda": "Che cosa rende una norma giusta in una prospettiva procedurale?",
+    "A": "La correttezza e imparzialità della procedura con cui viene adottata",
+    "B": "Il vantaggio esclusivo di chi governa",
+    "C": "La sua antichità, senza altre valutazioni",
+    "D": "La sua approvazione da parte di una sola persona",
+    "corretta": "A",
+    "numero": 60
+  }
+]
