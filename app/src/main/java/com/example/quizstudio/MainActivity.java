@@ -157,6 +157,28 @@ public class MainActivity extends Activity {
                 "Sociologia dei processi culturali e comunicativi"
         );
 
+        Button filosofiaPolitica = creaBottoneMenu(
+                "Filosofia politica"
+        );
+
+        Button fondamentiEconomiaMarketing = creaBottoneMenu(
+                "Fondamenti di economia e marketing"
+        );
+
+        filosofiaPolitica.setOnClickListener(v ->
+                scegliModalita(
+                        "filosofia_politica.json",
+                        "Filosofia politica"
+                )
+        );
+
+        fondamentiEconomiaMarketing.setOnClickListener(v ->
+                scegliModalita(
+                        "fondamenti_economia_marketing.json",
+                        "Fondamenti di economia e marketing"
+                )
+        );
+
         economia.setOnClickListener(v ->
                 scegliModalita(
                         "economia.json",
@@ -215,8 +237,12 @@ public class MainActivity extends Activity {
         layout.addView(fondamentiSpagnolo);
         layout.addView(psicologiaSociale);
         layout.addView(sociologia);
+        layout.addView(filosofiaPolitica);
+        layout.addView(fondamentiEconomiaMarketing);
 
-        setContentView(layout);
+        ScrollView scrollMaterie = new ScrollView(this);
+        scrollMaterie.addView(layout);
+        setContentView(scrollMaterie);
     }
 
     private Button creaBottoneMenu(String testo) {
@@ -665,6 +691,12 @@ public class MainActivity extends Activity {
 
             case "Sociologia dei processi culturali e comunicativi":
                 return "sociologia_processi_culturali_comunicativi.json";
+
+            case "Filosofia politica":
+                return "filosofia_politica.json";
+
+            case "Fondamenti di economia e marketing":
+                return "fondamenti_economia_marketing.json";
 
             default:
                 return "";
