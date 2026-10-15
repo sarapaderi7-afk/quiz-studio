@@ -1,0 +1,542 @@
+[
+  {
+    "domanda": "Quali sono le 4P del marketing mix?",
+    "A": "Prodotto, prezzo, distribuzione e promozione",
+    "B": "Profitto, persone, patrimonio e produzione",
+    "C": "Prodotto, potere, pianificazione e pubblico",
+    "D": "Prezzo, personale, produzione e politica",
+    "corretta": "A",
+    "numero": 1
+  },
+  {
+    "domanda": "Che cosa significa segmentare il mercato?",
+    "A": "Acquistare quote dei concorrenti",
+    "B": "Suddividere i clienti in gruppi omogenei",
+    "C": "Offrire prezzi identici a tutti",
+    "D": "Ridurre il numero dei prodotti",
+    "corretta": "B",
+    "numero": 2
+  },
+  {
+    "domanda": "Quale leva di marketing genera direttamente i ricavi?",
+    "A": "Distribuzione",
+    "B": "Pubblicità",
+    "C": "Prezzo",
+    "D": "Packaging",
+    "corretta": "C",
+    "numero": 3
+  },
+  {
+    "domanda": "Che cos'è il target market?",
+    "A": "Il totale dei dipendenti",
+    "B": "Il mercato dei soli fornitori",
+    "C": "Il costo di acquisizione dei clienti",
+    "D": "Il segmento che l'impresa decide di servire",
+    "corretta": "D",
+    "numero": 4
+  },
+  {
+    "domanda": "Che cosa misura l'elasticità della domanda al prezzo?",
+    "A": "La sensibilità della quantità domandata alle variazioni del prezzo",
+    "B": "La lunghezza della rete distributiva",
+    "C": "Il numero di nuovi concorrenti",
+    "D": "L'ampiezza dell'assortimento",
+    "corretta": "A",
+    "numero": 5
+  },
+  {
+    "domanda": "Nel modello di Ansoff che cos'è diversificare?",
+    "A": "Rafforzare soltanto la pubblicità",
+    "B": "Entrare in mercati nuovi con prodotti nuovi",
+    "C": "Vendere prodotti esistenti a clienti esistenti",
+    "D": "Vendere gli stessi prodotti a un prezzo più basso",
+    "corretta": "B",
+    "numero": 6
+  },
+  {
+    "domanda": "Come si definisce una Star nella matrice BCG?",
+    "A": "Alta quota in mercato a bassa crescita",
+    "B": "Bassa quota in mercato ad alta crescita",
+    "C": "Alta quota relativa in mercato ad alta crescita",
+    "D": "Bassa quota in mercato a bassa crescita",
+    "corretta": "C",
+    "numero": 7
+  },
+  {
+    "domanda": "Che cos'è il break-even point?",
+    "A": "Il massimo utile conseguibile",
+    "B": "Il punto di massimo indebitamento",
+    "C": "Il minimo costo variabile unitario",
+    "D": "Il livello in cui ricavi totali e costi totali coincidono",
+    "corretta": "D",
+    "numero": 8
+  },
+  {
+    "domanda": "Quando si usa una distribuzione intensiva?",
+    "A": "Quando si cerca ampia presenza nei punti vendita",
+    "B": "Quando si sceglie un solo rivenditore",
+    "C": "Quando si vende soltanto in negozi di lusso",
+    "D": "Quando si eliminano tutti gli intermediari",
+    "corretta": "A",
+    "numero": 9
+  },
+  {
+    "domanda": "Che cosa indica il posizionamento di marca?",
+    "A": "L'ordine delle fatture",
+    "B": "La percezione distintiva del marchio nella mente del cliente",
+    "C": "La localizzazione del magazzino",
+    "D": "Il numero di azionisti",
+    "corretta": "B",
+    "numero": 10
+  },
+  {
+    "domanda": "Di norma, se il prezzo diminuisce, la quantità domandata tende a:",
+    "A": "Rimanere sempre nulla",
+    "B": "Diventare identica all'offerta",
+    "C": "Aumentare, a parità di altre condizioni",
+    "D": "Diminuire sempre",
+    "corretta": "C",
+    "numero": 11
+  },
+  {
+    "domanda": "Come si può descrivere il valore percepito dal cliente?",
+    "A": "Solo prezzo di listino",
+    "B": "Solo fatturato del produttore",
+    "C": "Numero di spot televisivi",
+    "D": "Benefici percepiti rispetto ai sacrifici sostenuti",
+    "corretta": "D",
+    "numero": 12
+  },
+  {
+    "domanda": "Qual è la prima fase del ciclo di vita del prodotto?",
+    "A": "Introduzione",
+    "B": "Maturità",
+    "C": "Declino",
+    "D": "Saturazione",
+    "corretta": "A",
+    "numero": 13
+  },
+  {
+    "domanda": "Che cos'è il core benefit?",
+    "A": "Lo sconto stagionale",
+    "B": "Il beneficio essenziale cercato dall'acquirente",
+    "C": "L'imballaggio",
+    "D": "La garanzia aggiuntiva",
+    "corretta": "B",
+    "numero": 14
+  },
+  {
+    "domanda": "Che cosa esamina l'analisi SWOT?",
+    "A": "Solo clienti e fornitori",
+    "B": "Solo quote di mercato",
+    "C": "Forze, debolezze, opportunità e minacce",
+    "D": "Solo costi e ricavi",
+    "corretta": "C",
+    "numero": 15
+  },
+  {
+    "domanda": "Che cosa significa B2B?",
+    "A": "Vendite ai soli consumatori finali",
+    "B": "Marketing esclusivamente televisivo",
+    "C": "Vendite senza fattura",
+    "D": "Transazioni commerciali tra imprese",
+    "corretta": "D",
+    "numero": 16
+  },
+  {
+    "domanda": "Quale attività rientra nella promozione?",
+    "A": "Una campagna pubblicitaria",
+    "B": "Il calcolo degli ammortamenti",
+    "C": "L'acquisto di impianti",
+    "D": "La definizione del capitale sociale",
+    "corretta": "A",
+    "numero": 17
+  },
+  {
+    "domanda": "Che cos'è il canale distributivo?",
+    "A": "Un programma di produzione",
+    "B": "L'insieme dei soggetti che rendono disponibile il prodotto",
+    "C": "Un metodo per stimare il PIL",
+    "D": "L'insieme dei soli consumatori finali",
+    "corretta": "B",
+    "numero": 18
+  },
+  {
+    "domanda": "Che cosa misura l'ampiezza della gamma?",
+    "A": "Il peso totale delle merci",
+    "B": "La durata della campagna promozionale",
+    "C": "Il numero di linee di prodotto",
+    "D": "Le varianti di una sola referenza",
+    "corretta": "C",
+    "numero": 19
+  },
+  {
+    "domanda": "Che cosa rappresenta il cash flow?",
+    "A": "Il totale delle vendite a credito",
+    "B": "La quota di mercato",
+    "C": "La quantità prodotta",
+    "D": "I flussi di cassa in entrata e uscita",
+    "corretta": "D",
+    "numero": 20
+  },
+  {
+    "domanda": "In cosa consiste la differenziazione?",
+    "A": "Creare caratteristiche percepite come distintive",
+    "B": "Copiare interamente i concorrenti",
+    "C": "Ridurre sempre a zero il prezzo",
+    "D": "Vendere esclusivamente beni omogenei",
+    "corretta": "A",
+    "numero": 21
+  },
+  {
+    "domanda": "Qual è una funzione del packaging?",
+    "A": "Sostituire tutte le ricerche di mercato",
+    "B": "Proteggere e comunicare il prodotto",
+    "C": "Determinare il PIL",
+    "D": "Calcolare gli interessi bancari",
+    "corretta": "B",
+    "numero": 22
+  },
+  {
+    "domanda": "Che cosa si intende per marketing one-to-one?",
+    "A": "Vendita di un solo prodotto",
+    "B": "Riduzione a un solo fornitore",
+    "C": "Personalizzazione per il singolo cliente",
+    "D": "Uso di un unico canale televisivo",
+    "corretta": "C",
+    "numero": 23
+  },
+  {
+    "domanda": "Quali sono i convenience goods?",
+    "A": "Beni acquistati dopo lunghi confronti",
+    "B": "Impianti industriali su commessa",
+    "C": "Beni acquistati una volta nella vita",
+    "D": "Beni di acquisto frequente e con poco sforzo",
+    "corretta": "D",
+    "numero": 24
+  },
+  {
+    "domanda": "A cosa serve una ricerca di mercato?",
+    "A": "A raccogliere informazioni per le decisioni",
+    "B": "A eliminare ogni rischio",
+    "C": "A sostituire il management",
+    "D": "A fissare automaticamente il profitto",
+    "corretta": "A",
+    "numero": 25
+  },
+  {
+    "domanda": "Che cos'è un vantaggio competitivo?",
+    "A": "Un prodotto sempre gratuito",
+    "B": "La capacità di creare valore superiore rispetto ai rivali",
+    "C": "Il possesso di uffici grandi",
+    "D": "L'assenza di bilancio",
+    "corretta": "B",
+    "numero": 26
+  },
+  {
+    "domanda": "Quale elemento appartiene alle cinque forze di Porter?",
+    "A": "Tasso di cambio stabilito dall'impresa",
+    "B": "Colore del marchio",
+    "C": "Potere contrattuale dei fornitori",
+    "D": "Numero delle filiali bancarie",
+    "corretta": "C",
+    "numero": 27
+  },
+  {
+    "domanda": "Che cosa caratterizza il marketing strategico?",
+    "A": "La sola stampa dei volantini",
+    "B": "Il registro delle fatture",
+    "C": "Il conteggio quotidiano della cassa",
+    "D": "Le scelte di mercato e di posizionamento nel lungo termine",
+    "corretta": "D",
+    "numero": 28
+  },
+  {
+    "domanda": "Che cosa indica la quota di mercato?",
+    "A": "La percentuale delle vendite del mercato attribuibile all'impresa",
+    "B": "Il rapporto tra debito e patrimonio",
+    "C": "La quota dei dipendenti a tempo pieno",
+    "D": "Il totale dei prodotti difettosi",
+    "corretta": "A",
+    "numero": 29
+  },
+  {
+    "domanda": "Che cos'è l'executive summary?",
+    "A": "Il contratto di distribuzione",
+    "B": "La sintesi iniziale di un piano",
+    "C": "Il listino completo dei fornitori",
+    "D": "Il bilancio obbligatorio",
+    "corretta": "B",
+    "numero": 30
+  },
+  {
+    "domanda": "Che cosa significa profondità dell'assortimento?",
+    "A": "Numero di linee di prodotto",
+    "B": "Numero di stabilimenti",
+    "C": "Numero di mercati nazionali",
+    "D": "Numero delle varianti entro una linea di prodotto",
+    "corretta": "D",
+    "numero": 31
+  },
+  {
+    "domanda": "Quale strategia propone prodotti esistenti a mercati nuovi?",
+    "A": "Sviluppo del mercato",
+    "B": "Penetrazione del mercato",
+    "C": "Sviluppo del prodotto",
+    "D": "Diversificazione",
+    "corretta": "A",
+    "numero": 32
+  },
+  {
+    "domanda": "Nella BCG, una Cash Cow ha:",
+    "A": "Bassa quota e bassa crescita",
+    "B": "Alta quota relativa e bassa crescita del mercato",
+    "C": "Bassa quota e alta crescita",
+    "D": "Alta quota e alta crescita",
+    "corretta": "B",
+    "numero": 33
+  },
+  {
+    "domanda": "Nella BCG, una Question Mark ha:",
+    "A": "Alta quota e alta crescita",
+    "B": "Bassa quota e bassa crescita",
+    "C": "Bassa quota relativa e alta crescita del mercato",
+    "D": "Alta quota e bassa crescita",
+    "corretta": "C",
+    "numero": 34
+  },
+  {
+    "domanda": "Che cos'è il marketing operativo?",
+    "A": "La sola formulazione della mission",
+    "B": "L'analisi costituzionale dello Stato",
+    "C": "L'eliminazione della distribuzione",
+    "D": "L'attuazione concreta delle decisioni di marketing",
+    "corretta": "D",
+    "numero": 35
+  },
+  {
+    "domanda": "Che cosa distingue un mercato B2C?",
+    "A": "Le vendite dalle imprese ai consumatori finali",
+    "B": "Le transazioni solo tra banche",
+    "C": "Le vendite tra produttori industriali",
+    "D": "Gli acquisti pubblici obbligatori",
+    "corretta": "A",
+    "numero": 36
+  },
+  {
+    "domanda": "Qual è un esempio di prezzo psicologico?",
+    "A": "Prezzo definito dalla banca centrale",
+    "B": "9,99 euro invece di 10 euro",
+    "C": "Costo fisso più costo variabile",
+    "D": "Prezzo identico a costo marginale",
+    "corretta": "B",
+    "numero": 37
+  },
+  {
+    "domanda": "Che cosa definisce un brand?",
+    "A": "Soltanto la sede aziendale",
+    "B": "Il numero dei macchinari",
+    "C": "Un insieme di segni e associazioni che identifica un'offerta",
+    "D": "Unicamente il costo di produzione",
+    "corretta": "C",
+    "numero": 38
+  },
+  {
+    "domanda": "Qual è lo scopo della fidelizzazione?",
+    "A": "Cambiare clienti a ogni acquisto",
+    "B": "Eliminare il postvendita",
+    "C": "Vendere solo a nuovi clienti",
+    "D": "Favorire acquisti ripetuti e relazioni durature",
+    "corretta": "D",
+    "numero": 39
+  },
+  {
+    "domanda": "Che cosa misura la customer satisfaction?",
+    "A": "Il grado di soddisfazione del cliente",
+    "B": "Il totale dei debiti",
+    "C": "Il tempo medio di produzione",
+    "D": "L'ammontare delle imposte",
+    "corretta": "A",
+    "numero": 40
+  },
+  {
+    "domanda": "Che cosa è il marketing diretto?",
+    "A": "Il trasporto diretto dei prodotti",
+    "B": "Una comunicazione rivolta a destinatari identificabili",
+    "C": "La vendita esclusivamente in supermercato",
+    "D": "La sola pubblicità su quotidiani",
+    "corretta": "B",
+    "numero": 41
+  },
+  {
+    "domanda": "Nella segmentazione demografica si considera:",
+    "A": "La distanza tra stabilimenti",
+    "B": "Il numero dei distributori",
+    "C": "L'età dei consumatori",
+    "D": "Il prezzo di acquisto delle materie prime",
+    "corretta": "C",
+    "numero": 42
+  },
+  {
+    "domanda": "In quale fase del ciclo di vita la crescita delle vendite tende a rallentare?",
+    "A": "Introduzione",
+    "B": "Progettazione",
+    "C": "Lancio sperimentale",
+    "D": "Maturità",
+    "corretta": "D",
+    "numero": 43
+  },
+  {
+    "domanda": "Che cosa indica il margine di contribuzione unitario?",
+    "A": "Prezzo unitario meno costo variabile unitario",
+    "B": "Ricavi meno attività patrimoniali",
+    "C": "Prezzo meno costi fissi complessivi",
+    "D": "Capitale investito meno debiti",
+    "corretta": "A",
+    "numero": 44
+  },
+  {
+    "domanda": "Se aumentano i costi fissi e il resto è invariato, il punto di pareggio:",
+    "A": "Non esiste più per definizione",
+    "B": "Aumenta",
+    "C": "Diminuisce sempre",
+    "D": "Diventa negativo",
+    "corretta": "B",
+    "numero": 45
+  },
+  {
+    "domanda": "Quale distribuzione prevede pochi intermediari scelti?",
+    "A": "Universale",
+    "B": "Casuale",
+    "C": "Selettiva",
+    "D": "Intensiva",
+    "corretta": "C",
+    "numero": 46
+  },
+  {
+    "domanda": "Che cosa distingue la distribuzione esclusiva?",
+    "A": "Presenza obbligatoria in tutti i negozi",
+    "B": "Vendita priva di contratto",
+    "C": "Uso di tutti i canali possibili",
+    "D": "Affidamento a uno o pochissimi operatori in una zona",
+    "corretta": "D",
+    "numero": 47
+  },
+  {
+    "domanda": "Qual è l'obiettivo del CRM?",
+    "A": "Gestire le relazioni con i clienti",
+    "B": "Sostituire il conto economico",
+    "C": "Calcolare solo il magazzino",
+    "D": "Definire i confini nazionali",
+    "corretta": "A",
+    "numero": 48
+  },
+  {
+    "domanda": "Che cosa rappresenta la domanda potenziale?",
+    "A": "La liquidità dell'azienda",
+    "B": "La quantità massima teoricamente assorbibile dal mercato definito",
+    "C": "Il numero dei soli clienti attuali",
+    "D": "Le merci invendute",
+    "corretta": "B",
+    "numero": 49
+  },
+  {
+    "domanda": "Che cosa sono le barriere all'entrata?",
+    "A": "Divieti alla pubblicità in ogni settore",
+    "B": "Differenze tra clienti abituali",
+    "C": "Ostacoli che rendono difficile l'ingresso di nuovi concorrenti",
+    "D": "Limiti fisici della sede",
+    "corretta": "C",
+    "numero": 50
+  },
+  {
+    "domanda": "Che cos'è un prodotto augmented?",
+    "A": "Solo la materia prima",
+    "B": "Un prodotto non ancora progettato",
+    "C": "Il beneficio essenziale senza accessori",
+    "D": "Prodotto con servizi e benefici aggiuntivi",
+    "corretta": "D",
+    "numero": 51
+  },
+  {
+    "domanda": "Che cosa comprende il macroambiente di marketing?",
+    "A": "Fattori demografici, economici, tecnologici e normativi",
+    "B": "Solo venditori interni",
+    "C": "Solo macchinari aziendali",
+    "D": "Solo fornitori diretti",
+    "corretta": "A",
+    "numero": 52
+  },
+  {
+    "domanda": "Che cosa indica l'analisi PEST?",
+    "A": "Pubblicità, eventi, sconti e target",
+    "B": "Fattori politici, economici, sociali e tecnologici",
+    "C": "Prezzo, elasticità, scorte e trasporto",
+    "D": "Prodotto, entrate, servizi e turnover",
+    "corretta": "B",
+    "numero": 53
+  },
+  {
+    "domanda": "Qual è una strategia di penetrazione del mercato?",
+    "A": "Abbandonare il mercato domestico",
+    "B": "Eliminare ogni attività promozionale",
+    "C": "Vendere di più prodotti esistenti nel mercato attuale",
+    "D": "Creare prodotti nuovi per mercati nuovi",
+    "corretta": "C",
+    "numero": 54
+  },
+  {
+    "domanda": "Che cosa significa cannibalizzazione di prodotto?",
+    "A": "L'impresa perde per forza tutti i clienti",
+    "B": "L'offerta diventa un monopolio",
+    "C": "Si riducono automaticamente i costi fissi",
+    "D": "Le vendite di un prodotto sottraggono domanda a un altro della stessa impresa",
+    "corretta": "D",
+    "numero": 55
+  },
+  {
+    "domanda": "Che cosa indica un lead nel marketing digitale?",
+    "A": "Un potenziale cliente che ha manifestato interesse",
+    "B": "Una fattura già pagata",
+    "C": "Un impianto di produzione",
+    "D": "Un distributore esclusivo",
+    "corretta": "A",
+    "numero": 56
+  },
+  {
+    "domanda": "Che cos'è il tasso di conversione?",
+    "A": "Il totale dei click senza riferimento alle azioni",
+    "B": "La quota di utenti che compie l'azione desiderata",
+    "C": "La quantità di fatture annullate",
+    "D": "La variazione dei costi industriali",
+    "corretta": "B",
+    "numero": 57
+  },
+  {
+    "domanda": "Che cosa misura il ROI?",
+    "A": "Il numero di varianti di prodotto",
+    "B": "La profondità della gamma",
+    "C": "Il rendimento dell'investimento",
+    "D": "La quota di mercato",
+    "corretta": "C",
+    "numero": 58
+  },
+  {
+    "domanda": "Che cosa significa prezzo premium?",
+    "A": "Prezzo imposto a tutti i concorrenti",
+    "B": "Prezzo pari sempre a zero",
+    "C": "Prezzo necessariamente inferiore ai costi",
+    "D": "Prezzo elevato coerente con un posizionamento di valore superiore",
+    "corretta": "D",
+    "numero": 59
+  },
+  {
+    "domanda": "Che cosa caratterizza un prodotto shopping?",
+    "A": "Il consumatore confronta alternative prima dell'acquisto",
+    "B": "L'acquisto è sempre impulsivo",
+    "C": "Non richiede mai informazioni",
+    "D": "È sempre un bene gratuito",
+    "corretta": "A",
+    "numero": 60
+  }
+]
